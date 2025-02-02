@@ -10,7 +10,7 @@
 {%- else -%}
   <span class="publi_author">{{ author.name }}</span>
 {%- endif -%}
-{%- if author.is_first -%}<sup>1</sup>{%- endif -%}
-{%- if author.is_corresponding -%}<sup>&#42;</sup>{%- endif -%}
+{%- if author.is_first -%}<sup>*</sup>{%- endif -%}
+{%- if author.is_corresponding -%}<sup>&dagger;</sup>{%- endif -%}
 {%- endfor -%}
 <br/>

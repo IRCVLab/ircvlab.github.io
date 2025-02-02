@@ -1,7 +1,7 @@
 ---
-title: "CHANGlab - Publications"
+title: "IRCVLab - Publications"
 layout: gridlay
-excerpt: "CHANGlab -- Publications."
+excerpt: "IRCVLab -- Publications."
 sitemap: false
 permalink: /publications/
 ---
@@ -9,7 +9,7 @@ permalink: /publications/
 
 # Publications
 
-## Highlights
+<!-- ## Highlights
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
@@ -47,10 +47,16 @@ permalink: /publications/
 </div>
 {% endif %}
 
-<p> &nbsp; </p>
+<p> &nbsp; </p> -->
 
 
-## Full List
+<!-- ## Full List -->
+
+<p style="text-align:right; margin-right: 5vw">
+  <sup>*</sup> first author <br>
+  <sup>&dagger;</sup> corresponding author
+  
+</p>
 
 {% for publi in site.data.publist %}
 

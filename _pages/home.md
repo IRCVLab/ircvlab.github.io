@@ -1,16 +1,14 @@
 ---
-title: "CHANGlab - Home"
+title: "IRCVLab - Home"
 layout: homelay
-excerpt: "Chang Lab at Seoul National University."
+excerpt: "IRCV Lab at Hanyang University."
 sitemap: false
 permalink: /
 ---
 
-We are reverse-engineers. Our goal is to unravel the intricate mechanisms
-by which key regulatory components govern the complex gene regulation
-network. To accomplish this, we employ a combination of high-throughput
-biochemistry, bioinformatics data analysis, and machine learning to
-examine molecular mechanisms at a systems level.
+#### Advancing Intelligent Perception for Autonomous Systems
+At the IRCV Lab, we are dedicated to pioneering research in perception, sensor fusion, and data-centric AI for autonomous driving. Our mission is to develop robust, real-world AI-driven solutions that enhance the safety and efficiency of autonomous vehicles and intelligent systems.
+
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover" >
     <!-- Menu -->
@@ -21,45 +19,35 @@ examine molecular mechanisms at a systems level.
         <li data-target="#carousel" data-slide-to="3"></li>
         <li data-target="#carousel" data-slide-to="4"></li>
         <li data-target="#carousel" data-slide-to="5"></li>
-        <li data-target="#carousel" data-slide-to="6"></li>
-        <li data-target="#carousel" data-slide-to="7"></li>
-        <li data-target="#carousel" data-slide-to="8"></li>
-        <li data-target="#carousel" data-slide-to="9"></li>
+        <li data-target="#carousel" data-slide-to="6"></li>                
     </ol>
 
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
-
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/lablogo-slider.jpg" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/building.jpg" alt="Slide 0" />
+            <div class="carousel-caption">
+                <p>Chung Mong-Koo Automotive Research Center</p>
+            </div>
+        </div>
+        <div class="item">            
+            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2024-06-22_CVPR2024.jpg" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2404-01.jpg" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2024-07-11_Lab_seminar.jpg" alt="Slide 2" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2402-01.jpg" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2024-07-26_MT_1.jpg" alt="Slide 3" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2105-06.jpg" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2024-07-26_MT_2.jpg" alt="Slide 4" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2105-05.jpg" alt="Slide 5" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2024-08-14_KCCV2024.jpg" alt="Slide 5" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2105-03.jpg" alt="Slide 6" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2105-04.jpg" alt="Slide 7" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2301-01.jpg" alt="Slide 8" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2402-02.jpg" alt="Slide 9" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2107-01.jpg" alt="Slide 10" />
-        </div>
+            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2024-10-23_IRC_kickoff.jpg" alt="Slide 6" />
+        </div>        
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -71,22 +59,22 @@ examine molecular mechanisms at a systems level.
   </a>
 </div>
 
-With a primary focus on developing large-scale experimental methods
-and novel data analytic toolchains, we strive to gain a more profound
-understanding of the quantitative nature of post-transcriptional gene
-regulation. By utilizing single-molecule-level measurements of various
-RNA states—including RNA modifications, chemical adducts, and poly(A)
-tail lengths—at a transcriptome scale, we can uncover the hidden rules
-shaped by multiple cis-regulatory factors.
+#### Bridging AI and Robotics for Safer Navigation
+We specialize in 3D scene understanding, trajectory prediction, and adaptive sensor fusion to enable intelligent decision-making in complex environments. By integrating multi-modal sensor data from RGB cameras, thermal imaging, and LiDAR, we push the boundaries of next-generation autonomous mobility.
 
-We are currently seeking motivated graduate students and postdocs to
-join our collaborative research efforts in this exciting field
-[(more info)]({{ site.url }}{{ site.baseurl }}/openings)!
+#### Data-Centric AI for Reliable Autonomous Driving
+Our lab focuses on dataset distillation, parameterization, and deep learning-driven perception to enhance AI's generalization across diverse and challenging scenarios. We develop novel learning frameworks to improve autonomous vehicle perception and planning in dynamic environments.
 
-Our lab is affiliated with the [School of Biological Sciences](https://biosci.snu.ac.kr)
-at [Seoul National University](https://www.snu.ac.kr).
+#### Innovation at the Intersection of Machine Learning and Robotics
+Through cutting-edge research in object detection, semantic segmentation, and autonomous navigation, we aim to create AI-powered systems that operate seamlessly in urban landscapes, ensuring efficiency, reliability, and human-centered interactions.
+
+#### Towards the Future of Smart Mobility
+From embedded AI for autonomous vehicles to multi-sensor fusion for pedestrian protection, our research contributes to the evolution of intelligent transportation. We collaborate with industry leaders and academic pioneers to drive innovation in mobility and robotics.
+
+
+
+
+We are currently seeking motivated graduate students to join our collaborative research efforts in this exciting field [(more info)]({{ site.url }}{{ site.baseurl }}/openings)!
+
+Our lab is affiliated with the [Department of Automotive Engineering](https://ae.hanyang.ac.kr) at [Hanyang University](https://www.hanyang.ac.kr).
 Currently, our group's research is supported by funding
-from the [Center for RNA Research](https://rna.ibs.re.kr) in the
-[Institute for Basic Science (IBS)](https://www.ibs.re.kr) and the
-[National Research Foundation of Korea](https://www.nrf.re.kr)'s
-Excellent Young Researcher program.

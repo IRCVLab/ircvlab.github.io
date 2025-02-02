@@ -6,11 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: The Chang Lab
-email: hyeshik@gmail.com
+title: IRCV Lab at Hanyang Univ.
+email: soonminh@hanyang.ac.kr
 description: > # this means to ignore newlines until "baseurl:"
-  Hyeshik Chang's Quantitative Molecular Biology Laboratory in the School of Biological
-  Sciences at Seoul National University, South Korea.
+  Intelligent Robotics and Computer Vision Laboratory 
+  in the department of automotive engineering at Hanyang University, South Korea.  
 baseurl: ""
 url: ""
 
@@ -25,7 +25,7 @@ sass:
   style: compressed
 
 # Conversion
-markdown: kramdown
+markdown: kramdown    # https://jekyllrb-ko.github.io/docs/configuration/markdown/
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"

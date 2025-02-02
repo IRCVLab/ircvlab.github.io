@@ -1,22 +1,61 @@
 ---
-title: "CHANGlab - Team"
+title: "IRCVLab - Team"
 layout: gridlay
-excerpt: "CHANGlab: Team members"
+excerpt: "IRCVLab: Team members"
 sitemap: false
 permalink: /team/
 ---
 
-## Members
-
+## Professor
 {% assign selected_categories = "principal-investigator" | split:',' %}
 {% include team_list.html %}
 
-{% assign selected_categories = "student,postdoc,support,research-assistant" | split:',' %}
+{% assign selected_categories = "postdoc" | split:',' %}
+{% include team_list.html %}
+
+<!-- ## Staff
+{% assign selected_categories = "support" | split:',' %}
+{% include team_list.html %} -->
+
+
+### Ph.D. and Ph.D. Integrated Students
+{% assign selected_categories = "phd-student,integrated-student" | split:',' %}
+{% include team_list.html %}
+
+
+### M.S. Students
+{% assign selected_categories = "ms-student" | split:',' %}
+{% include team_list.html %}
+
+
+### Undergraduate Interns
+
+<!-- Both former and current interns are represented on this list.
+
+<div id="intern_list">
+{% for person in site.data.alumni_interns -%}
+{%- if prev_year != person.year_begin %}
+#### {{ person.year_begin }}
+{% else -%}
+;
+{% endif -%}
+{%- if person.link %}<a href="{{ site.url }}{{ site.baseurl }}/team/{{ person.link }}">{{ person.name }}</a>{% else -%}
+{{ person.name }} 
+{%- endif -%}
+{%- if person.year_begin != person.year_end %}
+(–{{ person.year_end }})
+{%- endif %}
+{%- assign prev_year = person.year_begin -%}
+{%- endfor %}
+</div> -->
+
+{% assign selected_categories = "intern" | split:',' %}
 {% include team_list.html %}
 
 <br/>
 
-## Former Members
+
+<!-- ## Former Members
 
 {% assign alumni_by_leaving_date = site.data.alumni_members | sort: "end_date" | reverse %}
 
@@ -42,28 +81,8 @@ as a
 </div>
 </div>
 {%- endfor %}
-</div>
+</div> -->
 
-## Undergraduate Interns
-
-Both former and current interns are represented on this list.
-
-<div id="intern_list">
-{% for person in site.data.alumni_interns -%}
-{%- if prev_year != person.year_begin %}
-#### {{ person.year_begin }}
-{% else -%}
-;
-{% endif -%}
-{%- if person.link %}<a href="{{ site.url }}{{ site.baseurl }}/team/{{ person.link }}">{{ person.name }}</a>{% else -%}
-{{ person.name }} 
-{%- endif -%}
-{%- if person.year_begin != person.year_end %}
-(–{{ person.year_end }})
-{%- endif %}
-{%- assign prev_year = person.year_begin -%}
-{%- endfor %}
-</div>
 
 <script>
 $('body').on('click', '.member-list-item[data-href]', function(){

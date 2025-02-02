@@ -92,8 +92,8 @@ firstp {
     border-radius: 3px 3px 3px 3px;
     margin-bottom: 20px;
     margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 ul.publications_in_profile li {
@@ -160,7 +160,7 @@ div#footer .footer-icons i:hover {
 }
 
 div.navbar div.container-fluid {
-    padding: 20px 30px 20px 30px;
+    padding: 0px 30px 0px 0px;
 }
 
 div.navbar {
@@ -219,6 +219,14 @@ div#gridid h3 {
 }
 
 /* Member pages */
+
+.twocols {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 1px;
+    padding-left: 30px;
+}
+
 .hugespacer {
     height: 50px;
 }

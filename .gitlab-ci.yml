@@ -1,5 +1,5 @@
-image: ruby:2.6.3
-# image: ruby:3.3.7
+# image: ruby:2.6.3
+image: ruby:3.3.7
 
 variables:
   JEKYLL_ENV: production
@@ -7,16 +7,6 @@ variables:
 
 before_script:
   - "gem install bundler:2.0.1 && bundle install"
-
-test:
-  stage: test
-  script:
-  - bundle exec jekyll build -d test
-  artifacts:
-    paths:
-    - test
-  except:
-  - master
 
 pages:
   stage: deploy
