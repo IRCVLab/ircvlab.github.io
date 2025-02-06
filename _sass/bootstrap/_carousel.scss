@@ -16,7 +16,6 @@
   > .item {
     display: none;
     position: relative;
-    height: 380px;
     @include transition(.6s ease-in-out left);    
 
     // Account for jankitude on images
@@ -24,8 +23,11 @@
     > a > img {
       @include img-responsive;
       line-height: 1;
-      width: 100%;
-      height: 100%;
+      width: 100%; 
+      height: auto; 
+      aspect-ratio: 16 / 10; 
+      object-fit: cover; 
+      object-position: center;
     }
 
     // WebKit CSS3 transforms for supported devices
