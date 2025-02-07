@@ -30,7 +30,9 @@
 
 .navbar-header {
   @include clearfix;
-
+  margin-right: -15px;
+  margin-left: -15px;
+  align-items: center;
   @media (min-width: $grid-float-breakpoint) {
     float: left;
   }
@@ -105,18 +107,18 @@
 
 .container,
 .container-fluid {
+  padding: 20px 30px 20px 30px !important; 
   > .navbar-header,
   > .navbar-collapse {
     margin-right: -$navbar-padding-horizontal;
     margin-left:  -$navbar-padding-horizontal;
-
     @media (min-width: $grid-float-breakpoint) {
-      margin-right: 0;
-      margin-left:  0;
     }
   }
 }
-
+// .container-fluid {
+//   height: 50px;
+// }
 
 //
 // Navbar alignment options
@@ -162,7 +164,7 @@
 
 .navbar-brand {
   float: left;
-  padding: $navbar-padding-vertical $navbar-padding-horizontal;
+  padding: 0 $navbar-padding-horizontal;
   font-size: $font-size-large;
   line-height: $line-height-computed;
   height: $navbar-height;
@@ -173,7 +175,23 @@
   }
 
   > img {
-    display: block;
+    margin: 0;
+    display: inline;
+    height: $navbar-height;
+  }
+  > .hanyang-logo {
+    @media (max-width: 425px) {
+      display: none;
+    }
+  }
+  > .lab-logo {
+    @media (max-width: 370px) {
+      // height: 100px !important;
+      width: 100% !important;
+      height: auto;
+      max-width: 320px !important;
+      display: inline;
+    }
   }
 
   @media (min-width: $grid-float-breakpoint) {
