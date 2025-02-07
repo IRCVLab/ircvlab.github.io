@@ -23,6 +23,8 @@ include:
 sass:
   sass_dir: _sass
   style: compressed
+  load_paths:
+    - _sass/bootstrap
 
 # Conversion
 markdown: kramdown    # https://jekyllrb-ko.github.io/docs/configuration/markdown/
