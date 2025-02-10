@@ -515,3 +515,11 @@ div#alumni_list h5 a {
       padding-right: 1rem;
     }
   }
+
+  .member-img {
+    width: 100px;        
+    height: 140px;       
+    object-fit: cover;      
+    float: left;    
+    margin-right: 10px;  
+  }
