@@ -11,6 +11,7 @@
     - refactor : 기능 변경 없이 레거시를 리팩터링하는 거대한 작업
     - docs : 기능 변경 없이 문서 및 주석 수정 (코드 수정 X)
     - remove : 삭제
+    - update: 페이지 내용 수정/추가
 
 4. __commit message__
     ```text
