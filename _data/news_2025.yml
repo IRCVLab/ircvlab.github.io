@@ -1,5 +1,13 @@
 - date: Mar 1, 2025
-  headline: "New members: Sumin, Jaehoon, Yewon, Byounggun and Sanghyun have joined our lab as master's students."
+  headline: "New members: Sumin, Jaehoon, Yewon, Byounggun and Sanghyun have joined our lab as master's students. 🎉 "
+  description: Hello World!
+  photos:
+  - /images/home-slider/2024-06-22_CVPR2024.jpg
+  - /images/home-slider/2024-07-11_Lab_seminar.jpg
+  - /images/home-slider/2024-06-22_CVPR2024.jpg
+  - /images/home-slider/2024-07-11_Lab_seminar.jpg
+  - /images/home-slider/2024-06-22_CVPR2024.jpg
+  - /images/home-slider/2024-07-11_Lab_seminar.jpg
 
 - date: Mar 1, 2025
   headline: "New member: Hwanggeun has joined our lab as a Ph.D. student."
