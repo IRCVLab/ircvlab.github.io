@@ -16,6 +16,8 @@ GEM
     faraday-net_http (3.4.0)
       net-http (>= 0.5.0)
     ffi (1.17.1-arm64-darwin)
+    ffi (1.17.1-x86_64-linux-gnu)
+
     ffi (1.17.1-x86_64-linux-musl)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
@@ -96,6 +98,7 @@ GEM
 
 PLATFORMS
   arm64-darwin
+  x86_64-linux
   x86_64-linux-musl
 
 DEPENDENCIES

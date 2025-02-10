@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Intelligent Robotics and Computer Vision Laboratory 
   in the department of automotive engineering at Hanyang University, South Korea.  
 baseurl: ""
-url: ""
+url: "https://ircvlab.github.io"
 
 destination: ./_site
 
@@ -23,6 +23,8 @@ include:
 sass:
   sass_dir: _sass
   style: compressed
+  load_paths:
+    - _sass/bootstrap
 
 # Conversion
 markdown: kramdown    # https://jekyllrb-ko.github.io/docs/configuration/markdown/
