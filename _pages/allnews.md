@@ -62,3 +62,5 @@ permalink: /allnews.html
 {% endif %}
 </div>
 {% endfor %}
+
+  <script src="/js/news.js" type="module"></script>
