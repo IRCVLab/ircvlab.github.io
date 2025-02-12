@@ -347,105 +347,102 @@ div#alumni_list h5 a {
 
 
 // For News
-
 .news-tag {
-    background-color: #007bff;  /* 원하는 배경색 */
-    color: white;               /* 텍스트 색상 */
+    background-color: #007bff;
+    color: white;
     padding: 2px 6px;
     font-size: 1.4rem;
     border-radius: 4px;
     margin-right: 0.5rem;
-  }
+    margin-bottom: 0.5rem;
+}
   
-    .news-item {
+.news-item {
     margin-bottom: 2rem;
     padding: 1rem;
     border-bottom: 1px solid #ccc;
-  }
+
+    > p {
+        margin-bottom: 0;
+    }
+}
   
-  .news-headline {
-    font-size: 1.8rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .news-date {
-    font-size: 1rem;
-    color: #666;
-    margin-bottom: 1rem;
-  }
-  
-  .news-description {
-    margin-bottom: 1rem;
-  }
-  
-  /* 갤러리 컨테이너: 가로 배치 (대표 이미지 왼쪽, 썸네일 오른쪽) */
-  .news-gallery {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    align-items: flex-start;
-  }
-  
-  /* 대표 이미지 스타일 */
-  .news-main-photo img {
-    width: 100%;
-    max-width: 600px; /* 원하는 대표 이미지 최대 폭 */
-    height: auto;
-    display: block;
-  }
-  
-  /* 썸네일 영역: 세로 정렬 */
-  .news-thumbnails {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  
-  /* 썸네일 이미지 스타일 */
-  .news-thumbnails img {
-    width: 100px; /* 썸네일 크기 */
-    cursor: pointer;
-    border: 2px solid transparent;
-    transition: border 0.3s;
-  }
-  
-  .news-thumbnails img:hover {
-    border-color: #007bff;
-  }
-  
-  /* 태그와 헤드라인 텍스트 스타일 (이미 적용된 스타일 예시) */
-  .news-tag,
-  .news-headline-text,
-  .news-description {
+/* 태그와 헤드라인 텍스트 스타일 (이미 적용된 스타일 예시) */
+.news-tag,
+.news-headline-text,
+.news-description {
     display: inline-block;
     padding-left: 1rem;
     padding-right: 1rem;
     white-space: normal;
     overflow-wrap: break-word;
-  }
-  
-  /* 모바일 대응: 좌우 패딩 조정 (필요에 따라 수정) */
-  @media (max-width: 768px) {
-  
-  }
-  
-  /* 헤드라인의 나머지 텍스트 스타일 */
-  .news-headline-text {
+}
+    
+/* 헤드라인의 나머지 텍스트 스타일 */
+.news-headline-text {
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
+}
+  
+.news-date {
+    font-size: 1.4rem;
+    color: #666;
+    margin-bottom: 1rem;
+    text-align: right;
   }
+  
+.news-description {
+    margin-bottom: 1rem;
+}
+  
+//   /* 갤러리 컨테이너: 가로 배치 (대표 이미지 왼쪽, 썸네일 오른쪽) */
+// .news-gallery {
+//     display: flex;
+//     flex-direction: row;
+//     gap: 1rem;
+//     align-items: flex-start;
+// }
+  
+//   /* 대표 이미지 스타일 */
+// .news-main-photo img {
+//     width: 100%;
+//     max-width: 600px; /* 원하는 대표 이미지 최대 폭 */
+//     height: auto;
+//     display: block;
+// }
+  
+//   /* 썸네일 영역: 세로 정렬 */
+// .news-thumbnails {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 0.5rem;
+// }
+  
+//   /* 썸네일 이미지 스타일 */
+// .news-thumbnails img {
+//     width: 100px; /* 썸네일 크기 */
+//     cursor: pointer;
+//     border: 2px solid transparent;
+//     transition: border 0.3s;
+// }
+  
+// .news-thumbnails img:hover {
+//     border-color: #007bff;
+// }
+  
+
   
   /* 갤러리 전체: 대표 이미지와 썸네일을 좌우로 배치하고 전체를 가운데 정렬 */
-  .news-gallery {
+.news-gallery {
     display: flex;
     flex-direction: row;
     gap: 1rem;
     align-items: flex-start;
     margin: 0 auto; /* 컨테이너 자체를 가운데 정렬 */
-  }
+}
   
   /* 대표 이미지 영역: 데스크탑에서 고정 크기로 중앙 정렬 */
-  .news-main-photo {
+.news-main-photo {
     width: 600px;           /* 원하는 대표 이미지 폭 */
     height: 400px;          /* 원하는 대표 이미지 높이 */
     display: flex;
@@ -453,17 +450,17 @@ div#alumni_list h5 a {
     align-items: center;
     overflow: hidden;
     background-color: #f0f0f0; /* 선택사항: 배경색 */
-  }
+}
   
   /* 대표 이미지 내부: 이미지가 영역에 맞게 채워짐 */
-  .news-main-photo img {
+.news-main-photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
   
   /* 썸네일 영역: 세로 슬라이더 구현 (데스크탑) */
-  .news-thumbnails {
+.news-thumbnails {
     display: flex;
     flex-direction: column;      /* 세로 정렬 */
     gap: 0.5rem;
@@ -471,24 +468,24 @@ div#alumni_list h5 a {
     height: 400px;               /* 대표 이미지 영역과 동일한 높이 */
     scroll-snap-type: y mandatory;
     padding: 0.5rem;
-  }
+}
   
   /* 개별 썸네일 이미지 (데스크탑) */
-  .news-thumbnails img {
+.news-thumbnails img {
     width: 100px;                /* 썸네일 폭 */
     flex-shrink: 0;
     scroll-snap-align: start;
     cursor: pointer;
     border: 2px solid transparent;
     transition: border 0.3s;
-  }
+}
   
-  .news-thumbnails img:hover {
+.news-thumbnails img:hover {
     border-color: #007bff;
-  }
+}
   
   /* 모바일 환경 스타일 */
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     /* 갤러리 전체: 모바일에서도 좌우 배치를 유지할 수 있으나, 크기를 조정 */
     .news-gallery {
       /* 모바일 화면이 좁은 경우, 필요에 따라 flex-direction을 'column'으로 변경할 수도 있습니다.
@@ -514,4 +511,4 @@ div#alumni_list h5 a {
       padding-left: 1rem;
       padding-right: 1rem;
     }
-  }
+}
