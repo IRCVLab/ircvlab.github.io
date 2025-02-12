@@ -12,7 +12,7 @@
   headline: "Invited Talk: Prof. Hwang delivers a talk at the Hyundai NGV (3rd)."
 
 - date: Oct 29, 2024
-  headline: "Invited Talk: Prof. Hwang delivers a talk at the Hyundai NGV (2nd)."
+  headline: 'Invited Talk: Prof. Hwang delivers a talk at the <a href="https://www.hyundai-ngv.com/information/schedule_view.do?bbsIdx=2528">Hyundai NGV (2nd).</a>'
 
 - date: Sep 27, 2024
   headline: "Invited Talk: Prof. Hwang delivers a talk at the Hyundai NGV (1st). [Remote]"
