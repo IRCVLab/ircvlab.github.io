@@ -35,6 +35,10 @@ permalink: /allnews.html
 <span class="news-headline-text">{{ article.headline }}</span>
 {% endif %}
 
+{% if article.description %}
+<p class="news-description">{{ article.description }}</p>
+{% endif %}
+
 <p class="news-date">{{ article.date }}</p>
 
 {% if article.photos %}
