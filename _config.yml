@@ -12,7 +12,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Intelligent Robotics and Computer Vision Laboratory 
   in the department of automotive engineering at Hanyang University, South Korea.  
 baseurl: ""
-url: "https://ircvlab.github.io"
+# url: "https://ircvlab.github.io"
+url: ""
 
 destination: ./_site
 

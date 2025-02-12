@@ -19,10 +19,12 @@ permalink: /allnews.html
   {% assign sorted_news = allnews | sort: "date" %}
   Then loop over sorted_news instead of allnews.
 {% endcomment %}
-
+<div class="news-full">
+{% assign allnews = site.data.news_2025 | concat: site.data.news_2024 | concat: site.data.news_2023 %}
 {% for article in allnews %}
 <div class="news-item">
-{% assign tagCandidate = article.headline | split: ":" | first | strip %}
+{% assign parts = article.headline | split: ":" %}
+{% assign tagCandidate = parts[0] | strip %}
 {% assign remainder = article.headline | remove_first: tagCandidate | remove_first: ":" | strip %}
 {% if article.headline contains ":" %}
 {% if tagCandidate contains "http" or tagCandidate contains "https" %}
@@ -44,11 +46,9 @@ permalink: /allnews.html
 {% if article.photos %}
 {% assign mainId = "main-photo-" | append: forloop.index0 %}
 <div class="news-gallery">
-<!-- 대표 이미지 영역 -->
 <div class="news-main-photo">
 <img src="{{ article.photos[0] }}" alt="{{ article.headline }}" id="{{ mainId }}">
 </div>
-<!-- 썸네일 영역 (슬라이더 형태) -->
 <div class="news-thumbnails">
 {% for photo in article.photos %}
 <img src="{{ photo }}" alt="Thumbnail" data-target="{{ mainId }}" class="thumbnail">
@@ -58,5 +58,5 @@ permalink: /allnews.html
 {% endif %}
 </div>
 {% endfor %}
-
 <script src="/js/news.js" type="module"></script>
+</div>

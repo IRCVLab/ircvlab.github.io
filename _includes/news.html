@@ -1,55 +1,47 @@
-<div class="well well-news">
-    {% comment %}
-      Loop over each news item from your data files.
-      (You can combine multiple years if needed; here I show a loop for news_2025 and news_2024.)
-    {% endcomment %}
-  
-    {% for article in site.data.news_2025 %}
-      <div class="news-item">
-        {% assign parts = article.headline | split: ":" %}
-        {% assign tagCandidate = parts[0] | strip %}
-        {% if article.headline contains ":" %}
-          {% if tagCandidate contains "http" or tagCandidate contains "https" %}
-            <!-- If the tag candidate contains a URL, output the full headline -->
-            <p class="news-headline"><em>{{ article.headline }}</em></p>
-          {% else %}
-            <p class="news-headline">
-              <span class="news-tag">{{ tagCandidate }}</span><br>
-              <span class="news-headline-text">
-                {{ article.headline | remove_first: tagCandidate | remove_first: ":" | strip }}
-              </span>
-            </p>
-          {% endif %}
-        {% else %}
+<div class="well well-news news-brief">
+  {% for article in site.data.news_2025 %}
+    <div class="news-item">
+      {% assign parts = article.headline | split: ":" %}
+      {% assign tagCandidate = parts[0] | strip %}
+      {% if article.headline contains ":" %}
+        {% if tagCandidate contains "http" or tagCandidate contains "https" %}
           <p class="news-headline"><em>{{ article.headline }}</em></p>
-        {% endif %}
-        <p class="news-date">{{ article.date }}</p>
-      </div>
-    {% endfor %}
-  
-    {% for article in site.data.news_2024 limit:3 %}
-      <div class="news-item">
-        {% assign parts = article.headline | split: ":" %}
-        {% assign tagCandidate = parts[0] | strip %}
-        {% if article.headline contains ":" %}
-          {% if tagCandidate contains "http" or tagCandidate contains "https" %}
-            <!-- If the tag candidate contains a URL, output the full headline -->
-            <p class="news-headline"><em>{{ article.headline }}</em></p>
-          {% else %}
-            <p class="news-headline">
-              <span class="news-tag">{{ tagCandidate }}</span><br>
-              <span class="news-headline-text">
-                {{ article.headline | remove_first: tagCandidate | remove_first: ":" | strip }}
-              </span>
-            </p>
-          {% endif %}
         {% else %}
-          <p class="news-headline"><em>{{ article.headline }}</em></p>
+          <p class="news-headline">
+            <span class="news-tag">{{ tagCandidate }}</span><br>
+            <span class="news-headline-text">
+              {{ article.headline | remove_first: tagCandidate | remove_first: ":" | strip }}
+            </span>
+          </p>
         {% endif %}
-        <p class="news-date">{{ article.date }}</p>
-
-      </div>
-    {% endfor %}
+      {% else %}
+        <p class="news-headline"><em>{{ article.headline }}</em></p>
+      {% endif %}
+      <p class="news-date">{{ article.date }}</p>
+    </div>
+  {% endfor %}
   
-    <h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h4>
-  </div>
+  {% for article in site.data.news_2024 limit:5 %}
+    <div class="news-item">
+      {% assign parts = article.headline | split: ":" %}
+      {% assign tagCandidate = parts[0] | strip %}
+      {% if article.headline contains ":" %}
+        {% if tagCandidate contains "http" or tagCandidate contains "https" %}
+          <p class="news-headline"><em>{{ article.headline }}</em></p>
+        {% else %}
+          <p class="news-headline">
+            <span class="news-tag">{{ tagCandidate }}</span><br>
+            <span class="news-headline-text">
+              {{ article.headline | remove_first: tagCandidate | remove_first: ":" | strip }}
+            </span>
+          </p>
+        {% endif %}
+      {% else %}
+        <p class="news-headline"><em>{{ article.headline }}</em></p>
+      {% endif %}
+      <p class="news-date">{{ article.date }}</p>
+    </div>
+  {% endfor %}
+  
+  <h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h4>
+</div>
