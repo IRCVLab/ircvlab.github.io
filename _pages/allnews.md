@@ -22,28 +22,20 @@ permalink: /allnews.html
 
 {% for article in allnews %}
 <div class="news-item">
-{% assign parts = article.headline | split: ":" %}
-{% assign tagCandidate = parts[0] | strip %}
-{% if parts.size > 1 %}
-  {% if tagCandidate contains "http" or tagCandidate contains "https" %}
-<!-- If the first part contains "http" or "https", output the whole headline -->
+{% assign tagCandidate = article.headline | split: ":" | first | strip %}
+{% assign remainder = article.headline | remove_first: tagCandidate | remove_first: ":" | strip %}
+{% if article.headline contains ":" %}
+{% if tagCandidate contains "http" or tagCandidate contains "https" %}
 <span class="news-headline-text">{{ article.headline }}</span>
-  {% else %}
-<!-- Otherwise, split the headline into tag and text -->
-<span class="news-tag">{{ tagCandidate }}</span><br>
-<span class="news-headline-text">{{ parts[1] | strip }}</span>
-  {% endif %}
 {% else %}
-<!-- If there is no colon, output the entire headline -->
-<span class="news-headline-text">{{ article.headline }}</span>
+<span class="news-tag">{{ tagCandidate }}</span><br>
+<span class="news-headline-text">{{ remainder }}</span>
 {% endif %}
-
-{% if article.description %}
-<p class="news-description">{{ article.description }}</p>
+{% else %}
+<span class="news-headline-text">{{ article.headline }}</span>
 {% endif %}
 
 <p class="news-date">{{ article.date }}</p>
-  
 
 {% if article.photos %}
 {% assign mainId = "main-photo-" | append: forloop.index0 %}
@@ -63,4 +55,4 @@ permalink: /allnews.html
 </div>
 {% endfor %}
 
-  <script src="/js/news.js" type="module"></script>
+<script src="/js/news.js" type="module"></script>
