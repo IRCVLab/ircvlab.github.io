@@ -393,45 +393,7 @@ div#alumni_list h5 a {
   
 .news-description {
     margin-bottom: 1rem;
-}
-  
-//   /* 갤러리 컨테이너: 가로 배치 (대표 이미지 왼쪽, 썸네일 오른쪽) */
-// .news-gallery {
-//     display: flex;
-//     flex-direction: row;
-//     gap: 1rem;
-//     align-items: flex-start;
-// }
-  
-//   /* 대표 이미지 스타일 */
-// .news-main-photo img {
-//     width: 100%;
-//     max-width: 600px; /* 원하는 대표 이미지 최대 폭 */
-//     height: auto;
-//     display: block;
-// }
-  
-//   /* 썸네일 영역: 세로 정렬 */
-// .news-thumbnails {
-//     display: flex;
-//     flex-direction: column;
-//     gap: 0.5rem;
-// }
-  
-//   /* 썸네일 이미지 스타일 */
-// .news-thumbnails img {
-//     width: 100px; /* 썸네일 크기 */
-//     cursor: pointer;
-//     border: 2px solid transparent;
-//     transition: border 0.3s;
-// }
-  
-// .news-thumbnails img:hover {
-//     border-color: #007bff;
-// }
-  
-
-  
+} 
   /* 갤러리 전체: 대표 이미지와 썸네일을 좌우로 배치하고 전체를 가운데 정렬 */
 .news-gallery {
     display: flex;
