@@ -3,7 +3,7 @@ layout: member
 title: Sanghyun Choi
 position: M.S. Student
 handle: sanghyun
-email: shchoi00@yahoo.com
+email: shchoi00@hangyang.ac.kr
 twitter: 
 github: 
 scholar: 
