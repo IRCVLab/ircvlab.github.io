@@ -543,6 +543,23 @@
       }
     }
   }
+
+  .dropdown-menu {
+    background-color: #f9f9f9; // Match your site background if needed
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    li a {
+      font-size: 1.4rem;
+      color: #333;
+      padding: 0.5rem 1rem;
+    }
+    
+    li a:hover {
+      background-color: #eee;
+      color: #007bff;
+    }
+  }
 }
 
 // Inverse navbar
