@@ -6,6 +6,8 @@ sitemap: false
 permalink: /
 ---
 
+<span style="color: #007bff; font-weight: bold;">IRCV</span>
+
 #### Advancing Intelligent Perception for Autonomous Systems
 At the IRCV Lab, we are dedicated to pioneering research in perception, sensor fusion, and data-centric AI for autonomous driving. Our mission is to develop robust, real-world AI-driven solutions that enhance the safety and efficiency of autonomous vehicles and intelligent systems.
 
@@ -59,14 +61,28 @@ At the IRCV Lab, we are dedicated to pioneering research in perception, sensor f
   </a>
 </div>
 
+<hr style="border: none; border-top: 1px solid #ccc;" />
+
+
+<span style="color: #007bff; font-weight: bold;">AI and Robotics</span>
+
 #### Bridging AI and Robotics for Safer Navigation
 We specialize in 3D scene understanding, trajectory prediction, and adaptive sensor fusion to enable intelligent decision-making in complex environments. By integrating multi-modal sensor data from RGB cameras, thermal imaging, and LiDAR, we push the boundaries of next-generation autonomous mobility.
+
+<hr style="border: none; border-top: 1px solid #ccc;" />
+<span style="color: #007bff; font-weight: bold;">Data-Centric</span>
 
 #### Data-Centric AI for Reliable Autonomous Driving
 Our lab focuses on dataset distillation, parameterization, and deep learning-driven perception to enhance AI's generalization across diverse and challenging scenarios. We develop novel learning frameworks to improve autonomous vehicle perception and planning in dynamic environments.
 
+<hr style="border: none; border-top: 1px solid #ccc;" />
+<span style="color: #007bff; font-weight: bold;">AI-powered systems</span>
+
 #### Innovation at the Intersection of Machine Learning and Robotics
 Through cutting-edge research in object detection, semantic segmentation, and autonomous navigation, we aim to create AI-powered systems that operate seamlessly in urban landscapes, ensuring efficiency, reliability, and human-centered interactions.
+
+<hr style="border: none; border-top: 1px solid #ccc;" />
+<span style="color: #007bff; font-weight: bold;">Smart Mobility</span>
 
 #### Towards the Future of Smart Mobility
 From embedded AI for autonomous vehicles to multi-sensor fusion for pedestrian protection, our research contributes to the evolution of intelligent transportation. We collaborate with industry leaders and academic pioneers to drive innovation in mobility and robotics.
