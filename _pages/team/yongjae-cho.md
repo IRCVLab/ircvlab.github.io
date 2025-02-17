@@ -8,7 +8,7 @@ twitter:
 github: 
 scholar: 
 orcid: 
-image: /images/members/yongjae.webp
+image: /images/members/yongjae.png
 cv: 
 permalink: /team/yongjae-cho
 ---
