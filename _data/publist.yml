@@ -57,7 +57,7 @@
     - link: jaeha-song
       is_first: true
     - name: Eunseo Yoon
-    - name: Kyoungsu Cho
+    - link: kyoungsu-cho
     - link: soonmin-hwang          
       is_corresponding: true    
   # title: "Mitigating Class Misalignment and Imbalance in Multi-Dataset Integration for 2D Object Detection through Pseudo Labeling"
