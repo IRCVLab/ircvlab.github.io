@@ -3,7 +3,7 @@ layout: member
 title: Sanghyun Choi
 position: M.S. Student
 handle: sanghyun
-email: shchoi00@yahoo.com
+email: shchoi00@hangyang.ac.kr
 twitter: 
 github: 
 scholar: 
@@ -19,8 +19,8 @@ Sanghyun Choi is a M.S. student at the IRCV lab with interest in various compute
 #### Education
 
 <ul class="chronological">
-  <li><span>2025.03 – current</span> M.S. in Department of Future mobility, Hanyang University</li>
-  <li><span>2019.03 - 2025.02</span> - B.S. in School of Computing
+  <li><span>2025.03 – current</span>  M.S. in Department of Automotive Engineering, Hanyang University</li>
+  <li><span>2019.03 – 2025.02</span> B.S. in School of Computing
 , Gachon University</li>
   
 </ul>
