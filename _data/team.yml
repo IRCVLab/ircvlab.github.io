@@ -288,15 +288,3 @@
   sort-key: moon-giyong
   start_date: [2024, 12, 30]
   active: true          
-
-- name: Jiyong Boo
-  name_abbr: J. Boo
-  photo: null-thumb.png
-  info: Undergraduate Student
-  email: 
-  intro: 
-  link: jiyong-boo
-  category: intern
-  sort-key: boo-jiyong
-  start_date: [2025, 3, 1]
-  active: true
