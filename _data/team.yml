@@ -12,6 +12,30 @@
   active: true
 
 
+- name: Jihoon Sung
+  name_abbr: J. Sung
+  photo: null-thumb.png
+  info: Postdoc
+  email: 
+  intro: 
+  link: jihoon-sung
+  category: postdoc
+  sort-key: sung-jihoon
+  start_date: [2025, 3, 1]
+  active: true
+
+- name: Hyukju Shon
+  name_abbr: H. Shon
+  photo: null-thumb.png
+  info: Postdoc
+  email: 
+  intro: 
+  link: hyukju-shon
+  category: postdoc
+  sort-key: shon-hyukju  
+  start_date: [2025, 3, 1]
+  active: true
+
 - name: Geonyeong Park
   name_abbr: G. Park
   photo: geonyeong.webp
@@ -264,3 +288,15 @@
   sort-key: moon-giyong
   start_date: [2024, 12, 30]
   active: true          
+
+- name: Jiyong Boo
+  name_abbr: J. Boo
+  photo: null-thumb.png
+  info: Undergraduate Student
+  email: 
+  intro: 
+  link: jiyong-boo
+  category: intern
+  sort-key: boo-jiyong
+  start_date: [2025, 3, 1]
+  active: true
