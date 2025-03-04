@@ -19,7 +19,7 @@ Jeongtae Kim is a undergraduate student at the IRCV lab with interest in various
 #### Education
 
 <ul class="chronological">
-  <li><span>2020.03 – current</span> B.S. in Department of Automotive engineering, Hanyang University</li>
+  <li><span>2020. 3. – current</span> B.S. in Department of Automotive engineering, Hanyang University</li>
 </ul>
 
 {% include publication_in_profile.html %}

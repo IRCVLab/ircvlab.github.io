@@ -19,8 +19,8 @@ Sungjin Park is a M.S. student at the IRCV lab with interest in various computer
 #### Education
 
 <ul class="chronological">
-  <li><span>2024.03 – current</span> M.S. in Department of Future mobility, Hanyang University</li>
-  <li><span>2017.03 – 2024.02</span> B.S. in Department of Automotive engineering, Minor in Convergence Technology for Advanced Vehicle 
+  <li><span>2024. 3. – current</span> M.S. in Department of Future mobility, Hanyang University</li>
+  <li><span>2017. 3. – 2024. 2.</span> B.S. in Department of Automotive engineering, Minor in Convergence Technology for Advanced Vehicle 
 , Hanyang University</li>
   
 </ul>
@@ -28,7 +28,7 @@ Sungjin Park is a M.S. student at the IRCV lab with interest in various computer
 #### Experience
 
 <ul class="chronological">
-  <li><span>2023.07 – 2023.08</span> LG Electronics Vehicle Solutions Intern</li>
+  <li><span>2023. 7. – 2023. 8.</span> LG Electronics Vehicle Solutions Intern</li>
   
 </ul>
 {% include publication_in_profile.html %}
