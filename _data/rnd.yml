@@ -1,11 +1,41 @@
-- title: 무인이동체원천기술개발사업
-  duration: 2024.04.01-2028.12.31
+- title: Confidencial
+  duration: 2024.11. - 2025.11.
+  status: working # SL
+  image: /images/logopic/logo-sl.png
+
+- title: 전술 주행 환경 데이터를 활용한 다중 센서 융합형 환경인식 학습을 위한 인공지능 알고리즘 개발 용역
+  duration: 2024.11. - 2025.11.
   status: working
-  discription: blabla
-  image: /images/research/data_centric_ai.jpg
+  image: /images/logopic/logo-add.png
+
+- title: 국산 AI 반도체 활용 전방 충돌 방지 시스템 응용 실증
+  duration: 2024. 4. - 2025.11.
+  status: working # 정보통신산업진흥원
+  image: /images/logopic/logo-nipa.png
+
+- title: 한양-MIT Beyond-G 혁신센터
+  duration: 2024. 9. - 34. 4.
+  status: working #
+  image: /images/logopic/logo-nrf.png
+
+
+- title: 자율주행 산업 인프라 연계기술 시험표준 개발
+  duration: 2024. 3 . - 27.12.
+  status: working # 산업통상자원부
+  image: /images/logopic/logo-motie.jpg
+
+- title: T-Car 기반 자율주해 인지예층/지능제어 차량부품/시스템 통합평가 기술개발
+  duration: 2024. 3 . - 27.12.
+  status: working # 산업통상자원부
+  image: /images/logopic/logo-motie.jpg
 
 - title: Confidencial
-  duration: 1224.04.01-1028.12.31
+  duration: 2024. 1. - 2025. 4.
+  status: working
+  image: /images/logopic/logo-42dot.png
+
+
+- title: Confidencial
+  duration: 2024. 1 - 2024. 2.
   status: done
-  discription: This is the most valuable research project ever mankind doing
-  image: /images/research/perception_for_autonomous_driving.jpg
+  image: /images/logopic/logo-ride-flux.webp
