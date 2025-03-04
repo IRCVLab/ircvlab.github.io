@@ -67,7 +67,7 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
  <div>
   <h5>Assistant Professor</h5>
   <ul class="chronological">
-    <li>2023.09. - Current</li>
+    <li>2023.09. – Current</li>
     <li>Department of Automotive Engineering</li>
     <li>Hanyang University (Seoul, South Korea)</li>
   </ul>
@@ -81,7 +81,7 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
  <div>
   <h5>External Technical Advisory</h5>
   <ul class="chronological">
-    <li>2022.02. - 2023.09.</li>
+    <li>2022.02. – 2023.09.</li>
     <li>42dot (Seoul-Remote, South Korea)</li>    
   </ul>
  </div>
@@ -94,7 +94,7 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
  <div>
   <h5>Postdoctoral Researcher</h5>
   <ul class="chronological">
-    <li>2021.09. - 2023.08.</li>
+    <li>2021.09. – 2023.08.</li>
     <li>The Robotics Institute</li>
     <li>Carnegie Mellon University (Pittsburgh, PA, USA)</li>    
   </ul>
@@ -108,7 +108,7 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
  <div>
   <h5>Sr. Machine Learning Scientist</h5>
   <ul class="chronological">
-    <li>2019.05. - 2021.02.</li>
+    <li>2019.05. – 2021.02.</li>
     <li>Autopilot Team</li>
     <li>Tesla (Palo Alto, CA, USA)</li>    
   </ul>
@@ -122,7 +122,7 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
  <div>
   <h5>Intern</h5>
   <ul class="chronological">
-    <li>2016.07. - 2016.11.</li>
+    <li>2016.07. – 2016.11.</li>
     <li>Computer Vision Group</li>
     <li>Qualcomm Research (Vienna, Austria)</li>    
   </ul>

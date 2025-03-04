@@ -20,7 +20,7 @@ Kyoungsu Cho is a M.S. student at the IRCV lab with interest in various computer
 
 <ul class="chronological">
   <li><span>2024.03 – current</span> M.S. in Department of Future mobility, Hanyang University</li>
-  <li><span>2017.03 - 2024.02</span> B.S. in Department of Automotive engineering, Minor in Convergence Technology for Advanced Vehicle
+  <li><span>2017.03 – 2024.02</span> B.S. in Department of Automotive engineering, Minor in Convergence Technology for Advanced Vehicle
 , Hanyang University</li>
   
 </ul>

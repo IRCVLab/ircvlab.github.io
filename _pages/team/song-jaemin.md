@@ -20,7 +20,7 @@ Jaemin Song is a master’s student at the IRCV lab with interest in various com
 
 <ul class="chronological">
   <li><span>2025.03 – current</span> M.S. in Automotive engineering, Hanyang University</li>
-  <li><span>2016.03 ~ 2021.08</span> B.S. in Department of Electronics Engineering, Tech University of Korea</li>
+  <li><span>2016.03 – 2021.08</span> B.S. in Department of Electronics Engineering, Tech University of Korea</li>
   
 </ul>
 
