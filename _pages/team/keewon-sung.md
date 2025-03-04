@@ -25,7 +25,7 @@ Meanwhile, he also received training for single-cell molecular mechanobiology at
 Johns Hopkins University, USA, as a visiting scientist. During that time, he 
 became interested in high-throughput methods for systems molecular biology.
 
-In 2021, he joined the Chang lab as a postdoctoral fellow. His current research
+In 2021, he joined the Chang lab as a postdoctoral fellow. His Current research
 focuses on the development of a breakthrough methodology for nanopore direct RNA
 sequencing. By combining novel biochemical/biophysical and computational approaches, 
 he aims to uncover transcriptome-wide intracellular RNA-protein interactions and/or 

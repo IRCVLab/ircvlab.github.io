@@ -19,7 +19,7 @@ Taewan Kim is a M.S. student at the IRCV lab with interest in various computer v
 #### Education
 
 <ul class="chronological">
-  <li><span>2024. 3. – current</span> M.S. in Department of Future mobility, Hanyang University</li>
+  <li><span>2024. 3. – Current</span> M.S. in Department of Future mobility, Hanyang University</li>
   <li><span>2017. 3. – 2024. 2.</span> B.S. in Department of Electrical and Electronic Engineering
 , Konkuk University</li>
   

@@ -19,7 +19,7 @@ Hwanggeun Kim is a Ph.D. student at the IRCV lab with interest in various comput
 #### Education
 
 <ul class="chronological">
-  <li><span>2025. 3. – current</span> Ph.D. in Department of Automotive engineering
+  <li><span>2025. 3. – Current</span> Ph.D. in Department of Automotive engineering
 , Hanyang University</li>
   <li><span>2014. 9. – 2017. 8.</span> M.S. in Department of Mechanical engineering
 , Gyeongsang National University</li>
