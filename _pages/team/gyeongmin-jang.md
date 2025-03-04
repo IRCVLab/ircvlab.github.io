@@ -19,7 +19,7 @@ Gyeongmin Jang is a undergraduate student at the IRCV lab with interest in vario
 #### Education
 
 <ul class="chronological">
-  <li><span>2020.03 – current</span> B.S. in Department of Automotive engineering, Hanyang University</li>
+  <li><span>2020. 3. – Current</span> B.S. in Department of Automotive engineering, Hanyang University</li>
 </ul>
 
 {% include publication_in_profile.html %}
