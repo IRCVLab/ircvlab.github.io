@@ -20,7 +20,7 @@ Yongjae Cho is a intern at the IRCV lab with interest in various computer vision
 
 <ul class="chronological">
 
-  <li><span>2018.03 - 2024.02</span> - B.S. in Computer Engineering
+  <li><span>2018.03 – 2024.02</span> B.S. in Computer Engineering
 , Sejong University</li>
   
 </ul>

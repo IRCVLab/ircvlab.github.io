@@ -25,7 +25,7 @@ for the lab members.
 #### Education
 
 <ul class="chronological">
-  <li><span>2005–2010</span> B.A. in Korean Language and Literature &amp; International Office Administration, Ewha Womans University</li>
+  <li><span>2005 – 2010</span> B.A. in Korean Language and Literature &amp; International Office Administration, Ewha Womans University</li>
 </ul>
 
 {% include publication_in_profile.html %}
