@@ -8,7 +8,7 @@ twitter:
 github: 
 scholar: 
 orcid: 
-image:
+image: /images/members/yewon.jpg
 cv: 
 permalink: /team/yewon-song
 ---
