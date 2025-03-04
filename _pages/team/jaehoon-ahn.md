@@ -3,7 +3,7 @@ layout: member
 title: Jaehoon Ahn
 position: M.S. Student
 handle: jaehoon
-email: ssdkswogns@naver.com
+email: ssdkswogns@hanyang.ac.kr
 twitter: 
 github: 
 scholar: 
@@ -13,8 +13,7 @@ cv:
 permalink: /team/jaehoon-ahn
 ---
 
-Jaehoon Ahn is a M.S. student at the IRCV lab with interest in various computer vision tasks.
-
+Jaehoon Ahn is a M.S. student at the IRCV lab with interest in E2E planning, sensor fusion and vehicle data analysis.
 
 #### Education
 

@@ -1,8 +1,7 @@
 ---
 title: "IRCVLab - Join"
 layout: redirected
-redirect_to: 
-# redirect_to: https://qbio.notion.site/QBioLab-44d1a1b54a284dd3a834be8542aa0345
+redirect_to: https://ircv.notion.site/Join-19d0b39c7ed380b2b6ebf04af9e01692?pvs=4
 sitemap: false
 permalink: /join
 ---
