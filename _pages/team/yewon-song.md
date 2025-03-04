@@ -3,7 +3,7 @@ layout: member
 title: Yewon Song
 position: M.S. Student
 handle: yewon
-email: songyeni123@gmail.com
+email: swy1155@hanyang.ac.kr
 twitter: 
 github: 
 scholar: 

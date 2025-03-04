@@ -13,8 +13,7 @@ cv:
 permalink: /team/byounghun-park
 ---
 
-Byounghun Park is a M.S. student at the IRCV lab with interest in various computer vision tasks.
-
+Byounghun Park is a M.S. student at the IRCV lab with interest in robust sensor fusion algorithm.
 
 #### Education
 
