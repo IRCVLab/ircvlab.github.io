@@ -56,3 +56,6 @@
 @import "bootstrap/responsive-utilities";
 @import "bootstrap/bootswatch";
 
+body {
+    word-break: keep-all;
+}

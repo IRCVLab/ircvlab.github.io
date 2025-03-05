@@ -11,24 +11,11 @@
   start_date: [2023, 9, 1]
   active: true
 
-
-- name: Jihoon Sung
-  name_abbr: J. Sung
-  photo: null-thumb.png
-  info: Postdoc
-  email: 
-  intro: 
-  link: jihoon-sung
-  category: postdoc
-  sort-key: sung-jihoon
-  start_date: [2025, 3, 1]
-  active: true
-
 - name: Hyukju Shon
   name_abbr: H. Shon
   photo: null-thumb.png
   info: Postdoc
-  email: 
+  email: sohnhyck@hanyang.ac.kr
   intro: 
   link: hyukju-shon
   category: postdoc
@@ -74,7 +61,7 @@
 
 - name: Donguk Kim
   name_abbr: D. Kim
-  photo: donguk.png
+  photo: null-thumb.png
   email: donguk0513@hanyang.ac.kr
   info: M.S/Ph.D. Integrated Student
   intro: 
@@ -288,3 +275,15 @@
   sort-key: moon-giyong
   start_date: [2024, 12, 30]
   active: true          
+
+- name: Gyeongmin Jang
+  name_abbr: G. Jang
+  photo: null-thumb.png
+  email: galaxyals01@hanyang.ac.kr
+  info: Undergraduate Student
+  intro: 
+  link: gyeuong-min
+  category: intern
+  sort-key: gyeuong-min
+  start_date: [2025, 03, 01]
+  active: true  

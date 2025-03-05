@@ -1,19 +1,19 @@
 ---
 layout: member
-title: Jeongtae Kim
+title: Gyeongmin Jang
 position: Undergraduate Intern
-handle: jeongtae
-email: jt0227@hanyang.ac.kr
+handle: gyeuongmin
+email: galaxyals01@hanyang.ac.kr
 twitter: 
 github: 
 scholar: 
 orcid: 
-image: /images/members/jeongtae.webp
+image: /images/members/null-thumb.webp
 cv: 
-permalink: /team/jeongtae-kim
+permalink: /team/gyeuong-min
 ---
 
-Jeongtae Kim is a undergraduate student at the IRCV lab with interest in various computer vision tasks.
+Gyeongmin Jang is a undergraduate student at the IRCV lab with interest in various computer vision tasks.
 
 
 #### Education

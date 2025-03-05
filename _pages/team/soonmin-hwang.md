@@ -14,7 +14,7 @@ permalink: /team/soonmin-hwang
 ---
 
 Soonmin Hwang is an Assistant Professor at the Department of Automotive Engineering, Hanyang University (Seoul, Republic of Korea). He was a Postdoctoral researcher at the Robotics Institute, Carnegie Mellon University (Pittsburgh, PA, United States). Before joining Carnegie Mellon, he worked at Autopilot team, Tesla (Palo Alto, CA, United States) as a Senior Machine Learning Scientist. During his Ph.D. study, he worked at Qualcomm Research (Vienna, Austria) as an intern in 2016.
-He received M.S and Ph.D. degrees in Electrical Engineering from KAIST, Korea in 2014 and 2019, respectively, under the supervision of Prof. In So Kweon. He received a B.S degree in Electronics and Computer Engineering from Hanyang University, Korea, in 2012.
+He received M.S and Ph.D. degrees in Electrical Engineering from KAIST, Korea in 2014 and 2019, respectively, under the supervision of Prof. In So Kweon. He received a B.S. degree in Electronics and Computer Engineering from Hanyang University, Korea, in 2012.
 
 In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> from IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). He received Samsung HumanTech Paper Awards(<b style="color:brown;">Gold prize in 2017, honorable mention in 2018</b>) and <b style="color:brown;">the 1st place</b> at NVidia Korea Deep Learning Contest in 2016. 
 
@@ -67,7 +67,7 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
  <div>
   <h5>Assistant Professor</h5>
   <ul class="chronological">
-    <li>2023.09. - Current</li>
+    <li>2023. 9. – Current</li>
     <li>Department of Automotive Engineering</li>
     <li>Hanyang University (Seoul, South Korea)</li>
   </ul>
@@ -81,7 +81,7 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
  <div>
   <h5>External Technical Advisory</h5>
   <ul class="chronological">
-    <li>2022.02. - 2023.09.</li>
+    <li>2022. 2. – 2023. 9.</li>
     <li>42dot (Seoul-Remote, South Korea)</li>    
   </ul>
  </div>
@@ -94,7 +94,7 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
  <div>
   <h5>Postdoctoral Researcher</h5>
   <ul class="chronological">
-    <li>2021.09. - 2023.08.</li>
+    <li>2021. 9. – 2023. 8.</li>
     <li>The Robotics Institute</li>
     <li>Carnegie Mellon University (Pittsburgh, PA, USA)</li>    
   </ul>
@@ -108,7 +108,7 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
  <div>
   <h5>Sr. Machine Learning Scientist</h5>
   <ul class="chronological">
-    <li>2019.05. - 2021.02.</li>
+    <li>2019. 5. – 2021. 2.</li>
     <li>Autopilot Team</li>
     <li>Tesla (Palo Alto, CA, USA)</li>    
   </ul>
@@ -122,7 +122,7 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
  <div>
   <h5>Intern</h5>
   <ul class="chronological">
-    <li>2016.07. - 2016.11.</li>
+    <li>2016. 7. – 2016.11.</li>
     <li>Computer Vision Group</li>
     <li>Qualcomm Research (Vienna, Austria)</li>    
   </ul>
