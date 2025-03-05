@@ -10,6 +10,7 @@ permalink: /team/
 {% assign selected_categories = "principal-investigator" | split:',' %}
 {% include team_list.html %}
 
+---
 
 <!-- ## Staff
 {% assign selected_categories = "support" | split:',' %}
@@ -19,15 +20,19 @@ permalink: /team/
 {% assign selected_categories = "postdoc" | split:',' %}
 {% include team_list.html %}
 
+---
+
 ### Ph.D. and Ph.D. Integrated Students
 {% assign selected_categories = "phd-student,integrated-student" | split:',' %}
 {% include team_list.html %}
 
+---
 
 ### M.S. Students
 {% assign selected_categories = "ms-student" | split:',' %}
 {% include team_list.html %}
 
+---
 
 ### Undergraduate Interns
 
