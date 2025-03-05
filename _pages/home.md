@@ -29,7 +29,6 @@ At the IRCV Lab, we are dedicated to pioneering research in perception, sensor f
         <div class="item active">
             <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/building.jpg" alt="Slide 0" />
             <div class="carousel-caption">
-                <p>Chung Mong-Koo Automotive Research Center</p>
             </div>
         </div>
         <div class="item">            
@@ -90,7 +89,6 @@ From embedded AI for autonomous vehicles to multi-sensor fusion for pedestrian p
 
 
 
-We are currently seeking motivated graduate students to join our collaborative research efforts in this exciting field [(more info)]({{ site.url }}{{ site.baseurl }}/openings)!
+We are currently seeking motivated graduate students to join our collaborative research efforts in this exciting field!
 
 Our lab is affiliated with the [Department of Automotive Engineering](https://ae.hanyang.ac.kr) at [Hanyang University](https://www.hanyang.ac.kr).
-Currently, our group's research is supported by funding

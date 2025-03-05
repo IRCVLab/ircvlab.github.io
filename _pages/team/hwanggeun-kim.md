@@ -41,7 +41,13 @@ Hwanggeun Kim is a Ph.D. student at the IRCV lab with interest in various comput
  <div>
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-katech.png" class="img-responsive" style="float: center" />
  </div> 
-</div>
+ <details><summary><h5>🔎 Paper</h5></summary>
+  <ul class="chronological">
+    <li>Development of Component Modules for an Integrated Video Surveillance System for EV Automatic Charging", <span style="font-weight: bold;">Hwanggeun Kim</span>, Jeonghwan Gil, Somyoung Choi, Chanho Lee, and Chulsoo Kim, IEEE Conference on Intelligent Transportation Systems (ITSC), 2024</li>
+    
+  </ul>
+  </details>
 
+</div>
 
 {% include publication_in_profile.html %}

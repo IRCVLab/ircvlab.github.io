@@ -8,7 +8,7 @@ twitter:
 github: 
 scholar: 
 orcid: 
-image: /images/members/null-thumb.webp
+image: /images/members/gyeongmin.jpg
 cv: 
 permalink: /team/gyeuong-min
 ---
