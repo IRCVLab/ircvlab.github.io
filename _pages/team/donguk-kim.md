@@ -8,7 +8,7 @@ twitter:
 github: 
 scholar: 
 orcid: 
-image:
+image: /images/members/donguk.jpg
 cv: 
 permalink: /team/donguk-kim
 ---
