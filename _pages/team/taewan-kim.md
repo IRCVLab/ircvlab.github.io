@@ -14,7 +14,6 @@ permalink: /team/taewan-kim
 ---
 
 Taewan Kim is a M.S. student at the IRCV lab with interest in various computer vision tasks.
-> I’m the hottest gay and I know it.
 
 #### Education
 

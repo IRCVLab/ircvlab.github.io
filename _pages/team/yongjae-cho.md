@@ -5,7 +5,7 @@ position: Intern
 handle: yongjae
 email: dydwo706@naver.com
 twitter: 
-github: 
+github: https://github.com/yyongjae
 scholar: 
 orcid: 
 image: /images/members/yongjae.png
@@ -13,7 +13,7 @@ cv:
 permalink: /team/yongjae-cho
 ---
 
-Yongjae Cho is a intern at the IRCV lab with interest in various computer vision tasks.
+Yongjae Cho is a intern at the IRCV lab with interest in sensor fusion, carla, etc..
 
 
 #### Education
