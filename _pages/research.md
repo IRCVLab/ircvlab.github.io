@@ -18,6 +18,8 @@ proteome-wide views by the high-throughput methods allow us to step
 closer to the rules of nature with less bias towards our current
 knowledge.
 
+---
+
 ### Robust Sensor Fusion
 
 <span style="color: #007bff; font-weight: bold;">#SensorFusion #AdaptiveSensing #ReliablePerception</span>
@@ -29,6 +31,8 @@ In autonomous driving, robust sensor fusion is the key to achieving reliable per
 
 
 
+---
+
 ### Perception for Autonomous Driving
 
 <span style="color: #007bff; font-weight: bold;">#3DSceneUnderstanding #DepthEstimation #Detection #Segmentation</span>
@@ -36,6 +40,8 @@ In autonomous driving, robust sensor fusion is the key to achieving reliable per
 Perception is the foundation of autonomous driving, enabling vehicles to understand and interpret their surroundings in real time. Our research focuses on computer vision tasks for autonomous driving such as object detection, semantic segmentation, depth estimation, and 3D scene understanding. All these tasks are to create a comprehensive and high-fidelity representation of the environment. By leveraging deep learning and computer vision techniques, we develop robust perception models that accurately detect pedestrians, vehicles, and obstacles, even in challenging conditions such as low-light environments, adverse weather, and occlusions. Our work extends beyond individual sensor modalities, incorporating multi-sensor fusion to enhance reliability and reduce uncertainty. Through continuous advancements in AI-driven perception, we aim to create safer and more intelligent autonomous systems capable of navigating real-world scenarios with precision and confidence.
 
 ![]({{ site.url }}{{ site.baseurl }}/images/research/perception_for_autonomous_driving.jpg){: style="width: 100%; margin: 5px 0px;"}
+
+---
 
 
 ### Data-centric AI

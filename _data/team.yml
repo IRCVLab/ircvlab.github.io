@@ -37,9 +37,9 @@
 
 - name: Kyungmin Kim
   name_abbr: K. Kim
-  photo: kyungmin.jpeg
+  photo: null-thumb.png
   email: tnrud17@hanyang.ac.kr
-  info: M.S/Ph.D. Integrated Student
+  info: M.S./Ph.D. Integrated Student
   intro: 
   link: kyungmin-kim
   category: integrated-student
@@ -63,7 +63,7 @@
   name_abbr: D. Kim
   photo: null-thumb.png
   email: donguk0513@hanyang.ac.kr
-  info: M.S/Ph.D. Integrated Student
+  info: M.S./Ph.D. Integrated Student
   intro: 
   link: donguk-kim
   category: integrated-student
@@ -232,7 +232,7 @@
   name_abbr: Y. Cho
   photo: yongjae.png
   email: dydwo706@naver.com
-  info: intern
+  info: Intern
   intro: 
   link: yongjae-cho
   category: intern
