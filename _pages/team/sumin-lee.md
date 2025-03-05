@@ -8,7 +8,7 @@ twitter:
 github: 
 scholar: 
 orcid: 
-image: 
+image: /images/members/sumin.jpg
 cv: 
 permalink: /team/sumin-lee
 ---

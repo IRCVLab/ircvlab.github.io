@@ -8,7 +8,7 @@ twitter:
 github: 
 scholar: 
 orcid: 
-image: 
+image: /images/members/hyukju.jpg
 cv: 
 permalink: /team/hyukju-shon
 ---

@@ -5,7 +5,7 @@ sitemap: false
 permalink: /equipment.html
 ---
 
-## Infra
+## Infrastructure
 ---
 <br>
 
