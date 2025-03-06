@@ -25,6 +25,19 @@ Example [Jekyll] website using GitLab Pages.  View it live at https://pages.gitl
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+
+# Format
+
+## Date
+2025. 1. 1. 
+2025.12.31.
+이런 형식으로 사용
+날짜에 0은 안 들어갑니다.
+
+기간 표시할 때 일반 dash(-) 대신에 "–"를 사용합니다.
+일반 dash보다 더 길어서 보기 좋음
+
+
 ## Getting Started
 
 You can get started with GitLab Pages using Jekyll easily by either forking this repository or by uploading a new/existing Jekyll project.
