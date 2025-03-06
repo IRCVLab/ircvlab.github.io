@@ -23,7 +23,7 @@ permalink: /equipment.html
 
 #### Sensors and Platform
 - RGB Camera, LiDAR, Radar
-- Hyundai Genesis EQ 900
+- Hyundai Genesis EQ900
 
 
 <br>
