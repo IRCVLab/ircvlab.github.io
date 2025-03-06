@@ -5,15 +5,15 @@ position: M.S. Student
 handle: sumin
 email: maroona@hanyang.ac.kr
 twitter: 
-github: 
+github: sumin1ee
 scholar: 
 orcid: 
 image: /images/members/sumin.jpg
-cv: 
+cv: https://bald-socks-ca2.notion.site/?pvs=74
 permalink: /team/sumin-lee
 ---
 
-Sumin Lee is a M.S. student at the IRCV lab with interest in various computer vision tasks.
+Sumin Lee is a M.S. student at the IRCV lab with interest in E2E Planning, Autonomous Valet Parking(AVP) and Neural View Synthesis.
 
 
 #### Education
@@ -22,9 +22,6 @@ Sumin Lee is a M.S. student at the IRCV lab with interest in various computer vi
   <li><span>2025. 3. – Current</span> M.S. in Department of Automotive engineering , Hanyang University</li>
   <li><span>2022. 3. – 2025. 2.</span> B.S. in Department of Automotive engineering
 , Hanyang University</li>
-  <li><span>2020. 3. – 2022. 2.</span> B.S. in Department of Mechanical engineering , Inha University</li>
-  <li><span>2019. 3. – 2020. 2.</span> B.S. in Department of Naval Architecture & Ocean engineering
-, Inha University</li>
   
 </ul>
 
