@@ -11,10 +11,10 @@ permalink: /projects.html
   Separate working projects and terminated projects.
   Assumes project.status is "working" for active projects and "done" for terminated.
 {% endcomment %}
-{% assign workingProjects = site.data.rnd | where:"status", "working" %}
-{% assign terminatedProjects = site.data.rnd | where:"status", "done" %}
+{% assign workingProjects = site.data.project | where:"status", "working" %}
+{% assign terminatedProjects = site.data.project | where:"status", "done" %}
 
-### Working Projects
+### Ongoing Projects
 {% for project in workingProjects %}
 <div class="research-project">
 <div class="project-image">
@@ -30,7 +30,7 @@ permalink: /projects.html
 </div>
 {% endfor %}
 
-### Terminated Projects
+### Completed Projects
 {% for project in terminatedProjects %}
 <div class="research-project">
 <div class="project-image">
