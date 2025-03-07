@@ -1,15 +1,13 @@
 ---
-title: "IRCVLab - R&D"
+title: "Infrastructure | IRCV Lab"
 layout: textlay
 sitemap: false
-permalink: /equipment.html
+permalink: /infrastructure.html
 ---
 
-## Equipment
----
+## Infrastructure
+
 <br>
-
-
 
 #### Deep Learning Server
 - **[Poseidon01] RTX 4090** (VRAM 24GB) X 4
@@ -31,8 +29,8 @@ permalink: /equipment.html
 ---
 
 <div style="display: flex; flex-wrap: nowrap; gap: 10px;">
-  <img src="/images/equipment/cam.png" style="width: 200px;">
-  <img src="/images/equipment/lidar.jpeg" style="width: 200px;">
-  <img src="/images/equipment/server.png" style="width: 200px;">
-  <img src="/images/equipment/eq900.jpeg" style="width: 200px;">
+  <img src="/images/infrastructure/cam.png" style="width: 200px;">
+  <img src="/images/infrastructure/lidar.jpeg" style="width: 200px;">
+  <img src="/images/infrastructure/server.png" style="width: 200px;">
+  <img src="/images/infrastructure/eq900.jpeg" style="width: 200px;">
 </div>
