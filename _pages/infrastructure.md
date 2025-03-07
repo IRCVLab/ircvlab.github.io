@@ -9,7 +9,7 @@ permalink: /infrastructure.html
 
 <br>
 
-#### Deep Learning Server
+### Deep Learning Server
 - **[Poseidon01] RTX 4090** (VRAM 24GB) X 4
 - **[Hinton] A6000** (VRAM 48GB) X 8
 - **[Turing] A6000** (VRAM 48GB) X 4
@@ -19,7 +19,7 @@ permalink: /infrastructure.html
 
 <br>
 
-#### Sensors and Platform
+### Sensors and Platform
 - RGB Camera, LiDAR, Radar
 - Hyundai Genesis EQ900
 
