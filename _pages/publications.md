@@ -1,5 +1,5 @@
 ---
-title: "IRCVLab - Publications"
+title: "Publications | IRCV Lab"
 layout: gridlay
 excerpt: "IRCVLab -- Publications."
 sitemap: false
@@ -7,7 +7,7 @@ permalink: /publications/
 ---
 
 
-# Publications
+## Publications
 
 <!-- ## Highlights
 

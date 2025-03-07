@@ -1,11 +1,11 @@
 ---
-title: "IRCVLab - R&D"
+title: "Projects | IRCV Lab"
 layout: textlay
 sitemap: false
-permalink: /rnd.html
+permalink: /projects.html
 ---
 
-<h1>R&D Projects</h1>
+## Projects
 
 {% comment %}
   Separate working projects and terminated projects.
@@ -14,7 +14,7 @@ permalink: /rnd.html
 {% assign workingProjects = site.data.rnd | where:"status", "working" %}
 {% assign terminatedProjects = site.data.rnd | where:"status", "done" %}
 
-<h2>Working Projects</h2>
+### Working Projects
 {% for project in workingProjects %}
 <div class="research-project">
 <div class="project-image">
@@ -30,7 +30,7 @@ permalink: /rnd.html
 </div>
 {% endfor %}
 
-<h2>Terminated Projects</h2>
+### Terminated Projects
 {% for project in terminatedProjects %}
 <div class="research-project">
 <div class="project-image">
