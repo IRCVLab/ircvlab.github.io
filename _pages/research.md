@@ -1,12 +1,12 @@
 ---
-title: "IRCVLab - Research"
+title: "Research Field | IRCV Lab"
 layout: textlay
-excerpt: "IRCVLab -- Research"
+excerpt: "IRCVLab -- Research Field"
 sitemap: false
 permalink: /research/
 ---
 
-## Research
+## Research Field
 
 Our primary interest lies in understanding how genes are regulated and,
 more specifically, finding out new modes of gene regulatory mechanisms

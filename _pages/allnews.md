@@ -1,5 +1,5 @@
 ---
-title: "News"
+title: "News | IRCV Lab"
 layout: textlay
 excerpt: "IRCV Lab at Hanyang University."
 sitemap: false

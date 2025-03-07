@@ -1,5 +1,5 @@
 ---
-title: "IRCVLab - Team"
+title: "Team | IRCV Lab"
 layout: gridlay
 excerpt: "IRCVLab: Team members"
 sitemap: false

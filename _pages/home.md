@@ -1,5 +1,5 @@
 ---
-title: "IRCVLab - Home"
+title: "IRCV Lab"
 layout: homelay
 excerpt: "IRCV Lab at Hanyang University."
 sitemap: false
