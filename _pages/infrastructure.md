@@ -9,18 +9,23 @@ permalink: /infrastructure.html
 
 <br>
 
+### Individual Resources
+- **RTX 3060** (VRAM 12GB) X 21 (one for each member)
+
 ### Deep Learning Server
 - **[Poseidon01] RTX 4090** (VRAM 24GB) X 4
 - **[Hinton] A6000** (VRAM 48GB) X 8
 - **[Turing] A6000** (VRAM 48GB) X 4
 - **[Lecun] RTX 4090** (VRAM 24GB) X 4
-- **[추가예정] A6000 Ada** (VRAM 48GB) X 4
-- **[추가예정] RTX 5090** (VRAM 48GB) X 4
+- **[추가예정] H200** (VRAM 141GB) x 2 - Beyond-G Innovation Center
+- **[추가예정] A6000** (VRAM 48GB) X 4
+- **[추가예정] A6000** (VRAM 48GB) X 4
+- **[추가예정] RTX 4090** (VRAM 48GB) X 4
 
 <br>
 
 ### Sensors and Platform
-- RGB Camera, LiDAR, Radar
+- RGB Cameras, LiDARs, Radars
 - Hyundai Genesis EQ900
 
 

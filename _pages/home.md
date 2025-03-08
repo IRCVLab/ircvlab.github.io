@@ -65,7 +65,13 @@ At the IRCV Lab, we are dedicated to pioneering research in perception, sensor f
 
 <span style="color: #007bff; font-weight: bold;">AI and Robotics</span>
 
-#### Bridging AI and Robotics for Safer Navigation
+#### Innovation at the Intersection of Machine Learning and Robotics
+Through cutting-edge research in object detection, semantic segmentation, and autonomous navigation, we aim to create AI-powered systems that operate seamlessly in urban landscapes, ensuring efficiency, reliability, and human-centered interactions.
+
+<hr style="border: none; border-top: 1px solid #ccc;" />
+<span style="color: #007bff; font-weight: bold;">Smart Mobility</span>
+
+#### Bridging AI and Robotics for Safe Navigation
 We specialize in 3D scene understanding, trajectory prediction, and adaptive sensor fusion to enable intelligent decision-making in complex environments. By integrating multi-modal sensor data from RGB cameras, thermal imaging, and LiDAR, we push the boundaries of next-generation autonomous mobility.
 
 <hr style="border: none; border-top: 1px solid #ccc;" />
@@ -75,18 +81,6 @@ We specialize in 3D scene understanding, trajectory prediction, and adaptive sen
 Our lab focuses on dataset distillation, parameterization, and deep learning-driven perception to enhance AI's generalization across diverse and challenging scenarios. We develop novel learning frameworks to improve autonomous vehicle perception and planning in dynamic environments.
 
 <hr style="border: none; border-top: 1px solid #ccc;" />
-<span style="color: #007bff; font-weight: bold;">AI-powered systems</span>
-
-#### Innovation at the Intersection of Machine Learning and Robotics
-Through cutting-edge research in object detection, semantic segmentation, and autonomous navigation, we aim to create AI-powered systems that operate seamlessly in urban landscapes, ensuring efficiency, reliability, and human-centered interactions.
-
-<hr style="border: none; border-top: 1px solid #ccc;" />
-<span style="color: #007bff; font-weight: bold;">Smart Mobility</span>
-
-#### Towards the Future of Smart Mobility
-From embedded AI for autonomous vehicles to multi-sensor fusion for pedestrian protection, our research contributes to the evolution of intelligent transportation. We collaborate with industry leaders and academic pioneers to drive innovation in mobility and robotics.
-
-
 
 
 We are currently seeking motivated graduate students to join our collaborative research efforts in this exciting field!

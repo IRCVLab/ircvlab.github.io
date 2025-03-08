@@ -6,7 +6,7 @@ sitemap: false
 permalink: /research/
 ---
 
-## Research Field
+<!-- ## Research Field
 
 Our primary interest lies in understanding how genes are regulated and,
 more specifically, finding out new modes of gene regulatory mechanisms
@@ -16,7 +16,7 @@ regulations by the RNA binding proteins using high-throughput biochemistry
 and high-throughput nucleic acid sequencing. The transcriptome- and
 proteome-wide views by the high-throughput methods allow us to step
 closer to the rules of nature with less bias towards our current
-knowledge.
+knowledge. -->
 
 ---
 
@@ -46,9 +46,9 @@ Perception is the foundation of autonomous driving, enabling vehicles to underst
 
 ### Data-centric AI
 
-<span style="color: #007bff; font-weight: bold;">#Data-centric #DatasetDistillation #RobustPerception</span>
+<span style="color: #007bff; font-weight: bold;">#Data-centric #DatasetDistillation #DataEngine</span>
 
 
-In the evolving landscape of autonomous driving, Data-centric AI plays a pivotal role in enhancing model performance and reliability. Our lab is dedicated to developing innovative techniques such as dataset distillation, parameterization, and augmentation to refine training data, ensuring more robust and generalizable AI models. By focusing on the quality and diversity of data, we improve the learning efficiency and adaptability of perception systems in dynamic environments. Our research explores methods to automate data labeling, reduce biases, and simulate rare scenarios, creating comprehensive datasets that better reflect real-world conditions. Through data-centric strategies, we empower autonomous systems to anticipate and respond to complex driving situations, pushing the boundaries of what AI can achieve in intelligent transportation.across full-length RNA molecules.
+In the evolving landscape of autonomous driving, data-centric AI plays a pivotal role in enhancing model performance and reliability. Our lab is dedicated to developing innovative techniques such as dataset distillation, parameterization, and augmentation to refine training data, ensuring more robust and generalizable AI models. By focusing on the quality and diversity of data, we improve the learning efficiency and adaptability of perception systems in dynamic environments. Our research explores methods to automate data labeling, reduce biases, and simulate rare scenarios, creating comprehensive datasets that better reflect real-world conditions. Through data-centric strategies, we empower autonomous systems to anticipate and respond to complex driving situations, pushing the boundaries of what AI can achieve in intelligent transportation.
 
 ![]({{ site.url }}{{ site.baseurl }}/images/research/data_centric_ai.jpg){: style="width: 100%; margin: 5px 0px;"}
