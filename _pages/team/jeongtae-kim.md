@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Jeongtae Kim
+name_kor: 김정태
 position: Undergraduate Intern
 handle: jeongtae
 email: jt0227@hanyang.ac.kr

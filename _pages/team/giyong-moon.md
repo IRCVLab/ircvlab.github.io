@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Giyong Moon
+name_kor: 문기용
 position: Undergraduate Intern
 handle: giyong
 email: shdragron@hanyang.ac.kr

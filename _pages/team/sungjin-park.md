@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Sungjin Park
+name_kor: 박성진
 position: M.S. Student
 handle: sungjin
 email: shihtzu333@gmail.com

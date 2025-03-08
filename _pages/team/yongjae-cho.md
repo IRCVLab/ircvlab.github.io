@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Yongjae Cho
+name_kor: 조용재
 position: Intern
 handle: yongjae
 email: dydwo706@naver.com

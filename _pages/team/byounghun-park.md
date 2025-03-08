@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Byounghun Park
+name_kor: 박병훈
 position: M.S. Student
 handle: byounghun
 email: gkrl206@hanyang.ac.kr

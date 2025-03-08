@@ -1,6 +1,7 @@
 ---
 layout: member
-title: Geonyeong
+title: Geonyeong Park
+name_kor: 박건영
 position: Ph.D. Student
 handle: geonyeong
 email: dsa3515@hanyang.ac.kr

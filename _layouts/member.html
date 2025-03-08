@@ -20,6 +20,9 @@ layout: default
     <div class="pull-left pad-right titlebox">
       <div class="title media-heading">
         {{ member.title }}
+        {% if member.name_kor %}
+        | {{ member.name_kor }}
+        {% endif %}
       </div>
       <div class="smallhead">
         {{ member.position }}

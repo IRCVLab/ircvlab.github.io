@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Yewon Song
+name_kor: 송예원
 position: M.S. Student
 handle: yewon
 email: swy1155@hanyang.ac.kr

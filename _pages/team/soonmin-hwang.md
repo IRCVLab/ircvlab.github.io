@@ -1,13 +1,14 @@
 ---
 layout: member
 title: Soonmin Hwang
+name_kor: 황순민
 position: Principal Investigator
 handle: soonminh
 email: soonminh@hanyang.ac.kr
 twitter: 
 github: soonminhwang
-scholar: 
-orcid: 
+scholar: XkY5-sUAAAAJ
+orcid: 0000-0003-1499-3253
 image: /images/members/soonminh-thumb.jpg
 cv: 
 permalink: /team/soonmin-hwang

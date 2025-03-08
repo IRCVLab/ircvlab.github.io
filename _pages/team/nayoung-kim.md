@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Nayoung Kim
+name_kor: 김나영
 position: Undergraduate Intern
 handle: nayoung
 email: nadine03@hanyang.ac.kr

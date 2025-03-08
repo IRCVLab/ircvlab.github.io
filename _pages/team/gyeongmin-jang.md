@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Gyeongmin Jang
+name_kor: 장경민
 position: Undergraduate Intern
 handle: gyeuongmin
 email: galaxyals01@hanyang.ac.kr

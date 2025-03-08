@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Jaehoon Ahn
+name_kor: 안재훈
 position: M.S. Student
 handle: jaehoon
 email: ssdkswogns@hanyang.ac.kr

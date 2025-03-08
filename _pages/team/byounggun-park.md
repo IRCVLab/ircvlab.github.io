@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Byounggun Park
+name_kor: 박병건
 position: M.S. Student
 handle: byounggun
 email: okharry1@hanyang.ac.kr

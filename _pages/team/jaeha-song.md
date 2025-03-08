@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Jaeha Song
+name_kor: 송재하
 position: M.S. Student
 handle: jhs
 email: archiiive99@hanyang.ac.kr

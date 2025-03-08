@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Taewan Kim
+name_kor: 김태완
 position: M.S. Student
 handle: taewan
 email: qqq3964@hanyang.ac.kr

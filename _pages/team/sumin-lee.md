@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Sumin Lee
+name_kor: 이수민
 position: M.S. Student
 handle: sumin
 email: maroona@hanyang.ac.kr

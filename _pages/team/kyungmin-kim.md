@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Kyungmin Kim
+name_kor: 김경민
 position: M.S./Ph.D. Integrated Student
 handle: kyungmin
 email: tnrud17@hanyang.ac.kr

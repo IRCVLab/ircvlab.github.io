@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Hwanggeun Kim
+name_kor: 김황근
 position: Ph.D. Student
 handle: hwanggeun
 email: hgkim@katech.re.kr

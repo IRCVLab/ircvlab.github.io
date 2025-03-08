@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Sungoh Jeong
+name_kor: 정성오
 position: M.S. Student
 handle: sungoh
 email: sungoh0036@hanyang.ac.kr

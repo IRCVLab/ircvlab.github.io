@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Sanghyun Choi
+name_kor: 최상현
 position: M.S. Student
 handle: sanghyun
 email: shchoi00@hanyang.ac.kr

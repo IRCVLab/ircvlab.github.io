@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Kyoungsu Cho
+name_kor: 조경수
 position: M.S. Student
 handle: kyoungsu
 email: whrudtn@hanyang.ac.kr

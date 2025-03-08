@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Gwangik Shin
+name_kor: 신광익
 position: Undergraduate Intern
 handle: gwangik
 email: david5432@hanyang.ac.kr

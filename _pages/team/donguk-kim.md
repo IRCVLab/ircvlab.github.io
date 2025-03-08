@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Donguk Kim
+name_kor: 김동욱
 position: M.S./Ph.D. Integrated Student
 handle: donguk
 email: donguk0513@hanyang.ac.kr

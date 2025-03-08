@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Jaemin Song
+name_kor: 송재민
 position: M.S. Student
 handle: jaemin
 email: bisisi1005@hanyang.ac.kr
@@ -19,7 +20,7 @@ Jaemin Song is a master’s student at the IRCV lab with interest in various com
 #### Education
 
 <ul class="chronological">
-  <li><span>2025. 3. – Current</span> M.S. in Automotive engineering, Hanyang University</li>
+  <li><span>2023. 9. – Current</span> M.S. in Automotive engineering, Hanyang University</li>
   <li><span>2016. 3. – 2021. 8.</span> B.S. in Department of Electronics Engineering, Tech University of Korea</li>
   
 </ul>
