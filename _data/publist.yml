@@ -1,4 +1,41 @@
 - authors:
+    - link: taewan-kim
+      is_first: true
+    - link: yewon-song
+    - link: byounggun-park
+    - link: jaehoon-ahn
+    - link: soonmin-hwang
+      is_corresponding: true
+  title: "STAN: Spatio-Temporal Alignment for Multi-View Day-Night Image Translation to Enhance 3D Object Detection"
+  journal: "Under Review"
+  pubdate:
+    year: 2025
+    month: Oct
+    mday: 19
+  doi:
+  marked: 1
+  link:
+    url: ""
+
+- authors:
+    - link: byounghun-park
+      is_first: true
+    - link: jeongtae-kim
+    - link: yongjae-cho
+    - link: soonmin-hwang
+      is_corresponding: true
+  title: "RoCaRS: Robust Camera-Radar BEV Segmentation for Sensor Failure Scenarios"
+  journal: "Under Review"
+  pubdate:
+    year: 2025
+    month: Oct
+    mday: 19
+  doi:
+  marked: 1
+  link:
+    url: ""
+
+- authors:
     - name: SeokJun Kwon
       is_first: true
     - name: Jeongmin Shin      
