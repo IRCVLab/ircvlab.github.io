@@ -11,6 +11,18 @@
   start_date: [2023, 9, 1]
   active: true
 
+- name: Jungmoon Jang
+  name_abbr: J. Jang
+  photo: null-thumb.png
+  info: Staff
+  email: jjm9036@hanyang.ac.kr
+  intro:
+  link: jungmoon-jang
+  category: staff
+  sort-key: jang-jungmoon
+  start_date: [2025, 3, 1]
+  active: true
+
 - name: Hyukju Shon
   name_abbr: H. Shon
   photo: hyukju.jpg

@@ -12,9 +12,11 @@ permalink: /team/
 
 ---
 
-<!-- ## Staff
-{% assign selected_categories = "support" | split:',' %}
-{% include team_list.html %} -->
+## Staff
+{% assign selected_categories = "staff" | split:',' %}
+{% include team_list.html %}
+
+---
 
 ### Postdoc
 {% assign selected_categories = "postdoc" | split:',' %}
