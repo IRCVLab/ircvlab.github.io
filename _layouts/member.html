@@ -42,7 +42,11 @@ layout: default
     <div class="pad-left note">
       <div class="smallspacer"></div>
       <i class="fas fa-file-alt fa-fw"></i>
+      {% if member.cv_name %}
+      <a class="off" href="{{ member.cv }}">{{ member.cv_name}}</a>
+      {% else %}
       <a class="off" href="{{ member.cv }}">{{ member.cv | split: '/' | last }}</a>
+      {% endif %}
     </div>
     <div class="bigspacer"></div>
     {% endif %}
