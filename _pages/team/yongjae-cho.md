@@ -26,7 +26,7 @@ Yongjae Cho is a intern at the IRCV lab with interest in sensor fusion, carla, e
 
 #### Experiences
 <ul class="chronological">
-  <li><span>2022.10.</span> Conference Presentation at 2022데이터야놀자 </li>
+  <li><span>2022.10.</span> Conference Presentation at 2022 데이터야놀자 </li>
   <li><span>2022. 9. – 2023. 2.</span> Naver connect boostcamp AI tech 4th </li>
   <li><span>2021.12. – 2022. 1.</span> Undergraduate Research Program (Sejong RCV Lab) </li>
 
