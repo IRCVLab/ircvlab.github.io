@@ -11,6 +11,7 @@ scholar:
 orcid: 
 image: /images/members/sumin.jpg
 cv: https://bald-socks-ca2.notion.site/?pvs=74
+cv_name: Profile
 permalink: /team/sumin-lee
 ---
 
