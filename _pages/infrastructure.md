@@ -10,7 +10,7 @@ permalink: /infrastructure.html
 <br>
 
 ### Individual Resources
-- **RTX 3060** (VRAM 12GB) X 21 (one for each member)
+- **RTX 3060** (VRAM 12GB) or **RTX 4060 Ti** (VRAM 16GB) (one for each member)
 
 ### Deep Learning Server
 - **[Poseidon01] RTX 4090** (VRAM 24GB) X 4
