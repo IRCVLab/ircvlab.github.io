@@ -4,7 +4,7 @@ title: Yongjae Cho
 name_kor: 조용재
 position: Intern
 handle: yongjae
-email: dydwo706@naver.com
+email: dydwo706@hanyang.ac.kr
 twitter: 
 github: yyongjae
 scholar: 
