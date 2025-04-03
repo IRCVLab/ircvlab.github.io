@@ -48,3 +48,14 @@ kramdown:
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
   math_engine: mathjax
+
+
+
+  analytics:
+    google:
+      id: # fill in your Google Analytics ID
+    goatcounter:
+      id: ircv # fill in your GoatCounter ID
+
+  pageviews:
+    provider: goatcounter # now only supports 'goatcounter'
