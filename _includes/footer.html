@@ -6,26 +6,12 @@
 <!-- 			<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fircvlab.github.io&count_bg=%23103C64&title_bg=%23000000&icon=smugmug.svg&icon_color=%23E7E7E7&title=Welcome+to+IRCV&edge_flat=false"/></a>		  <p>&copy 2023–2025 IRCV Lab. <a href="/aboutwebsite">more ›</a></p> -->
 		   
 		   <p>
-		     <span id="goatcounter-visits">loading..</span><br>
+		     <span id="goatcounter-visits">View loading..</span><br><br>
 		     #504 Chung Mong-Koo Automotive Research Center, Hanyang University<br>
 		     222 Wangsimni-ro, Seongdong-gu<br>
 		     Seoul 04763, South Korea
 		   </p>
 		   
-		   <script>
-			  window.addEventListener('DOMContentLoaded', function () {
-			    fetch('https://ircv.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json')
-			      .then(response => response.json())
-			      .then(data => {
-			        document.getElementById('goatcounter-visits').textContent = `${data.count} Views`;
-			      })
-			      .catch(err => {
-			        document.getElementById('goatcounter-visits').textContent = 'load failed';
-			        console.error('GoatCounter fetch error:', err);
-			      });
-			  });
-		   </script>
-		   <script data-goatcounter="https://ircv.goatcounter.com/count"async src="//gc.zgo.at/count.js"></script>
 		   <p class="footer-icons">
 		     <a href="https://github.com/ircvlab"><i class="fab fa-github"></i></a>
 		     <!-- <a href="https://twitter.com/hyeshik"><i class="fab fa-twitter-square"></i></a> -->
@@ -42,5 +28,22 @@
 	</div>
   </div>
 </div>
+
+
+<!-- GoatCounter count.js 로드 -->
+<script data-goatcounter="https://ircv.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
+
+<!-- visit_count 안전 호출 -->
+<script>
+  var t = setInterval(function () {
+    if (window.goatcounter && window.goatcounter.visit_count) {
+      clearInterval(t)
+      window.goatcounter.visit_count({
+        append: '#goatcounter-visits'
+      })
+    }
+  }, 100);
+</script>
+
 
 <script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
