@@ -10,6 +10,19 @@
 		     222 Wangsimni-ro, Seongdong-gu<br>
 		     Seoul 04763, South Korea
 		   </p>
+		   <script>
+			  window.addEventListener('DOMContentLoaded', function () {
+			    fetch('https://ircv.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json')
+			      .then(response => response.json())
+			      .then(data => {
+			        document.getElementById('goatcounter-visits').textContent = `${data.count} Views`;
+			      })
+			      .catch(err => {
+			        document.getElementById('goatcounter-visits').textContent = 'load failed';
+			        console.error('GoatCounter fetch error:', err);
+			      });
+			  });
+		   </script>
 		   <p class="footer-icons">
 		     <a href="https://github.com/ircvlab"><i class="fab fa-github"></i></a>
 		     <!-- <a href="https://twitter.com/hyeshik"><i class="fab fa-twitter-square"></i></a> -->
