@@ -10,7 +10,7 @@ github: sumin1ee
 scholar: 
 orcid: 
 image: /images/members/sumin.jpg
-cv: https://www.notion.so/Portfolio-1418b1bb16e680159eb2fea90320a52f
+cv: https://sumin1ee.github.io/cv/
 cv_name: Profile
 permalink: /team/sumin-lee
 ---
