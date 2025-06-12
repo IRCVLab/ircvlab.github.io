@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-<img src="images/way.png">
+<img src="images/way.png" style="max-width: 100%; height: auto;">
 
 
 <span style="color: #007bff; font-weight: bold;">IRCV</span>
