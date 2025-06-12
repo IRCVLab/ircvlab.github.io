@@ -28,7 +28,7 @@ Jaehoon Ahn is a M.S. degree student at the IRCV lab with interest in E2E planni
 #### Experience
 
 <ul class="chronological">
-  <li><span>2023</span> 1st Place, Seongnam Hightech Autonomous Road frameworK (SHARK) Autonomous Driving Competition (2023)</li>
+  <li><span>2023</span> 1st Place, Seongnam Hightech Autonomous Road framework(SHARK) Autonomous Driving Competition (2023)</li>
   
 </ul>
 {% include publication_in_profile.html %}
