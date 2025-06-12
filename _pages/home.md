@@ -6,8 +6,65 @@ sitemap: false
 permalink: /
 ---
 
-<img src="images/way.png" style="max-width: 100%; height: auto; border-radius: 0" >
 
+<canvas id="confetti-canvas" style="position:fixed;left:0;top:0;width:100vw;height:100vh;pointer-events:none;z-index:9999;"></canvas>
+<script>
+// Confetti animation by @crashmaxoff (MIT)
+// https://codepen.io/crashmaxoff/pen/abvKqXz
+const canvas = document.getElementById('confetti-canvas');
+const ctx = canvas.getContext('2d');
+let W = window.innerWidth, H = window.innerHeight;
+canvas.width = W; canvas.height = H;
+window.addEventListener('resize', () => {
+  W = window.innerWidth; H = window.innerHeight;
+  canvas.width = W; canvas.height = H;
+});
+const colors = ['#f44336','#e91e63','#9c27b0','#2196f3','#4caf50','#ffeb3b','#ff9800','#795548'];
+function ConfettiPiece() {
+  this.x = Math.random() * W;
+  this.y = Math.random() * -H;
+  this.w = 8 + Math.random() * 8;
+  this.h = 8 + Math.random() * 8;
+  this.color = colors[Math.floor(Math.random()*colors.length)];
+  this.speed = 2 + Math.random() * 3;
+  this.angle = Math.random() * 2 * Math.PI;
+  this.spin = (Math.random()-0.5) * 0.2;
+  this.tilt = Math.random() * 1.5;
+}
+ConfettiPiece.prototype.draw = function() {
+  ctx.save();
+  ctx.translate(this.x, this.y);
+  ctx.rotate(this.angle);
+  ctx.fillStyle = this.color;
+  ctx.fillRect(-this.w/2, -this.h/2, this.w, this.h);
+  ctx.restore();
+};
+ConfettiPiece.prototype.update = function() {
+  this.y += this.speed;
+  this.angle += this.spin;
+  this.x += Math.sin(this.angle) * this.tilt;
+  if(this.y > H + 20) {
+    this.y = -10;
+    this.x = Math.random() * W;
+  }
+};
+let confetti = [];
+for(let i=0; i<120; i++) confetti.push(new ConfettiPiece());
+function loop() {
+  ctx.clearRect(0,0,W,H);
+  confetti.forEach(c=>{
+    c.update();
+    c.draw();
+  });
+  requestAnimationFrame(loop);
+}
+loop();
+</script>
+
+
+<a href="https://waymo.com/open/challenges/" target="_blank">
+    <img src="images/way.png" style="max-width: 100%; height: auto; border-radius: 0" >
+</a>
 
 <span style="color: #007bff; font-weight: bold;">IRCV</span>
 
