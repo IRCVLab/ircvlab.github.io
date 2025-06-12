@@ -6,6 +6,9 @@ sitemap: false
 permalink: /
 ---
 
+<img src="images/way.png">
+
+
 <span style="color: #007bff; font-weight: bold;">IRCV</span>
 
 #### Advancing Intelligent Perception for Autonomous Systems
