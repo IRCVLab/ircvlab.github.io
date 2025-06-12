@@ -6,7 +6,7 @@ position: M.S. Student
 handle: jaehoon
 email: ssdkswogns@hanyang.ac.kr
 twitter: 
-github: 
+github: ssdkswogns
 scholar: 
 orcid: 
 image: /images/members/jaehoon.webp
