@@ -17,9 +17,9 @@ permalink: /infrastructure.html
 - **[Hinton] A6000** (VRAM 48GB) X 8
 - **[Turing] A6000** (VRAM 48GB) X 4
 - **[Lecun] RTX 4090** (VRAM 24GB) X 4
+- **[ACE] A6000** (VRAM 48GB) X 4
+- **[NEO] A6000** (VRAM 48GB) X 4
 - **[추가예정] H200** (VRAM 141GB) x 2 - Beyond-G Innovation Center
-- **[추가예정] A6000** (VRAM 48GB) X 4
-- **[추가예정] A6000** (VRAM 48GB) X 4
 - **[추가예정] RTX 4090** (VRAM 48GB) X 4
 
 <br>
