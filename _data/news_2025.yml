@@ -1,5 +1,10 @@
+- date: June 16, 2025
+  headline: "Paper Accepted: The paper wriiten by Byounghun, Jeongtae, Yongjae is accepted at IROS 2025! 🎉"
+  description: "[RoCaRS: Robust Camera-Radar BEV Segmentation for Sensor Failure Scenarios] is contributed by Byounghun Park, Jeongtae Kim, Yongjae Cho, Soonmin Hwang"
+
 - date: June 11, 2025
-  headline: "Award: 3rd place in the End-to-End Driving Challenge of the Waymo Open Dataset Challenge 2025 (CVPR 2025 Workshop)!🎉"
+  headline: "Award: Sungjin, Gwangik, Jaeha, Sumin, Hyukju, Byounggun won 3rd place in the End-to-End Driving Challenge of the Waymo Open Dataset Challenge 2025 (CVPR 2025 Workshop)! 🎉"
+  description: "Contributed by Sungjin Park, Gwangik Shin, Jaeha Song, Sumin Lee, Hyukju Shon, Byounggun Park, Jinhee Na, Hawook Jeong, Soonmin Hwang"
   links: 
     - title: "[AI Times] 라이드플럭스, 한양대와 '웨이모 챌린지' 자율주행 부문 세계 3위 입상"
       url: "https://www.aitimes.com/news/articleView.html?idxno=171290"
