@@ -1,6 +1,15 @@
 - date: June 11, 2025
-  headline: "Award: 3rd place in the Vision-based End-to-End Driving Challenge of the Waymo Open Dataset Challenge 2025 (CVPR 2025 Workshop)!  🎉"
-  
+  headline: "Award: 3rd place in the End-to-End Driving Challenge of the Waymo Open Dataset Challenge 2025 (CVPR 2025 Workshop)!🎉"
+  links: 
+    - title: "[AI Times] 라이드플럭스, 한양대와 '웨이모 챌린지' 자율주행 부문 세계 3위 입상"
+      url: "https://www.aitimes.com/news/articleView.html?idxno=171290"
+    - title: "[네이버 뉴스] 라이드플럭스, CVPR 2025 'E2E 자율주행 챌린지' 3위 입상"
+      url: "https://n.news.naver.com/article/018/0006038205?sid=105"
+    - title: "[머니투데이] 라이드플럭스, 세계 AI학회 '자율주행 챌린지'에서 3위"
+      url: "https://news.mt.co.kr/mtview.php?no=2025061311070667668"
+    - title: "[서울경제] 라이드플럭스, 글로벌 AI 학회 CVPR 챌린지서 입상"
+      url: "https://www.sedaily.com/NewsView/2GU23ZLYV1"
+
 - date: Mar 1, 2025
   headline: "New members: Sumin, Jaehoon, Yewon, Byounggun and Sanghyun have joined our lab as master's students. 🎉 "
   # description: Hello World!

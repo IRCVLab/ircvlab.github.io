@@ -6,6 +6,17 @@ sitemap: false
 permalink: /allnews.html
 ---
 
+<style>
+.news-links {
+  margin: 10px 0;
+}
+.news-links a {
+  margin-right: 5px;
+  margin-top: 5px;
+  display: inline-block;
+}
+</style>
+
 # News
 
 {% comment %}
@@ -42,6 +53,14 @@ permalink: /allnews.html
 {% endif %}
 
 <p class="news-date">{{ article.date }}</p>
+
+{% if article.links %}
+<div class="news-links">
+{% for link in article.links %}
+<a href="{{ link.url }}" target="_blank" class="btn btn-xs btn-primary">{{ link.title }}</a>
+{% endfor %}
+</div>
+{% endif %}
 
 {% if article.photos %}
 {% assign mainId = "main-photo-" | append: forloop.index0 %}
