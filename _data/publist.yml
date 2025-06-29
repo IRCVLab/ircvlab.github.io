@@ -1,5 +1,6 @@
 - authors:
     - name: Zhixuan Liu
+      is_first: true
     - name: Haokun Zhu
     - name: Rui Chen
     - name: Jonathan Francis
@@ -16,7 +17,7 @@
   doi:
   marked: 1
   link:
-    url: ""
+    url: "https://arxiv.org/abs/2503.13816"
     
 - authors:
     - link: byounghun-park
