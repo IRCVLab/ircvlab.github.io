@@ -1,4 +1,23 @@
-
+- authors:
+    - link: Zhixuan Liu
+    - link: Haokun Zhu
+    - link: Rui Chen
+    - link: Jonathan Francis
+    - link: soonmin-hwang
+    - link: Ji Zhang
+    - link: Jean Oh
+      
+  title: "MOSAIC: Generating Consistent, Privacy-Preserving Scenes from Multiple Depth Views in Multi-Room Environments"
+  journal: "IEEE/RSJ International Conference on Computer Vision)(ICCV)"
+  pubdate:
+    year: 2025
+    month:
+    mday:
+  doi:
+  marked: 1
+  link:
+    url: ""
+    
 - authors:
     - link: byounghun-park
       is_first: true
