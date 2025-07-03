@@ -14,7 +14,7 @@ cv:
 permalink: /team/nayoung-kim
 ---
 
-Nayoung Kim is a undergraduate student at the IRCV lab with interest in various computer vision tasks.
+Nayoung Kim is a undergraduate student at the IRCV lab with interest in Trajectory Prediction and Multiple Object Tracking.
 
 
 #### Education
