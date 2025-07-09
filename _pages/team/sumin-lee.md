@@ -15,7 +15,7 @@ cv_name: Profile
 permalink: /team/sumin-lee
 ---
 
-Sumin Lee is a M.S. student at the IRCV lab with interest in E2E Planning, Autonomous Valet Parking(AVP) and Neural View Synthesis.
+Sumin Lee is a M.S. student at the IRCV lab with interest in E2E Planning, Autonomous Valet Parking(AVP) and LiDAR NVS(Novel View Synthesis)
 
 
 #### Education
