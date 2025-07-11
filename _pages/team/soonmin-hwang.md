@@ -17,7 +17,7 @@ permalink: /team/soonmin-hwang
 Soonmin Hwang is an Assistant Professor at the Department of Automotive Engineering, Hanyang University (Seoul, Republic of Korea). He was a Postdoctoral researcher at the Robotics Institute, Carnegie Mellon University (Pittsburgh, PA, United States). Before joining Carnegie Mellon, he worked at Autopilot team, Tesla (Palo Alto, CA, United States) as a Senior Machine Learning Scientist. During his Ph.D. study, he worked at Qualcomm Research (Vienna, Austria) as an intern in 2016.
 He received M.S and Ph.D. degrees in Electrical Engineering from KAIST, Korea in 2014 and 2019, respectively, under the supervision of Prof. In So Kweon. He received a B.S. degree in Electronics and Computer Engineering from Hanyang University, Korea, in 2012.
 
-In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> from IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). He received Samsung HumanTech Paper Awards(<b style="color:brown;">Gold prize in 2017, honorable mention in 2018</b>) and <b style="color:brown;">the 1st place</b> at NVidia Korea Deep Learning Contest in 2016. 
+In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> from IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). He received Samsung HumanTech Paper Awards(<b style="color:brown;">Gold prize in 2017, honorable mention in 2018</b>) and <b style="color:brown;">the 1st place</b> at Nvidia Korea Deep Learning Contest in 2016. 
 
 
 ### Education
