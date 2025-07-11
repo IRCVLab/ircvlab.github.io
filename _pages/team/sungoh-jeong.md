@@ -27,7 +27,7 @@ Sungoh Jeong is a M.S. student at the IRCV lab with interest in vision, Data-cen
 #### Experience
 
 <ul class="chronological">
-  <li><span>2022. 12. – 2023. 6.</span> Acelab Software team</li>
+  <li><span>2022.12. – 2023. 6.</span> Acelab Software team</li>
   
 </ul>
 
