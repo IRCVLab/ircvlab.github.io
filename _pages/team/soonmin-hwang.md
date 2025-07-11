@@ -28,7 +28,7 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
   <h5>Ph.D.(2019)</h5>
   <ul class="chronological">
     <li>School of Electrical Engineering</li>
-    <li>Korea Advanced Institute of Science and Technology(KAIST)</li>
+    <li>Korea Advanced Institute of Science and Technology (KAIST)</li>
   </ul>
  </div>
  <div>
@@ -41,7 +41,7 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
   <h5>M.S.(2014)</h5>
   <ul class="chronological">
     <li>School of Electrical Engineering</li>    
-    <li>Korea Advanced Institute of Science and Technology(KAIST)</li>
+    <li>Korea Advanced Institute of Science and Technology (KAIST)</li>
   </ul>
  </div>
  <div>
