@@ -19,10 +19,8 @@ Jaehoon Ahn is a M.S. degree student at the IRCV lab with interest in E2E planni
 #### Education
 
 <ul class="chronological">
-  <li><span>2025. 3. – Current</span> M.S. in Department of Future Mobility, Hanyang University</li>
-  <li><span>2019. 3. – 2025. 2.</span> B.S. in Department of Mechanical Engineering, Minor in Convergence Technology for Advanced Vehicle
-, Hanyang University</li>
-  
+  <li><span>2025. 3. – Current</span> M.S. in Future Mobility, Hanyang University</li>
+  <li><span>2019. 3. – 2025. 2.</span> B.S. in Mechanical Engineering, Minor in Convergence Technology for Advanced Vehicle, Hanyang University</li>
 </ul>
 
 #### Experience

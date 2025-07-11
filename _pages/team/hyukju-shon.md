@@ -22,7 +22,6 @@ Hyukju Shon is a Postdoc at the IRCV lab with interest in various computer visio
 <ul class="chronological">
   <li><span>2019. 3. – 2025. 2.</span> Ph.D. in Automotive Engineering, Hanyang University</li>
   <li><span>2011. 3. – 2019. 2.</span> B.S. in Mechanical Engineering, Hanyang University</li>
-  
 </ul>
 
 {% include publication_in_profile.html %}

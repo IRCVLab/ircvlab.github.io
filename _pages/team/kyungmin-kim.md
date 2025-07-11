@@ -20,10 +20,8 @@ Kyungmin Kim is a M.S/Ph.D. Integrated student at the IRCV lab with interest in 
 #### Education
 
 <ul class="chronological">
-  <li><span>2025. 3. – Current</span> Joint M.S. and Ph.D. in Department of Automotive engineering (Automotive-Computer Convergence), Hanyang University</li>
-  <li><span>2017. 3. – 2023. 2.</span> B.S. in Department of Automotive engineering
-, Hanyang University</li>
-  
+  <li><span>2025. 3. – Current</span> Joint M.S. and Ph.D. in Automotive Engineering (Automotive-Computer Convergence), Hanyang University</li>
+  <li><span>2017. 3. – 2023. 2.</span> B.S. in Automotive Engineering, Hanyang University</li>
 </ul>
 
 {% include publication_in_profile.html %}

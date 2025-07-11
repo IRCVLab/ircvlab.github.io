@@ -21,10 +21,8 @@ Sumin Lee is a M.S. student at the IRCV lab with interest in E2E Planning, Auton
 #### Education
 
 <ul class="chronological">
-  <li><span>2025. 3. – Current</span> M.S. in Department of Automotive engineering , Hanyang University</li>
-  <li><span>2022. 3. – 2025. 2.</span> B.S. in Department of Automotive engineering
-, Hanyang University</li>
-  
+  <li><span>2025. 3. – Current</span> M.S. in Automotive Engineering, Hanyang University</li>
+  <li><span>2022. 3. – 2025. 2.</span> B.S. in Automotive Engineering, Hanyang University</li>
 </ul>
 
 {% include publication_in_profile.html %}

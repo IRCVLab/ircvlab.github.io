@@ -20,8 +20,7 @@ Yongjae Cho is a intern at the IRCV lab with interest in sensor fusion, carla, e
 #### Education
 
 <ul class="chronological">
-  <li><span>2018. 3. – 2024. 2.</span> B.S. in Computer Engineering
-, Sejong University</li>
+  <li><span>2018. 3. – 2024. 2.</span> B.S. in Computer Engineering, Sejong University</li>
 </ul>
 
 

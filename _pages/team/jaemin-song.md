@@ -22,7 +22,7 @@ His research interests include E/E architecture, ECU, vehicle dynamics and contr
 
 <ul class="chronological">
   <li><span>2023. 9. – Current</span> M.S. in Automotive Engineering, Hanyang University</li>
-  <li><span>2016. 3. – 2021. 8.</span> B.S. in Department of Electronics Engineering, Tech University of Korea</li>
+  <li><span>2016. 3. – 2021. 8.</span> B.S. in Electronics Engineering, Tech University of Korea</li>
 </ul>
 
 #### Experience
@@ -35,13 +35,13 @@ His research interests include E/E architecture, ECU, vehicle dynamics and contr
 #### R&D Achievements
 
 <ul class="chronological">
-  <li><span>2024. 7 – 2028.12</span> Development of Suspension, Manipulator and Integration Modules for Planetary Exploration Rovers (KEIT)</li>
-  <li><span>2024. 7 – 2028.12</span> Development of an embedded AI controller to determine road surface conditions (KEIT)</li>
-  <li><span>2023. 4 – 2026.12</span> Development of a driving platform for unmanned autonomous delivery mobility (KEIT)</li>
-  <li><span>2021. 4 – 2024.12</span> Development of Hyper-safe Driving Platform based on Cooperative Domain Controller (KEIT)</li>
-  <li><span>2021. 4 – 2024.12</span> Development of 4 Wheel Steer by Wire System based on redundancy design (KEIT)</li>
-  <li><span>2021. 1 – 2023.12</span> Development of Integrated Longitudinal and Lateral Safety Control System based on Forward Collision Prediction for Midsize and Small Commercial Vehicles Responding Safety Regulations (KEIT)</li>
-  <li><span>2020.04 – 2022.12</span> Development of a 3,500 kgf-class Electric Combined Steering System (MDPS) (KATECH)</li>
+  <li><span>2024. 7. – 2028.12.</span> Development of Suspension, Manipulator and Integration Modules for Planetary Exploration Rovers (KEIT)</li>
+  <li><span>2024. 7. – 2028.12.</span> Development of an embedded AI controller to determine road surface conditions (KEIT)</li>
+  <li><span>2023. 4. – 2026.12.</span> Development of a driving platform for unmanned autonomous delivery mobility (KEIT)</li>
+  <li><span>2021. 4.– 2024.12<./span> Development of Hyper-safe Driving Platform based on Cooperative Domain Controller (KEIT)</li>
+  <li><span>2021. 4. – 2024.12.</span> Development of 4 Wheel Steer by Wire System based on redundancy design (KEIT)</li>
+  <li><span>2021. 1. – 2023.12.</span> Development of Integrated Longitudinal and Lateral Safety Control System based on Forward Collision Prediction for Midsize and Small Commercial Vehicles Responding Safety Regulations (KEIT)</li>
+  <li><span>2020. 4. – 2022.12.</span> Development of a 3,500 kgf-class Electric Combined Steering System (MDPS) (KATECH)</li>
 </ul>
 
 {% include publication_in_profile.html %}

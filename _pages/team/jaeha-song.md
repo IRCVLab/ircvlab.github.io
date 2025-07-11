@@ -20,9 +20,8 @@ in various computer vision tasks.
 #### Education
 
 <ul class="chronological">
-  <li><span>2024. 9. – Current</span> M.S. in Automotive engineering, Hanyang University</li>
-  <li><span>2020. 3. – 2024. 8.</span> B.S. in Department of Computer Engineering, Dongguk University</li>
-  
+  <li><span>2024. 9. – Current</span> M.S. in Automotive Engineering, Hanyang University</li>
+  <li><span>2020. 3. – 2024. 8.</span> B.S. in Computer Engineering, Dongguk University</li>
 </ul>
 
 #### Awards

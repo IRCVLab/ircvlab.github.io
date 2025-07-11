@@ -20,10 +20,8 @@ Yewon Song is a M.S. student at the IRCV lab with interest in various computer v
 #### Education
 
 <ul class="chronological">
-  <li><span>2025. 3. – Current</span> M.S. in Department of Automotive Engineering, Hanyang University</li>
-  <li><span>2020. 3. – 2025. 2.</span> B.S. in Department of Electrical and Electronic Engineering
-, Konkuk University</li>
-  
+  <li><span>2025. 3. – Current</span> M.S. in Automotive Engineering, Hanyang University</li>
+  <li><span>2020. 3. – 2025. 2.</span> B.S. in Electrical and Electronic Engineering, Konkuk University</li>
 </ul>
 
 #### Awards

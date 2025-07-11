@@ -21,7 +21,7 @@ Byounggun Park is a master’s student at the IRCV lab with interest in Vision-L
 
 <ul class="chronological">
   <li><span>2025. 3. – Current</span> M.S. in Automotive Engineering, Hanyang University</li>
-  <li><span>2020. 3. – 2024. 2.</span> B.S. in Department of Computer Engineering, Dongguk University</li>
+  <li><span>2020. 3. – 2024. 2.</span> B.S. in Computer Engineering, Dongguk University</li>
 </ul>
 
 #### Awards

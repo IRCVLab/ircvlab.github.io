@@ -20,7 +20,7 @@ Gwangik Shin is a undergraduate student at the IRCV lab with interest in various
 #### Education
 
 <ul class="chronological">
-  <li><span>2022. 3. – Current</span> B.S. in Department of Automotive engineering, Hanyang University</li>
+  <li><span>2022. 3. – Current</span> B.S. in Automotive Engineering, Hanyang University</li>
 </ul>
 
 {% include publication_in_profile.html %}

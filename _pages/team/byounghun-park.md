@@ -19,10 +19,8 @@ Byounghun Park is a M.S. student at the IRCV lab with interest in robust sensor 
 #### Education
 
 <ul class="chronological">
-  <li><span>2024. 3. – Current</span> M.S. in Department of Future mobility, Hanyang University</li>
-  <li><span>2017. 3. – 2024. 2.</span> B.S. in Department of Automotive engineering, Minor in Convergence Technology for Advanced Vehicle
-, Hanyang University</li>
-  
+  <li><span>2024. 3. – Current</span> M.S. in Future mobility, Hanyang University</li>
+  <li><span>2017. 3. – 2024. 2.</span> B.S. in Automotive engineering, Minor in Convergence Technology for Advanced Vehicle, Hanyang University</li>
 </ul>
 
 {% include publication_in_profile.html %}
