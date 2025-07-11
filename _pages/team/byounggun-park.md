@@ -39,6 +39,5 @@ Byounggun Park is a master’s student at the IRCV lab with interest in Vision-L
   <li><span>2022.12. – 2023. 8.</span> Data Driven Control of Automated Driving Vehicle for Enhanced Human Acceptance (Hyundai Motors Ride & Handling Team) </li>
 
 </ul>
-Add comment
 
 {% include publication_in_profile.html %}

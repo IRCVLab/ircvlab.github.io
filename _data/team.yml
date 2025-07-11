@@ -162,7 +162,7 @@
   info: M.S. student
   intro: 
   link: jaeha-song
-  category: ms-student
+  category: ms-Student
   sort-key: song-jaeha
   start_date: [2024, 9, 1]
   active: true
