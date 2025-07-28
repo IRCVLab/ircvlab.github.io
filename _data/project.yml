@@ -1,4 +1,14 @@
 - title: Confidential
+  duration: '2025. 8. – 2026.8.'
+  status: working # 현대자동차
+  image: /images/logopic/logo-hyundai.png
+  
+- title: Confidential
+  duration: '2025. 5. – 2025.6.'
+  status: done # rideflux
+  image: /images/logopic/logo-ride-flux.webp
+
+- title: Confidential
   duration: '2025. 3. – 2025.12.'
   status: working # SL
   image: /images/logopic/logo-sl.png
@@ -36,7 +46,7 @@
 
 - title: Confidential
   duration: '2024. 1. – 2025. 4.'
-  status: working
+  status: done
   image: /images/logopic/logo-42dot.png
 
 

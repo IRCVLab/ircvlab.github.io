@@ -1,3 +1,6 @@
+- date: July 1, 2025
+  headline: "Paper Accepted: One paper is accepted in ICCV 2025! 🎉"
+
 - date: June 30, 2025
   headline: "Internship: Congratulations to Sungoh Jeong and Donguk Kim for the Internship at 42dot! 🎉"
   
@@ -9,6 +12,8 @@
   headline: "Award: Sungjin, Gwangik, Jaeha, Sumin, Hyukju and Byounggun won 3rd place in the End-to-End Driving Challenge of the Waymo Open Dataset Challenge 2025 (CVPR 2025 Workshop)! 🎉"
   description: "Contributed by Sungjin Park, Gwangik Shin, Jaeha Song, Sumin Lee, Hyukju Shon, Byounggun Park, Jinhee Na, Hawook Jeong and Soonmin Hwang"
   links: 
+    - title: "[CVPR] Official announcement"
+      url: "https://cvpr2025.wad.vision/"
     - title: "[AI Times] 라이드플럭스, 한양대와 '웨이모 챌린지' 자율주행 부문 세계 3위 입상"
       url: "https://www.aitimes.com/news/articleView.html?idxno=171290"
     - title: "[네이버 뉴스] 라이드플럭스, CVPR 2025 'E2E 자율주행 챌린지' 3위 입상"
