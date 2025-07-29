@@ -35,6 +35,18 @@ layout: default
 <div class="bigspacer"></div>
 <div class="row member-pane">
   <div class="col-md-3 col-sm-12">
+    {% if member.email %}
+    {% assign emailarray = member.email | split: '@' %}
+    <div class="smallhead">
+      Email
+    </div>
+    <div class="pad-left note">
+      <div class="smallspacer"></div>
+      <i class="fas fa-inbox fa-fw"></i>
+      {{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
+    </div>
+    <div class="bigspacer"></div>
+    {% endif %}
     {% if member.cv %}
     <div class="smallhead">
       CV
@@ -102,18 +114,6 @@ layout: default
       <div class="smallspacer"></div>
       <i class="fas fa-book fa-fw"></i>
       <a class="off" href="http://scholar.google.com/citations?user={{ member.scholar }}">{{ member.title }}</a>
-    </div>
-    <div class="bigspacer"></div>
-    {% endif %}
-    {% if member.email %}
-    {% assign emailarray = member.email | split: '@' %}
-    <div class="smallhead">
-      Email
-    </div>
-    <div class="pad-left note">
-      <div class="smallspacer"></div>
-      <i class="fas fa-inbox fa-fw"></i>
-      {{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
     </div>
     <div class="bigspacer"></div>
     {% endif %}

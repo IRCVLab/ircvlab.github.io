@@ -9,7 +9,7 @@ twitter:
 github: 
 scholar: 
 orcid: 
-Linkdin: https://www.linkedin.com/in/sanghyun-choi-6604752bb/
+linkedin: https://www.linkedin.com/in/sanghyun-choi-6604752bb/
 image: /images/members/sanghyun.webp
 cv: 
 permalink: /team/sanghyun-choi
