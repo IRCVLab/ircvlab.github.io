@@ -26,6 +26,7 @@ Byounggun Park is a master’s student at the IRCV lab with interest in Vision-L
 
 #### Awards
 <ul class="chronological">
+  <li>3rd Place, End-to-End Driving Challenge of the Waymo Open Dataset Challenge 2025 (CVPR 2025 Workshop)</li>
   <li>1st Prize, 2023 ICIP & Capstone Project </li>Add commentMore actions
   <li>1st Prize, 2022 International Collegiate EV Autonomous Driving Contest</li>
   <li>1st Prize, 2022 Seoul National University Future Mobility Urban Challenge</li>
