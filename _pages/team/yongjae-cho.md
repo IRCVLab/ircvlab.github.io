@@ -2,7 +2,7 @@
 layout: member
 title: Yongjae Cho
 name_kor: 조용재
-position: Intern
+position: M.S. Student
 handle: yongjae
 email: dydwo706@hanyang.ac.kr
 twitter: 
@@ -14,12 +14,13 @@ cv:
 permalink: /team/yongjae-cho
 ---
 
-Yongjae Cho is a intern at the IRCV lab with interest in sensor fusion, carla, etc..
+Yongjae Cho is a master's student at the IRCV lab with interest in sensor fusion, carla, etc..
 
 
 #### Education
 
 <ul class="chronological">
+  <li><span>2025. 9. – Current</span> M.S. in Automotive Engineering, Hanyang University</li>
   <li><span>2018. 3. – 2024. 2.</span> B.S. in Computer Engineering, Sejong University</li>
 </ul>
 
