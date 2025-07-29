@@ -9,9 +9,9 @@ twitter:
 github: https://github.com/seungmin4987
 scholar: 
 orcid: 
-image: /images/members/jaemin.webp
+image: /images/members/seungmin.jpg
 cv: 
-permalink: /team/jaemin-choi
+permalink: /team/seungmin-han
 ---
 
 Seungmin Han is a undergraduate student at the IRCV lab with interest in various computer vision tasks.
