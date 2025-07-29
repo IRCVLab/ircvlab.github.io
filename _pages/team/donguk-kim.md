@@ -24,4 +24,10 @@ Donguk Kim is a M.S/Ph.D. Integrated student at the IRCV lab with interest in va
   <li><span>2017. 3. – 2023. 2.</span> B.S. in Automotive Engineering, Hanyang University</li>
 </ul>
 
+#### Experience
+
+<ul class="chronological">
+  <li><span>2025. 7. – 2025. 8.</span> 42dot Intern</li>
+</ul>
+
 {% include publication_in_profile.html %}
