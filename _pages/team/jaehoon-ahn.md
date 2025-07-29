@@ -9,12 +9,12 @@ twitter:
 github: ssdkswogns
 scholar: 
 orcid: 
-image: /images/members/jaehoon.webp
+image: /images/members/jaehoon.jpg
 cv: 
 permalink: /team/jaehoon-ahn
 ---
 
-Jaehoon Ahn is a M.S. degree student at the IRCV lab with interest in E2E planning, sensor fusion and vehicle data analysis.
+Jaehoon Ahn is a master's student at the IRCV Lab, with research interests in sensor fusion and learning-based driver behavior analysis using diverse in-vehicle data.
 
 #### Education
 
