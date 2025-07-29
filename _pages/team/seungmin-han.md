@@ -6,7 +6,7 @@ position: Undergraduate Intern
 handle: seungmin
 email: seungmin4987@naver.com
 twitter: 
-github: https://github.com/seungmin4987
+github: seungmin4987
 scholar: 
 orcid: 
 image: /images/members/seungmin.jpg
