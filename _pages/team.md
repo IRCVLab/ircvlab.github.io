@@ -18,11 +18,11 @@ permalink: /team/
 
 ---
 
-### Postdoc
+<!-- ### Postdoc
 {% assign selected_categories = "postdoc" | split:',' %}
 {% include team_list.html %}
 
----
+--- -->
 
 ### Ph.D. and Ph.D. Integrated Students
 {% assign selected_categories = "phd-student,integrated-student" | split:',' %}
