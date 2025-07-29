@@ -35,7 +35,7 @@ Byounggun Park is a master’s student at the IRCV lab with interest in Vision-L
 
 #### Experiences
 <ul class="chronological">
-  <li><span>2024. 3. – 2024.11.</span> Research intern(Pennsylvania State University PSecLab </li>
+  <li><span>2024. 3. – 2024.11.</span> Research intern(Pennsylvania State University PSecLab) </li>
 
   <li><span>2022.12. – 2023. 8.</span> Data Driven Control of Automated Driving Vehicle for Enhanced Human Acceptance (Hyundai Motors Ride & Handling Team) </li>
 
