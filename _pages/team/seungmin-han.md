@@ -20,7 +20,7 @@ Seungmin Han is a undergraduate student at the IRCV lab with interest in various
 #### Education
 
 <ul class="chronological">
-  <li><span>2020. 3. – Current</span> B.S. in Electrical and Electronic Engineering, Konkuk University
+  <li><span>2020. 3. – Current</span> B.S. in Electrical and Electronic Engineering, Konkuk University</li>
 </ul>
 
 {% include publication_in_profile.html %}
