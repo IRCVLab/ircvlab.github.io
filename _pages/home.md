@@ -28,7 +28,7 @@ At the IRCV Lab, we are dedicated to pioneering research in perception, sensor f
         <li data-target="#carousel" data-slide-to="3"></li>
         <li data-target="#carousel" data-slide-to="4"></li>
         <li data-target="#carousel" data-slide-to="5"></li>
-        <li data-target="#carousel" data-slide-to="6"></li>                
+        <li data-target="#carousel" data-slide-to="6"></li>
     </ol>
 
     <!-- Items -->
@@ -38,7 +38,7 @@ At the IRCV Lab, we are dedicated to pioneering research in perception, sensor f
             <div class="carousel-caption">
             </div>
         </div>
-        <div class="item">            
+        <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2024-06-22_CVPR2024.jpg" alt="Slide 1" />
         </div>
         <div class="item">
@@ -55,7 +55,9 @@ At the IRCV Lab, we are dedicated to pioneering research in perception, sensor f
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2024-10-23_IRC_kickoff.jpg" alt="Slide 6" />
-        </div>        
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2025-08-16_KCCV2025.jpg" alt="Slide 7" />
+        </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
