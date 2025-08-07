@@ -55,6 +55,7 @@ At the IRCV Lab, we are dedicated to pioneering research in perception, sensor f
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2024-10-23_IRC_kickoff.jpg" alt="Slide 6" />
+        </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2025-08-16_KCCV2025.jpg" alt="Slide 7" />
         </div>
