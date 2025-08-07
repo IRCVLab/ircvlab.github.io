@@ -4,7 +4,7 @@
   info: Principal Investigator
   email: soonminh@hanyang.ac.kr
   # intro: A computer vision researcher focusing on robotics/automotive
-  intro: 
+  intro:
   link: soonmin-hwang
   category: principal-investigator
   sort-key: hwang-soonmin
@@ -28,10 +28,10 @@
   photo: geonyeong.webp
   info: Ph.D. Student
   email: dsa3515@hanyang.ac.kr
-  intro: 
+  intro:
   link: geonyeong-park
   category: phd-student
-  sort-key: park-geonyeong  
+  sort-key: park-geonyeong
   start_date: [2024, 3, 1]
   active: true
 
@@ -40,7 +40,7 @@
   photo: kyungmin.jpeg
   email: tnrud17@hanyang.ac.kr
   info: M.S./Ph.D. Integrated Student
-  intro: 
+  intro:
   link: kyungmin-kim
   category: integrated-student
   sort-key: kim-kyungmin
@@ -52,7 +52,7 @@
   photo: hwanggeun.webp
   email: hgkim@katech.re.kr
   info: Ph.D. Student
-  intro: 
+  intro:
   link: hwanggeun-kim
   category: phd-student
   sort-key: kim-hwanggeun
@@ -64,7 +64,7 @@
   photo: donguk.png
   email: donguk0513@hanyang.ac.kr
   info: M.S./Ph.D. Integrated Student
-  intro: 
+  intro:
   link: donguk-kim
   category: integrated-student
   sort-key: kim-donguk
@@ -76,7 +76,7 @@
   photo: jaemin.webp
   email: bisisi1005@hanyang.ac.kr
   info: M.S. Student
-  intro: 
+  intro:
   link: jaemin-song
   category: ms-student
   sort-key: song-jaemin
@@ -88,7 +88,7 @@
   photo: byounghun.webp
   email: gkrl206@hanyang.ac.kr
   info: M.S. Student
-  intro: 
+  intro:
   link: byounghun-park
   category: ms-student
   sort-key: park-byounghun
@@ -100,7 +100,7 @@
   photo: sungoh.webp
   email: sungoh0036@hanyang.ac.kr
   info: M.S. Student
-  intro: 
+  intro:
   link: sungoh-jeong
   category: ms-student
   sort-key: jeong-sungoh
@@ -112,7 +112,7 @@
   photo: sungjin.webp
   email: shihtzu333@gmail.com
   info: M.S. Student
-  intro: 
+  intro:
   link: sungjin-park
   category: ms-student
   sort-key: park-sungjin
@@ -124,7 +124,7 @@
   photo: taewan.webp
   email: qqq3964@hanyang.ac.kr
   info: M.S. Student
-  intro: 
+  intro:
   link: taewan-kim
   category: ms-student
   sort-key: kim-taewan
@@ -136,7 +136,7 @@
   photo: jhsong-thumb.jpg
   email: archiiive99@hanyang.ac.kr
   info: M.S. Student
-  intro: 
+  intro:
   link: jaeha-song
   category: ms-student
   sort-key: song-jaeha
@@ -148,7 +148,7 @@
   photo: sumin.jpg
   email: maroona@hanyang.ac.kr
   info: M.S. Student
-  intro: 
+  intro:
   link: sumin-lee
   category: ms-student
   sort-key: lee-sumin
@@ -157,106 +157,106 @@
 
 - name: Jaehoon Ahn
   name_abbr: J. Ahn
-  photo: jaehoon.jpg
+  photo: jaehoon.webp
   email: ssdkswogns@hanyang.ac.kr
   info: M.S. Student
-  intro: 
+  intro:
   link: jaehoon-ahn
   category: ms-student
   sort-key: ahn-jaehoon
   start_date: [2025, 3, 1]
-  active: true  
+  active: true
 
 - name: Yewon Song
   name_abbr: Y. Song
   photo: yewon.jpg
   email: swy1155@hanyang.ac.kr
   info: M.S. Student
-  intro: 
+  intro:
   link: yewon-song
   category: ms-student
   sort-key: song-yewon
   start_date: [2025, 3, 1]
-  active: true    
+  active: true
 
 - name: Byounggun Park
   name_abbr: B. Park
   photo: byounggun.webp
   email: okharry1@hanyang.ac.kr
   info: M.S. Student
-  intro: 
+  intro:
   link: byounggun-park
   category: ms-student
   sort-key: park-byounggun
   start_date: [2025, 3, 1]
-  active: true    
+  active: true
 
 - name: Sanghyun Choi
   name_abbr: S. Choi
   photo: sanghyun.webp
   email: shchoi00@hanyang.ac.kr
   info: M.S. Student
-  intro: 
+  intro:
   link: sanghyun-choi
   category: ms-student
   sort-key: choi-sanghyun
   start_date: [2025, 3, 1]
-  active: true    
+  active: true
 
 - name: Yongjae Cho
   name_abbr: Y. Cho
   photo: yongjae.png
   email: dydwo706@hanyang.ac.kr
   info: M.S. Student
-  intro: 
+  intro:
   link: yongjae-cho
   category: ms-student
   sort-key: cho-yongjae
-  start_date: [2025, 9, 1] 
-  active: true  
+  start_date: [2025, 9, 1]
+  active: true
 
 - name: Gwangik Shin
   name_abbr: G. Shin
   photo: gwangik.webp
   email: david5432@hanyang.ac.kr
   info: Undergraduate Student
-  intro: 
+  intro:
   link: gwangik-shin
   category: intern
   sort-key: shin-gwangik
   start_date: [2024, 3, 1]
-  active: true     
+  active: true
 
 - name: Nayoung Kim
   name_abbr: N. Kim
   photo: nayoung.webp
   email: nadine03@hanyang.ac.kr
   info: Undergraduate Student
-  intro: 
+  intro:
   link: nayoung-kim
   category: intern
   sort-key: kim-nayoung
   start_date: [2024, 7, 29]
-  active: true      
+  active: true
 
 - name: Jeongtae Kim
   name_abbr: J. Kim
   photo: jeongtae.webp
   email: jt0227@hanyang.ac.kr
   info: Undergraduate Student
-  intro: 
+  intro:
   link: jeongtae-kim
   category: intern
   sort-key: kim-jeongtae
   start_date: [2024, 9, 1]
-  active: true        
+  active: true
 
 - name: Giyong Moon
   name_abbr: G. Moon
   photo: giyong.webp
   email: shdragron@hanyang.ac.kr
   info: Undergraduate Student
-  intro: 
+  intro:
   link: giyong-moon
   category: intern
   sort-key: moon-giyong
@@ -268,21 +268,33 @@
   photo: jaemin.png
   email: choijaemin16@naver.com
   info: Undergraduate Student
-  intro: 
+  intro:
   link: jaemin-choi
   category: intern
   sort-key: choi-jaemin
   start_date: [2025, 6, 30]
   active: true
-  
+
 - name: Seungmin Han
   name_abbr: S. Han
   photo: seungmin.jpg
   email: seungmin4987@naver.com
   info: Undergraduate Student
-  intro: 
+  intro:
   link: seungmin-han
   category: intern
   sort-key: han-seungmin
   start_date: [2025, 6, 30]
-  active: true          
+  active: true
+
+- name: Jiwoong Ryu
+  name_abbr: J. Ryu
+  photo: jiwoong.jpg
+  email: toki0406@hanyang.ac.kr
+  info: Undergraduate Student
+  intro:
+  link: Jiwoong-ryu
+  category: intern
+  sort-key: ryu-jiwoong
+  start_date: [2025, 6, 30]
+  active: true
