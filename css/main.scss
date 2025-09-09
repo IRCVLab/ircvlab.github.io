@@ -168,7 +168,16 @@ div.navbar div.container-fluid {
 
 div.navbar {
     font-family: $headings-font-family;
-    border-width: 0px;
+    /* Keep only left/right borders removed; allow top/bottom borders */
+    border-left-width: 0;
+    border-right-width: 0;
+    margin-bottom: 0 !important;
+}
+
+/* Always show continuous white lines across the full header (all widths) */
+.navbar.navbar-default {
+  border-top: 1px solid rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.95);
 }
 
 div.body-container {
@@ -372,4 +381,72 @@ div#alumni_list h5 a {
   .navbar .navbar-collapse {
     padding-left: 0;
   }
+}
+
+/* Desktop only: vertically center nav links to align with 90px logo */
+@media (min-width: $grid-float-breakpoint) {
+  /* Vertically center links to align with 90px logo */
+  .navbar-default .navbar-nav > li > a {
+    height: 90px;
+    line-height: 90px;
+    box-sizing: border-box; /* keep total height incl. borders/padding */
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  /* Continuous white lines across full header (includes logo area) */
+  .navbar.navbar-default {
+    border-top: 1px solid rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.95);
+  }
+}
+
+/* Navbar: remove default margins from the logo image to prevent header clipping */
+.navbar .navbar-brand > img,
+.navbar .navbar-brand > .lab-logo {
+  display: inline-block;
+  height: 90px; /* keep consistent with link height */
+  margin: 0 !important; /* override global img margins */
+  vertical-align: middle;
+}
+
+/* Keep the header fixed and always on top */
+.navbar.navbar-default.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2000; /* above other content */
+  min-height: 90px; /* match link/logo height to avoid partial hiding */
+}
+
+/* Subtle shadow for the News well */
+.well.well-news {
+  /* override Bootstrap well's inset shadow with a soft outer shadow */
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  transition: box-shadow .2s ease;
+}
+.well.well-news:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.10);
+}
+
+/* Subtle shadow and rounding for the homepage carousel */
+#carousel {
+  border-radius: 10px;
+  overflow: hidden; /* clip images to rounded corners */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.14), 0 2px 6px rgba(0, 0, 0, 0.10);
+  transition: box-shadow .2s ease;
+}
+#carousel:hover {
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.16), 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+#carousel .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* Override global img styles to avoid extra rounding/margins inside carousel */
+  border-radius: 0 !important;
+  margin: 0 !important;
 }
