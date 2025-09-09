@@ -18,7 +18,7 @@ img {
 
 
 body {
-    padding-top: 92px;
+    padding-top: 128px;
 }
 
 figcaption {
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6, h7 {
 
 
 /* Top navigation bar */
-
+.navbar .navbar-brand > .lab-logo { height: 90px; }
 
 p.byline {
 	text-align: center;
@@ -51,7 +51,7 @@ firstp {
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  max-width: 1000px; /* or 950px */
+  max-width: 1300px; /* or 950px */
 }
 
 /* Home, News */
@@ -355,4 +355,21 @@ div#alumni_list h5 a {
     float: left;
     margin-right: 10px;
   }
-  
+
+/* Make top-level navbar links bold */
+.navbar-default .navbar-nav > li > a {
+  font-weight: 500;
+}
+
+/* Tighten space between logo and first menu item on desktop */
+@media (min-width: $grid-float-breakpoint) {
+  .navbar .navbar-brand {
+    padding-right: 100px; /* reduce to zero for minimal gap */
+  }
+  .navbar-default .navbar-nav > li:first-child > a {
+    padding-left: 6px; /* small left padding */
+  }
+  .navbar .navbar-collapse {
+    padding-left: 0;
+  }
+}
