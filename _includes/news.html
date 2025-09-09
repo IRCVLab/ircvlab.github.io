@@ -1,5 +1,8 @@
 <div class="well well-news news-brief">
-  <h4 class="news-header">News</h4>
+  <div class="news-header-bar clearfix">
+    <h4 class="news-header pull-left">News</h4>
+    <h5 class="see-all pull-right"><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">See all News</a></h5>
+  </div>
   {% for article in site.data.news_2025 %}
     <div class="news-item">
       {% assign parts = article.headline | split: ":" %}
@@ -43,6 +46,4 @@
       <p class="news-date">{{ article.date }}</p>
     </div>
   {% endfor %}
-  
-  <h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h4>
 </div>
