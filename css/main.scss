@@ -410,6 +410,58 @@ div#alumni_list h5 a {
   vertical-align: middle;
 }
 
+/* Responsive logo sizing: prevent clipping on mobile */
+.navbar .lab-logo {
+  display: inline-block;
+  height: 90px; /* default desktop to match link height */
+  width: auto;
+}
+
+@media (max-width: 767px) {
+  /* Reduce navbar min-height and logo size on small screens */
+  .navbar.navbar-default.navbar-fixed-top {
+    min-height: 56px;
+  }
+  .navbar .navbar-brand {
+    height: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: normal; /* avoid forcing tall line-height */
+  }
+  .navbar .lab-logo {
+    height: 36px; /* scale down logo so it fits */
+    max-height: 36px;
+    width: auto; /* keep aspect ratio */
+    vertical-align: middle;
+  }
+  /* Tweak toggle alignment for collapsed nav */
+  .navbar-toggle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Sticky footer: keep footer at bottom even on short pages */
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    min-height: 100vh;  /* full viewport height */
+    flex-direction: column;
+  }
+  
+  /* Main content grows to fill available space */
+  .body-container {
+    flex: 1 0 auto;
+  }
+  
+  /* Footer takes remaining space if content is short */
+  #footer {
+    margin-top: auto;
+  }
+  
 /* Keep the header fixed and always on top */
 .navbar.navbar-default.navbar-fixed-top {
   position: fixed;
