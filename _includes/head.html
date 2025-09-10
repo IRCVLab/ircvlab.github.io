@@ -4,6 +4,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  
+  <!-- Critical CSS to avoid initial flash before splash initializes -->
+  <style>
+    /* Keep site hidden while preload is active */
+    body.preload .navbar,
+    body.preload .body-container,
+    body.preload #footer { opacity: 0; pointer-events: none; }
+    /* Ensure splash is visible immediately even before main.css loads */
+    #splash { display: flex !important; position: fixed; inset: 0; background: #fff; z-index: 3000; align-items: center; justify-content: center; flex-direction: column; }
+  </style>
+
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | prepend: site.url}}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <link rel="shortcut icon" type ="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/favicon.ico">

@@ -3,7 +3,13 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="preload">
+
+    <!-- Splash Screen Overlay -->
+    <div id="splash" aria-hidden="true" role="presentation">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-new-start.png" alt="IRCV Lab" class="splash-logo" />
+      <p id="typing-text" class="splash-typing" aria-live="polite"></p>
+    </div>
 
     {% include header.html %}
 
@@ -21,12 +27,59 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-14CENTRPZT"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
+function gtag(){dataLayer.push(arguments);} 
 gtag('js', new Date());
 gtag('config', 'G-14CENTRPZT');
 </script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- Splash & Typing Logic -->
+<script>
+(function() {
+  var body = document.body;
+  var splash = document.getElementById('splash');
+  var typingTarget = document.getElementById('typing-text');
+  var content = 'Intelligent Robotics and Computer Vision Lab';
+  var effectDuration = 1400; // ms, must match CSS animation duration
+  var afterDelay = 200; // small pause after the effect finishes
+  var alreadyShown = false;
+  try {
+    alreadyShown = sessionStorage.getItem('splashShown') === '1';
+  } catch (e) {}
+
+  function revealSite() {
+    body.classList.remove('preload');
+    if (splash) {
+      splash.style.opacity = '0';
+      splash.style.pointerEvents = 'none';
+      setTimeout(function() {
+        if (splash && splash.parentNode) splash.parentNode.removeChild(splash);
+      }, 400);
+    }
+    try { sessionStorage.setItem('splashShown', '1'); } catch (e) {}
+  }
+
+  function startEffect() {
+    if (!typingTarget) { revealSite(); return; }
+    // Set full text and trigger gradient reveal via CSS class
+    typingTarget.textContent = content;
+    typingTarget.classList.add('gradient-reveal');
+    setTimeout(revealSite, effectDuration + afterDelay);
+  }
+
+  if (alreadyShown) {
+    revealSite();
+  } else {
+    if (splash) splash.style.display = 'flex';
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', startEffect);
+    } else {
+      startEffect();
+    }
+  }
+})();
+</script>
 
 
   </body>

@@ -502,3 +502,77 @@ html, body {
   border-radius: 0 !important;
   margin: 0 !important;
 }
+
+/* Splash screen overlay and preload transitions */
+#splash {
+  position: fixed;
+  inset: 0;
+  background: #ffffff;
+  display: none; /* will be set to flex by JS */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 3000; /* above fixed navbar (2000) */
+  transition: opacity .35s ease;
+}
+
+#splash .splash-logo {
+  width: min(90vw, 820px);
+  max-height: 70vh; /* avoid exceeding viewport height */
+  height: auto;
+  margin: 0 18px 6px 18px; /* reduce gap below logo (was 18px) */
+}
+
+@media (max-width: 480px) {
+    #splash .splash-logo {
+      width: 88vw;
+      max-height: 48vh;
+    }
+    #splash .splash-typing {
+      font-size: clamp(20px, 6vw, 34px);
+      line-height: 1.2;
+    }
+  }
+
+#splash .splash-typing {
+  font-family: $headings-font-family;
+  font-size: clamp(22px, 4.5vw, 44px); /* larger text; adjust here */
+  line-height: 1.2; /* slightly tighter to reduce perceived gap */
+  color: #181D62;
+  letter-spacing: -0.02em;
+  margin: 0 24px; /* keep side margins; top/bottom 0 for minimal gap */
+  text-align: center;
+  font-weight: 800; /* 더 두껍게 */
+}
+
+#splash .splash-typing.gradient-reveal {
+  background: linear-gradient(90deg, #c7cffc 0%, #181D62 50%, #c7cffc 100%);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: text-wipe 1.4s ease forwards; /* JS의 effectDuration과 싱크 */
+}
+
+@keyframes text-wipe {
+  0% {
+    background-position: 100% 0;
+    opacity: .2;
+    letter-spacing: .02em;
+  }
+  100% {
+    background-position: 0 0;
+    opacity: 1;
+    letter-spacing: -.01em;
+  }
+}
+
+/* 모션 최소화 설정 존중 */
+@media (prefers-reduced-motion: reduce) {
+  #splash .splash-typing.gradient-reveal {
+    animation: none;
+    -webkit-text-fill-color: currentColor;
+    background: none;
+    color: #181D62;
+  }
+}

@@ -263,30 +263,6 @@
   start_date: [2024, 12, 30]
   active: true
 
-- name: Jaemin Choi
-  name_abbr: J. Choi
-  photo: jaemin.png
-  email: choijaemin16@naver.com
-  info: Undergraduate Student
-  intro:
-  link: jaemin-choi
-  category: intern
-  sort-key: choi-jaemin
-  start_date: [2025, 6, 30]
-  active: true
-
-- name: Seungmin Han
-  name_abbr: S. Han
-  photo: seungmin.jpg
-  email: seungmin4987@naver.com
-  info: Undergraduate Student
-  intro:
-  link: seungmin-han
-  category: intern
-  sort-key: han-seungmin
-  start_date: [2025, 6, 30]
-  active: true
-
 - name: Jiwoong Ryu
   name_abbr: J. Ryu
   photo: Jiwoong.jpg
@@ -298,3 +274,17 @@
   sort-key: ryu-jiwoong
   start_date: [2025, 6, 30]
   active: true
+
+- name: Seonghyun Park
+  name_abbr: S. Park
+  photo: seonghyun.jpg
+  email: dkdldb713@hanyang.ac.kr
+  info: Undergraduate Student
+  intro:
+  link: seonghyun-park
+  category: intern
+  sort-key: park-seonghyun
+  start_date: [2025, 6, 30]
+  active: true
+
+  
