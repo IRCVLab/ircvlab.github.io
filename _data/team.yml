@@ -284,7 +284,18 @@
   link: seonghyun-park
   category: intern
   sort-key: park-seonghyun
-  start_date: [2025, 6, 30]
+  start_date: [2025, 9, 1]
   active: true
 
+- name: Dongmin Kim
+  name_abbr: D. Kim
+  photo: dongmin.JPG
+  email: ehdals1199@hanyang.ac.kr
+  info: Undergraduate Student
+  intro:
+  link: dongmin-kim
+  category: intern
+  sort-key: kim-dongmin
+  start_date: [2025, 9, 1]
+  active: true
   

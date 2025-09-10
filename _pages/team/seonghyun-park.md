@@ -11,7 +11,7 @@ scholar:
 orcid: 
 image: /images/members/seonghyun.jpg
 cv: 
-permalink: /team/Seonghyun-park
+permalink: /team/seonghyun-park
 ---
 
 Seonghyun Park is a undergraduate student at the IRCV lab with interest in E2E Planning, various computer vision tasks.
