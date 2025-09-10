@@ -6,7 +6,7 @@ position: Undergraduate Intern
 handle: dongmin
 email: ehdals1199@hanyang.ac.kr
 twitter: 
-github: 
+github: kmin2426
 scholar: 
 orcid: 
 image: /images/members/dongmin.JPG
