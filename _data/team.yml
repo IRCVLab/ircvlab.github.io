@@ -299,3 +299,15 @@
   start_date: [2025, 9, 1]
   active: true
   
+- name: Youngwoong Kim
+  name_abbr: Y. Kim
+  photo: youngwoong.jpg
+  email: heroywkim@hanyang.ac.kr
+  info: Undergraduate Student
+  intro:
+  link: youngwoong-kim
+  category: intern
+  sort-key: kim-youngwoong
+  start_date: [2025, 9, 1]
+  active: true  
+  
