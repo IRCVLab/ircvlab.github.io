@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Dohyun Lim
-name_kor: dlaehgus
+name_kor: 임도현
 position: Undergraduate Intern
 handle: dohyun
 email: ldh991014@hanyang.ac.kr 
