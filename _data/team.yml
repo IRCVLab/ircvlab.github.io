@@ -311,3 +311,15 @@
   start_date: [2025, 9, 1]
   active: true  
   
+- name: Dohyun Lim
+  name_abbr: D. Lim
+  photo: dohyun.jpg
+  email: ldh991014@hanyang.ac.kr 
+  info: Undergraduate Student
+  intro:
+  link: dohyun-lim
+  category: intern
+  sort-key: lim-dohyun
+  start_date: [2025, 9, 15]
+  active: true  
+  

@@ -65,6 +65,9 @@ IEEE Transactions on Intelligent Vehicle(T-IV), 2023 </li>
   <li>[[J2] Robust Lane Keeping Control for Tractor with Multi-Unit Trailer under Parametric Uncertainty
 Sangwon Han, Kyusang Yoon, <span style="font-weight: bold;">Geonyeong Park</span>, and Kunsoo Huh
 IEEE Transactions on Intelligent Vehicle(T-IV), 2023</li>
+  <li>[J3] Advanced Steering Control Algorithm for Semi-Trailer Trucks Considering Trailer Dynamics and Lateral Motion Delay
+<span style="font-weight: bold;">Geonyeong Park</span>, Yoonyong Ahn, Sangwon Han
+IEEE Access, 2025</li>
 </details>
 
 </li>
