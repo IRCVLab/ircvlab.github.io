@@ -26,6 +26,7 @@ permalink: /infrastructure.html
 
 ### Sensors and Platform
 - RGB Cameras, LiDARs, Radars
+- Hyundai Ioniq 5
 - Hyundai Genesis EQ900
 
 
