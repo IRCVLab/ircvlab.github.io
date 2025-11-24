@@ -39,5 +39,5 @@ permalink: /infrastructure.html
   <img src="/images/infrastructure/lidar.jpeg" style="width: 200px;">
   <img src="/images/infrastructure/server.png" style="width: 200px;">
   <img src="/images/infrastructure/eq.png" style="width: 200px;">
-  <img src="/images/infrastructure/ioniq.png" style="width: 200px;">
+  <img src="/images/infrastructure/hwangcar_bg_.png" style="width: 200px;">
 </div>
