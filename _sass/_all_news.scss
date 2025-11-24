@@ -13,7 +13,7 @@
     padding: 1rem;
     border-bottom: 1px solid #ccc;
     
-    > div {
+    > div:not(.news-links) {
       margin-bottom: 0;
     }
     
@@ -59,13 +59,31 @@
     .news-description {
       margin-bottom: 1rem;
     }
+    
+    .news-arrow {
+      border: none;
+      background: transparent;
+      color: #333;
+      font-size: 2rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 0.5rem;
+    }
+
+    .news-arrow:hover {
+      color: #007bff;
+    }
+
     // 갤러리 전체: 대표 이미지와 썸네일 좌우 배치 및 중앙 정렬
     .news-gallery {
       display: flex;
       flex-direction: row;
       gap: 1rem;
       align-items: flex-start;
-      margin: 0 auto;
+      margin: 8px auto 16px auto;
+      width: fit-content;
     }
     
     // 대표 이미지 영역: 고정 크기로 중앙 정렬
@@ -75,14 +93,16 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      border-radius: 6px;
       overflow: hidden;
-      background-color: #f0f0f0;
     }
     
     .news-main-photo img {
       width: 500px;
       height: auto;
       object-fit: contain;
+      border-radius: 6px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
     }
     
     // 썸네일 영역: 세로 슬라이더
@@ -102,7 +122,9 @@
       scroll-snap-align: start;
       cursor: pointer;
       border: 2px solid transparent;
-      transition: border 0.3s;
+      border-radius: 4px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+      transition: border 0.3s, box-shadow 0.3s;
     }
     
     .news-thumbnails img:hover {
@@ -144,6 +166,28 @@
     }
   }
 }
+
+.news-header-bar .news-more-link {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 999px;
+  border: 0px solid #007bff;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: #007bff;
+  text-decoration: none;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.news-header-bar .news-more-link:hover {
+  background-color: #007bff;
+  border-color: #0056b3;
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
 .lightbox {
   display: none;                 /* JS로 열 때만 보이게 */
   position: fixed;
@@ -160,4 +204,5 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   /* 클릭 시 닫힘 방지용: 포인터 이벤트 전달 */
   pointer-events: auto;
+  border-radius: 6px;
 }

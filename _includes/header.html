@@ -105,8 +105,30 @@
 });
   </script>
   
-  <!-- Optional inline CSS for hover (using proper CSS comments) -->
+  <!-- Optional inline CSS for dropdown hover + styling (navbar structure unchanged) -->
   <style>
+    /* Dropdown menu look */
+    .navbar-default .navbar-nav .dropdown-menu {
+      min-width: 190px;
+      padding: 6px 0;
+      border-radius: 4px;
+      border: 1px solid #e0e0e0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .navbar-default .navbar-nav .dropdown-menu > li > a {
+      font-size: 1.4rem;
+      padding: 8px 18px;
+      color: #333333;
+      white-space: nowrap;
+    }
+
+    .navbar-default .navbar-nav .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .dropdown-menu > li > a:focus {
+      background-color: #f5f9ff;
+      color: #007bff;
+    }
+
 	@media (min-width: 768px) {
 	  /* When hovering over a dropdown list item in the navbar, display its dropdown menu */
 	  .navbar-nav li.dropdown:hover > .dropdown-menu {

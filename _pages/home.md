@@ -57,6 +57,22 @@ At the IRCV Lab, we are dedicated to pioneering research in perception, sensor f
             <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2025-08-16_KCCV2025.jpg" alt="Slide 7" />
         </div>
     </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var heroCarousel = document.getElementById('carousel');
+      if (heroCarousel) {
+        heroCarousel.style.cursor = 'pointer';
+        heroCarousel.addEventListener('click', function (e) {
+          // If click happened on controls or indicators, don't navigate
+          var control = e.target.closest('.carousel-control, .carousel-indicators');
+          if (control) {
+            return;
+          }
+          window.location.href = '{{ site.url }}{{ site.baseurl }}/gallery';
+        });
+      }
+    });
+  </script> 
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
