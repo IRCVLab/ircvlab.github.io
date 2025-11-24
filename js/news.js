@@ -22,7 +22,50 @@ document.addEventListener('DOMContentLoaded', () => {
     lightboxImg.src = '';
     document.body.style.overflow = '';
   };
+  // 갤러리 내 좌우 화살표로 대표 이미지 전환
+  document.querySelectorAll('.news-gallery').forEach(gallery => {
+    const mainImg = gallery.querySelector('.news-main-photo img');
+    const thumbs = Array.from(gallery.querySelectorAll('.news-thumbnails img'));
+    const prevBtn = gallery.querySelector('.news-arrow.prev');
+    const nextBtn = gallery.querySelector('.news-arrow.next');
 
+    if (!mainImg || thumbs.length === 0) return;
+
+    let currentIndex = 0;
+
+    const showImage = (index) => {
+      currentIndex = index;
+      const targetThumb = thumbs[currentIndex];
+      if (targetThumb) {
+        mainImg.src = targetThumb.src;
+      }
+    };
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (thumbs.length <= 1) return;
+        const nextIndex = (currentIndex - 1 + thumbs.length) % thumbs.length;
+        showImage(nextIndex);
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (thumbs.length <= 1) return;
+        const nextIndex = (currentIndex + 1) % thumbs.length;
+        showImage(nextIndex);
+      });
+    }
+
+    // 썸네일 클릭 시 대표 이미지도 해당 이미지로 변경
+    thumbs.forEach((thumb, index) => {
+      thumb.addEventListener('click', () => {
+        showImage(index);
+      });
+    });
+  });
   // 썸네일 클릭
   document.querySelectorAll('.news-thumbnails img').forEach(img => {
     img.style.cursor = 'zoom-in';

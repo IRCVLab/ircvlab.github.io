@@ -1,7 +1,23 @@
+- date: Nov 21, 2025
+  headline: "Update: Our lab has introduced a new research car! 🎉"
+  photos:
+    - images/news/hwangcar_1.png
+    - images/news/hwangcar_2.png
+    - images/news/hwangcar_3.png
+
+- date: Nov 14, 2025
+  headline: "Award: Nayoung Kim received the Outstanding Presentation Award in the poster session at KSAE Autumn Academic Conference (2025 추계학술대회 및 전시회 우수발표논문상, 포스터발표 부문)."
+  photos:
+    - images/news/award_nayoung.jpg
+  links:
+    - title: "[KSAE] Official announcement"
+      url: "https://www.ksae.org/workshop/202502/bbs/notice.php?mode=view&number=68723"
+  
+
 - date: Oct 1, 2025
   headline: "Notice: Beyond-G Ph.D. Fellowship recruitment."
   photos:
-    - images/Beyond-G Fellowship.jpeg
+    - images/news/Beyond-G Fellowship.jpeg
 
 - date: Sep 1, 2025
   headline: "New member: Yongjae has joined our lab as a master's students. 🎉"
