@@ -2,56 +2,81 @@
   <div class="panel-footer" style="background-color: #181D62">
     <div class="container-fluid">
       <div class="row">
-		<div class="col-sm-5 footer-left">
-			<!-- 			<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fircvlab.github.io&count_bg=%23103C64&title_bg=%23000000&icon=smugmug.svg&icon_color=%23E7E7E7&title=Welcome+to+IRCV&edge_flat=false"/></a>		  <p>&copy 2023–2025 IRCV Lab. <a href="/aboutwebsite">more ›</a></p> -->
-					   
-				<p>
-					<!-- <a><img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fircv.hanyang.ac.kr%2F&label=Welcome%21&icon=balloon-heart&color=%23ffffff"></a><br><br> -->
-          <span id="goatcounter-visits">Loading views...</span><br><br>
-					#504 Chung Mong-Koo Automotive Research Center, Hanyang University<br>
-					222 Wangsimni-ro, Seongdong-gu<br>
-					Seoul 04763, South Korea
-				</p>
-				
-				<p class="footer-icons">
-					<a href="https://github.com/ircvlab"><i class="fab fa-github"></i></a>
-					<!-- <a href="https://twitter.com/hyeshik"><i class="fab fa-twitter-square"></i></a> -->
-					<!-- <a href="https://pypi.org/user/hyeshik/"><i class="fab fa-python"></i></a> -->
-				</p>
-			</div>
-			<div class="col-sm-7 footer-links">
-        
-        <a href="http://hanyang.ac.kr/"><img src="/images/logopic/logo-hanyang.png" class="img-responsive" style="width: 270px; height: 100px;"></a>
-        <a href="https://ae.hanyang.ac.kr/%ED%99%88"><img src="/images/logopic/logo-hanyang-future_car.png" class="img-responsive" style="width: 270px; height: 100px;"></a>
-        <a href="http://beyond-g.hanyang.ac.kr/"><img src="/images/logopic/beyond.png" class="img-responsive" style="width: 270px; height: 100px; padding-left: 38px; padding-right: 38px;"></a>
-        <a href="https://aec.hanyang.ac.kr/"><img src="/images/logopic/logo-future_mobility.png" class="img-responsive" style="width: 270px; height: 100px;"></a>
-        
-        
+        <div class="col-sm-5 footer-left">
+          <!-- 			<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fircvlab.github.io&count_bg=%23103C64&title_bg=%23000000&icon=smugmug.svg&icon_color=%23E7E7E7&title=Welcome+to+IRCV&edge_flat=false"/></a>		  <p>&copy 2023–2025 IRCV Lab. <a href="/aboutwebsite">more ›</a></p> -->
+
+          <p>
+            <!-- <a><img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fircv.hanyang.ac.kr%2F&label=Welcome%21&icon=balloon-heart&color=%23ffffff"></a><br><br> -->
+            <span id="goatcounter-visits">Loading views...</span><br><br>
+            #504 Chung Mong-Koo Automotive Research Center, Hanyang University<br>
+            222 Wangsimni-ro, Seongdong-gu<br>
+            Seoul 04763, South Korea
+          </p>
+
+          <p class="footer-icons">
+            <a href="https://github.com/ircvlab"><i class="fab fa-github"></i></a>
+            <!-- <a href="https://twitter.com/hyeshik"><i class="fab fa-twitter-square"></i></a> -->
+            <!-- <a href="https://pypi.org/user/hyeshik/"><i class="fab fa-python"></i></a> -->
+          </p>
+        </div>
+        <div class="col-sm-7 footer-links">
+
+          <a href="http://hanyang.ac.kr/"><img src="/images/logopic/logo-hanyang.png" class="img-responsive"
+              style="width: 270px; height: 100px;"></a>
+          <a href="https://ae.hanyang.ac.kr/%ED%99%88"><img src="/images/logopic/logo-hanyang-future_car.png"
+              class="img-responsive" style="width: 270px; height: 100px;"></a>
+          <a href="http://beyond-g.hanyang.ac.kr/"><img src="/images/logopic/beyond.png" class="img-responsive"
+              style="width: 270px; height: 100px; padding-left: 38px; padding-right: 38px;"></a>
+          <a href="https://aec.hanyang.ac.kr/"><img src="/images/logopic/logo-future_mobility.png"
+              class="img-responsive" style="width: 270px; height: 100px;"></a>
+
+
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 
-<!-- GoatCounter count.js 로드 -->
-<script data-goatcounter="https://ircv.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
+  <script data-goatcounter="https://ircv.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
 
-<!-- visit_count 안전 호출 -->
-<script>
-  var t = setInterval(function () {
-    if (window.goatcounter) {
-      clearInterval(t)
-      fetch('https://ircv.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json')
-        .then(res => res.json())
-        .then(data => {
-          document.getElementById('goatcounter-visits').textContent = `${data.count} views`;
-        })
-        .catch(err => {
-          document.getElementById('goatcounter-visits').textContent = 'loading failed..';
-        });
-    }
-  }, 100);
-</script>
+  <script>
+    var t = setInterval(function () {
+      if (window.goatcounter) {
+        clearInterval(t);
+
+        var path = encodeURIComponent(location.pathname);
+        var goatUrl = 'https://ircv.goatcounter.com/counter/' + path + '.json';
+
+        // 오늘 날짜 구하기 (YYYY-MM-DD 포맷)
+        // 주의: GoatCounter 설정의 타임존과 사용자 브라우저 타임존 차이가 있을 수 있습니다.
+        var today = new Date().toISOString().split('T')[0];
+
+        // 1. Total 조회수 가져오기
+        fetch(goatUrl)
+          .then(res => res.json())
+          .then(totalData => {
+            var totalCount = totalData.count;
+
+            // 2. Today 조회수 가져오기 (?start=오늘날짜)
+            fetch(goatUrl + '?start=' + today)
+              .then(res => res.json())
+              .then(todayData => {
+                var todayCount = todayData.count;
+
+                // 화면에 표시 (예: Total: 1234 | Today: 5)
+                document.getElementById('goatcounter-visits').innerText = 'Today: ' + todayCount + '\n Total: ' + totalCount;
+              })
+              .catch(err => {
+                // Today 로딩 실패 시 Total만 보여주기
+                document.getElementById('goatcounter-visits').innerText = 'Total: ' + totalCount;
+              });
+          })
+          .catch(err => {
+            document.getElementById('goatcounter-visits').textContent = '';
+          });
+      }
+    }, 100);
+  </script>
 
 
-<script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
