@@ -111,7 +111,7 @@
       is_first: false
     - link: soonmin-hwang          
       is_corresponding: true    
-  title: "Understanding Cross-Domain Robustness in LiDAR Semantic Segmentationt"
+  title: "Understanding Cross-Domain Robustness in LiDAR Semantic Segmentation"
   journal: "International Conference on ICT Convergence (ICTC)"
   pubdate:
     year: 2025
