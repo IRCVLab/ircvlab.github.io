@@ -85,19 +85,6 @@
   start_date: [2026, 9, 1]
   active: true
 
-
-- name: Jaemin Song
-  name_abbr: J. Song
-  photo: jaemin.webp
-  email: bisisi1005@hanyang.ac.kr
-  info: M.S. Student
-  intro:
-  link: jaemin-song
-  category: ms-student
-  sort-key: song-jaemin
-  start_date: [2023, 9, 1]
-  active: true
-
 - name: Jaeha Song
   name_abbr: J. Song
   photo: jhsong-thumb.jpg
