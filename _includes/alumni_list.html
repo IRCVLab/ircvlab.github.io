@@ -1,0 +1,30 @@
+{% assign active_members = site.data.alumni_members | where_exp:"memb", "memb.active" %}
+{% assign member_list = active_members | where_exp:"memb", "selected_categories contains memb.category" %}
+{% assign members_sorted = member_list | sort: "end_date" | reverse %}
+
+<div class="row">
+    {% for person in members_sorted %}
+    <div class="col-sm-6 clearfix member-list-item" {% if person.link
+        %}data-href="{{ site.url }}{{ site.baseurl }}/team/{{ person.link }}" {% endif %}>
+        <img src="{{ site.url }}{{ site.baseurl }}/images/members/{{ person.photo }}" class="img-responsive member-img"
+            alt="{{ person.name }}" />
+        {% if person.link %}
+        <h4><a href="{{ site.url }}{{ site.baseurl }}/team/{{ person.link }}" class="member-link">{{ person.name }}</a>
+        </h4>
+        {% else %}
+        <h4>{{ person.name }}</h4>
+        {% endif %}
+        {% assign info_text = person.info | replace: "Student", "" | strip %}
+        <i>{{ info_text }}, {{ person.start_date[0] }} – {{ person.end_date[0] }}</i>
+        {% if person.current %}
+        <p class="member-intro" style="margin-top: 5px;">
+            <strong>Current:</strong> {{ person.current }}
+        </p>
+        {% endif %}
+        <p></p>
+        <br />
+    </div>
+    {% assign mod = forloop.index | modulo: 2 %}
+    {% if mod == 0 %}<div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>{% endif %}
+    {% endfor %}
+</div>

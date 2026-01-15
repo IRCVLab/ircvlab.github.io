@@ -1,6 +1,5 @@
 ---
----
-    
+--- 
 @import "bootstrap";
 @import "fontawesome/fontawesome";
 @import "fontawesome/brands";
@@ -11,167 +10,209 @@
 @import "rnd";
 
 img {
-    margin-bottom: 24px; 
-    margin-top: 17px; 
-    border-radius:2%;
+  margin-bottom: 24px;
+  margin-top: 17px;
+  border-radius: 2%;
 }
 
 
 body {
-    padding-top: 128px;
+  padding-top: 128px;
 }
 
 figcaption {
-    text-align: right;
-    margin-top: -20px;
-    margin-bottom: 20px;
+  text-align: right;
+  margin-top: -20px;
+  margin-bottom: 20px;
 }
 
-h1, h2, h3, h4, h5, h6, h7 {
-    letter-spacing: -0.03em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+  letter-spacing: -0.03em;
 }
 
 
 
 /* Top navigation bar */
-.navbar .navbar-brand > .lab-logo { height: 90px; }
+.navbar .navbar-brand>.lab-logo {
+  height: 90px;
+}
 
 p.byline {
-	text-align: center;
-	font-size: 18px;
-	line-height: 36px;
-	margin-top: -24px;
-	margin-bottom: 48px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 36px;
+  margin-top: -24px;
+  margin-bottom: 48px;
 }
 
 
-firstp {
-}
+firstp {}
 
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  max-width: 1300px; /* or 950px */
+  max-width: 1300px;
+  /* or 950px */
+}
+
+.body-container .container-fluid {
+  width: 92%;
+  /* Responsive side margins for body content only */
 }
 
 /* Home, News */
 #newsid p {
-	text-align: left;
+  text-align: left;
 }
 
 #homeidtmp h1 {
-	text-align: center;
+  text-align: center;
 }
 
 #newsid img {
-	margin-top: 6px;
-	margin-bottom: 6px;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
 /* Team & Publications */
-#gridid img { margin: 16px 22px 6px 0; border-radius:10%; box-shadow: 2px 2px 5px #888888 }
-#homeid img { margin: 0 0 0 0; border-radius:5%; box-shadow: 0px 0px 0px #888888 }
-#picid img { margin: 6px 3px 60px 6px; border-radius:1%; box-shadow: 2px 2px 5px #888888 }
-#gridid .row { margin-bottom: 24px; }
+#gridid img {
+  margin: 16px 22px 6px 0;
+  border-radius: 10%;
+  box-shadow: 2px 2px 5px #888888
+}
+
+#homeid img {
+  margin: 0 0 0 0;
+  border-radius: 5%;
+  box-shadow: 0px 0px 0px #888888
+}
+
+#picid img {
+  margin: 6px 3px 60px 6px;
+  border-radius: 1%;
+  box-shadow: 2px 2px 5px #888888
+}
+
+#gridid .row {
+  margin-bottom: 24px;
+}
 
 
 /* Grid overrides */
-.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-5, .col-sm-6,
-.col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-	padding-left: 16px;
-	padding-right: 16px;
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12 {
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 /* Grid overrides */
 .col-sm-4 {
-	padding-left: 26px;
-	padding-right: 26px;
+  padding-left: 26px;
+  padding-right: 26px;
 }
 
 
 /* Carusel */
 
 .carousel {
-    border-radius: 3px 3px 3px 3px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+  border-radius: 3px 3px 3px 3px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 ul.publications_in_profile li {
-    padding-bottom: 12px;
-    line-height: 130%;
+  padding-bottom: 12px;
+  line-height: 130%;
 }
 
 span.publi_journal {
-    font-family: $headings-font-family;
-    font-style: italic;
-    color: #222;
+  font-family: $headings-font-family;
+  font-style: italic;
+  color: #222;
 }
 
-a.publi_author { /* Internal authors */
-    font-weight: 600;
-    color: #0544ab;
+a.publi_author {
+  /* Internal authors */
+  font-weight: 600;
+  color: #0544ab;
 }
 
-span.publi_author { /* External authors */
+span.publi_author {
+  /* External authors */
 }
 
 a.publi_title {
-    font-family: $headings-font-family;
-    font-weight: bold;
-    color: #0544ab;
+  font-family: $headings-font-family;
+  font-weight: bold;
+  color: #0544ab;
 }
 
 .panel-footer {
-    color: #eee;
+  color: #eee;
 }
 
-.panel-footer a:link, .panel-footer a:active {
-    color: #0594cb;
-    text-decoration: none;
+.panel-footer a:link,
+.panel-footer a:active {
+  color: #0594cb;
+  text-decoration: none;
 }
 
 .panel-footer a:hover {
-    color: #96ccff;
-    text-decoration: none;
+  color: #96ccff;
+  text-decoration: none;
 }
 
 a {
-    -webkit-transition: color .15s ease-in;
-    transition: color .15s ease-in;
+  -webkit-transition: color .15s ease-in;
+  transition: color .15s ease-in;
 }
 
 div#footer {
-    border-width: 0px;
+  border-width: 0px;
 }
 
 .footer-icons {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 div#footer .footer-icons i {
-    transition: transform .2s;
-    opacity: 0.6;
-    color: white;
+  transition: transform .2s;
+  opacity: 0.6;
+  color: white;
 }
 
 div#footer .footer-icons i:hover {
-    transform: scale(1.1);
-    opacity: 0.85;
+  transform: scale(1.1);
+  opacity: 0.85;
 }
 
 div.navbar div.container-fluid {
-    padding: 0px 30px 0px 0px;
+  padding: 0px 30px 0px 0px;
 }
 
 div.navbar {
-    font-family: $headings-font-family;
-    /* Keep only left/right borders removed; allow top/bottom borders */
-    border-left-width: 0;
-    border-right-width: 0;
-    margin-bottom: 0 !important;
+  font-family: $headings-font-family;
+  /* Keep only left/right borders removed; allow top/bottom borders */
+  border-left-width: 0;
+  border-right-width: 0;
+  margin-bottom: 0 !important;
 }
 
 /* Always show continuous white lines across the full header (all widths) */
@@ -181,53 +222,54 @@ div.navbar {
 }
 
 div.body-container {
-    background-color: white;
-    padding-bottom: 30px;
+  background-color: white;
+  padding-bottom: 30px;
 }
 
 div.footer-left {
-    padding-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 div.footer-links {
-    padding-left: 26px;
+  padding-left: 26px;
 }
 
 div#footer {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 div.footer-links img {
-    height: 85px;
-    float: left;
-    background-color: white;
-    border-radius: .5rem;
-    padding: 14px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    transition: transform .2s;
+  height: 85px;
+  float: left;
+  background-color: white;
+  border-radius: .5rem;
+  padding: 14px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  transition: transform .2s;
 }
 
 div.footer-links img:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 blockquote {
-    font-size: 16px;
-    background-color: #f8f8f8;
+  font-size: 16px;
+  background-color: #f8f8f8;
 }
 
-div#homeid, div#textid {
-    line-height: 1.65;
+div#homeid,
+div#textid {
+  line-height: 1.65;
 }
 
 div#textid h3 {
-    margin-top: 35px;
+  margin-top: 35px;
 }
 
 div#gridid h3 {
-    margin-top: 45px;
-    margin-bottom: 8px;
+  margin-top: 45px;
+  margin-bottom: 8px;
 }
 
 /* Homepage side padding */
@@ -235,12 +277,14 @@ div#gridid h3 {
   padding-left: 16px;
   padding-right: 16px;
 }
+
 @media (min-width: 768px) {
   .home-wrapper {
     padding-left: 24px;
     padding-right: 24px;
   }
 }
+
 @media (min-width: 1200px) {
   .home-wrapper {
     padding-left: 36px;
@@ -251,151 +295,155 @@ div#gridid h3 {
 /* Member pages */
 
 .twocols {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    margin: 1px;
-    padding-left: 30px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin: 1px;
+  padding-left: 30px;
 }
 
 .hugespacer {
-    height: 50px;
+  height: 50px;
 }
 
 .bigspacer {
-    height: 20px;
+  height: 20px;
 }
 
 .spacer {
-    height: 10px;
+  height: 10px;
 }
 
 .smallspacer {
-    height: 5px;
+  height: 5px;
 }
 
 .titlebox {
-    min-width: 300px;
+  min-width: 300px;
 }
 
 .pad-right {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 .pad-left {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .smallhead {
-    font-size: 19px;
-    line-height: 19px;
+  font-size: 19px;
+  line-height: 19px;
 }
 
 img.big-member-photo {
-    margin-bottom: 24px; 
-    margin-top: 17px; 
-    border-radius: 10px 10px 10px 10px;
-    max-width: 170px;
+  margin-bottom: 24px;
+  margin-top: 17px;
+  border-radius: 10px 10px 10px 10px;
+  max-width: 170px;
 }
 
 .member-photo-title {
-    margin-top: 24px;
+  margin-top: 24px;
 }
 
 .member-photo-title .media-heading {
-    font-size: 200%;
-    font-weight: bold;
+  font-size: 200%;
+  font-weight: bold;
 }
 
 .member-photo-title .smallhead {
-    font-weight: 200;
+  font-weight: 200;
 }
 
 .post h4 {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 ul.chronological span {
-    color: #909090;
+  color: #909090;
 }
 
 a.member-link {
-    color: #333333;
+  color: #333333;
 }
 
 .member-pane .col-sm-12 {
-    padding-left: 40px;
-    padding-right: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .member-pane .post {
-    line-height: 1.65;
+  line-height: 1.65;
 }
 
 div#intern_list h4 {
-    padding-top: 6px;
-    margin-top: 4px;
-    margin-bottom: 4px;
+  padding-top: 6px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 div#intern_list small {
-    color: #a0a0a0;
+  color: #a0a0a0;
 }
 
 div#alumni_list {
-    padding-top: 3px;
-    padding-bottom: 15px;
+  padding-top: 3px;
+  padding-bottom: 15px;
 }
 
 div#alumni_list div.current_position {
-    padding-top: 0px;
+  padding-top: 0px;
 }
 
 div#alumni_list h5 span {
-    font-weight: 400;
-    font-style: italic;
-    font-size: 90%;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 90%;
 }
 
 div#alumni_list h5 {
-    margin-bottom: 2px;
+  margin-bottom: 2px;
 }
 
 div#alumni_list h5 a {
-    color: #404040;
+  color: #404040;
 }
 
 @media only screen and (max-width: 768px) {
-    #gridid .row {
-        margin-bottom: 0px;
-    }
+  #gridid .row {
+    margin-bottom: 0px;
+  }
 }
 
 .member-list-item[data-href]:hover {
-    background: #f1f4fc;
-    cursor: pointer; 
+  background: #f1f4fc;
+  cursor: pointer;
 }
 
 .member-img {
-    width: 100px;    
-    height: 140px;   
-    object-fit: cover; 
-    float: left;
-    margin-right: 10px;
-  }
+  width: 100px;
+  height: 140px;
+  object-fit: cover;
+  float: left;
+  margin-right: 10px;
+}
 
 /* Make top-level navbar links bold */
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav>li>a {
   font-weight: 500;
 }
 
 /* Tighten space between logo and first menu item on desktop */
 @media (min-width: $grid-float-breakpoint) {
   .navbar .navbar-brand {
-    padding-right: 100px; /* reduce to zero for minimal gap */
+    padding-right: 100px;
+    /* reduce to zero for minimal gap */
   }
-  .navbar-default .navbar-nav > li:first-child > a {
-    padding-left: 6px; /* small left padding */
+
+  .navbar-default .navbar-nav>li:first-child>a {
+    padding-left: 6px;
+    /* small left padding */
   }
+
   .navbar .navbar-collapse {
     padding-left: 0;
   }
@@ -403,11 +451,13 @@ div#alumni_list h5 a {
 
 /* Desktop only: vertically center nav links to align with 90px logo */
 @media (min-width: $grid-float-breakpoint) {
+
   /* Vertically center links to align with 90px logo */
-  .navbar-default .navbar-nav > li > a {
+  .navbar-default .navbar-nav>li>a {
     height: 90px;
     line-height: 90px;
-    box-sizing: border-box; /* keep total height incl. borders/padding */
+    box-sizing: border-box;
+    /* keep total height incl. borders/padding */
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -420,38 +470,48 @@ div#alumni_list h5 a {
 }
 
 /* Navbar: remove default margins from the logo image to prevent header clipping */
-.navbar .navbar-brand > img,
-.navbar .navbar-brand > .lab-logo {
+.navbar .navbar-brand>img,
+.navbar .navbar-brand>.lab-logo {
   display: inline-block;
-  height: 90px; /* keep consistent with link height */
-  margin: 0 !important; /* override global img margins */
+  height: 90px;
+  /* keep consistent with link height */
+  margin: 0 !important;
+  /* override global img margins */
   vertical-align: middle;
 }
 
 /* Responsive logo sizing: prevent clipping on mobile */
 .navbar .lab-logo {
   display: inline-block;
-  height: 90px; /* default desktop to match link height */
+  height: 90px;
+  /* default desktop to match link height */
   width: auto;
 }
 
 @media (max-width: 767px) {
+
   /* Reduce navbar min-height and logo size on small screens */
   .navbar.navbar-default.navbar-fixed-top {
     min-height: 56px;
   }
+
   .navbar .navbar-brand {
     height: auto;
     padding-top: 8px;
     padding-bottom: 8px;
-    line-height: normal; /* avoid forcing tall line-height */
+    line-height: normal;
+    /* avoid forcing tall line-height */
   }
+
   .navbar .lab-logo {
-    height: 36px; /* scale down logo so it fits */
+    height: 36px;
+    /* scale down logo so it fits */
     max-height: 36px;
-    width: auto; /* keep aspect ratio */
+    width: auto;
+    /* keep aspect ratio */
     vertical-align: middle;
   }
+
   /* Tweak toggle alignment for collapsed nav */
   .navbar-toggle {
     margin-top: 10px;
@@ -460,34 +520,38 @@ div#alumni_list h5 a {
 }
 
 /* Sticky footer: keep footer at bottom even on short pages */
-html, body {
-    height: 100%;
-  }
-  
-  body {
-    display: flex;
-    min-height: 100vh;  /* full viewport height */
-    flex-direction: column;
-  }
-  
-  /* Main content grows to fill available space */
-  .body-container {
-    flex: 1 0 auto;
-  }
-  
-  /* Footer takes remaining space if content is short */
-  #footer {
-    margin-top: auto;
-  }
-  
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  /* full viewport height */
+  flex-direction: column;
+}
+
+/* Main content grows to fill available space */
+.body-container {
+  flex: 1 0 auto;
+}
+
+/* Footer takes remaining space if content is short */
+#footer {
+  margin-top: auto;
+}
+
 /* Keep the header fixed and always on top */
 .navbar.navbar-default.navbar-fixed-top {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 2000; /* above other content */
-  min-height: 90px; /* match link/logo height to avoid partial hiding */
+  z-index: 2000;
+  /* above other content */
+  min-height: 90px;
+  /* match link/logo height to avoid partial hiding */
 }
 
 /* Subtle shadow for the News well */
@@ -498,6 +562,7 @@ html, body {
   border-radius: 8px;
   transition: box-shadow .2s ease;
 }
+
 .well.well-news:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.10);
 }
@@ -505,13 +570,16 @@ html, body {
 /* Subtle shadow and rounding for the homepage carousel */
 #carousel {
   border-radius: 10px;
-  overflow: hidden; /* clip images to rounded corners */
+  overflow: hidden;
+  /* clip images to rounded corners */
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.14), 0 2px 6px rgba(0, 0, 0, 0.10);
   transition: box-shadow .2s ease;
 }
+
 #carousel:hover {
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.16), 0 4px 10px rgba(0, 0, 0, 0.12);
 }
+
 #carousel .item img {
   display: block;
   width: 100%;
@@ -526,11 +594,13 @@ html, body {
   position: fixed;
   inset: 0;
   background: #ffffff;
-  display: none; /* will be set to flex by JS */
+  display: none;
+  /* will be set to flex by JS */
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  z-index: 3000; /* above fixed navbar (2000) */
+  z-index: 3000;
+  /* above fixed navbar (2000) */
   transition: opacity .35s ease;
 }
 
@@ -539,29 +609,36 @@ html, body {
   width: min(92vw, 820px);
   max-width: 100%;
   height: auto;
-  display: block;            /* remove inline baseline quirks */
+  display: block;
+  /* remove inline baseline quirks */
   margin: 0 18px 6px 18px;
 }
 
 @media (max-width: 480px) {
-    #splash .splash-logo {
-      width: 92vw;   /* let width drive scaling on small screens */
-   }
-   #splash .splash-typing {
-     font-size: clamp(20px, 6vw, 34px);
-     line-height: 1.2;
-   }
- }
- 
+  #splash .splash-logo {
+    width: 92vw;
+    /* let width drive scaling on small screens */
+  }
+
+  #splash .splash-typing {
+    font-size: clamp(20px, 6vw, 34px);
+    line-height: 1.2;
+  }
+}
+
 #splash .splash-typing {
   font-family: $headings-font-family;
-  font-size: clamp(22px, 4.5vw, 44px); /* larger text; adjust here */
-  line-height: 1.2; /* slightly tighter to reduce perceived gap */
+  font-size: clamp(22px, 4.5vw, 44px);
+  /* larger text; adjust here */
+  line-height: 1.2;
+  /* slightly tighter to reduce perceived gap */
   color: #181D62;
   letter-spacing: -0.02em;
-  margin: 0 24px; /* keep side margins; top/bottom 0 for minimal gap */
+  margin: 0 24px;
+  /* keep side margins; top/bottom 0 for minimal gap */
   text-align: center;
-  font-weight: 800; /* 더 두껍게 */
+  font-weight: 800;
+  /* 더 두껍게 */
 }
 
 #splash .splash-typing.gradient-reveal {
@@ -570,7 +647,8 @@ html, body {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: text-wipe 1.4s ease forwards; /* JS의 effectDuration과 싱크 */
+  animation: text-wipe 1.4s ease forwards;
+  /* JS의 effectDuration과 싱크 */
 }
 
 @keyframes text-wipe {
@@ -579,6 +657,7 @@ html, body {
     opacity: .2;
     letter-spacing: .02em;
   }
+
   100% {
     background-position: 0 0;
     opacity: 1;

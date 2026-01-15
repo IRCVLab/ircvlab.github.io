@@ -1,0 +1,26 @@
+---
+title: "Alumni | IRCV Lab"
+layout: gridlay
+excerpt: "IRCVLab: Alumni members"
+sitemap: false
+permalink: /alumni/
+---
+
+<h2>Alumni</h2>
+
+<br />
+
+{% assign selected_categories = "ms-student" | split:',' %}
+{% include alumni_list.html %}
+
+
+
+<script>
+    $('body').on('click', '.member-list-item[data-href]', function () {
+        if (window.location.hash) {
+            window.location.hash = $(this).data('href');
+        } else {
+            window.location.href = $(this).data('href');
+        }
+    })
+</script>

@@ -1,11 +1,56 @@
-- name: Ari Hong
-  position: Master's Student
-  start_date: [2020, 3, 1]
-  end_date: [2023, 2, 10]
-  link: ari-hong
-  current: Ph.D. Student at the Bio-Medical Informatics Lab, Seoul National University Hospital
 
-- name: Eun-jin Chang
-  position: Research Assistant
-  start_date: [2019, 3, 12]
-  end_date: [2022, 1, 31]
+- name: Byounghun Park
+  name_abbr: B. Park
+  photo: byounghun.webp
+  email: gkrl206@hanyang.ac.kr
+  info: M.S. Student
+  intro:
+  link: byounghun-park
+  category: ms-student
+  sort-key: park-byounghun
+  start_date: [2024, 3, 1]
+  end_date: [2026, 1, 12]
+  active: true
+  current: Hanyang University
+
+- name: Sungoh Jeong
+  name_abbr: S. Jeong
+  photo: sungoh.webp
+  email: sungoh0036@hanyang.ac.kr
+  info: M.S. Student
+  intro:
+  link: sungoh-jeong
+  category: ms-student
+  sort-key: jeong-sungoh
+  start_date: [2024, 3, 1]
+  end_date: [2026, 1, 12]
+  active: true
+  current: Hanyang University, Ph.D. Course
+
+- name: Sungjin Park
+  name_abbr: S. Park
+  photo: sungjin.webp
+  email: shihtzu333@gmail.com
+  info: M.S. Student
+  intro:
+  link: sungjin-park
+  category: ms-student
+  sort-key: park-sungjin
+  start_date: [2024, 3, 1]
+  end_date: [2026, 1, 12]
+  active: true
+  current: LG Electronics
+
+- name: Taewan Kim
+  name_abbr: T. Kim
+  photo: taewan.webp
+  email: qqq3964@hanyang.ac.kr
+  info: M.S. Student
+  intro:
+  link: taewan-kim
+  category: ms-student
+  sort-key: kim-taewan
+  start_date: [2024, 3, 1]
+  end_date: [2026, 1, 12]
+  active: true
+  current: Hyundai Motor Company 

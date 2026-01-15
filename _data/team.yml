@@ -35,7 +35,7 @@
   start_date: [2024, 3, 1]
   active: true
 
-- name: Kyungmin Kim 👑
+- name: Kyungmin Kim 
   name_abbr: K. Kim
   photo: kyungmin.jpeg
   email: tnrud17@hanyang.ac.kr
@@ -59,6 +59,20 @@
   start_date: [2025, 3, 1]
   active: true
 
+
+- name: Sungoh Jeong 👑
+  name_abbr: S. Jeong
+  photo: sungoh.webp
+  email: sungoh0036@hanyang.ac.kr
+  info: Ph.D. Student
+  intro:
+  link: sungoh-jeong
+  category: phd-student
+  sort-key: jeong-sungoh
+  start_date: [2024, 3, 1]
+  active: true
+
+
 - name: Donguk Kim
   name_abbr: D. Kim
   photo: donguk.png
@@ -71,6 +85,7 @@
   start_date: [2026, 9, 1]
   active: true
 
+
 - name: Jaemin Song
   name_abbr: J. Song
   photo: jaemin.webp
@@ -81,54 +96,6 @@
   category: ms-student
   sort-key: song-jaemin
   start_date: [2023, 9, 1]
-  active: true
-
-- name: Byounghun Park
-  name_abbr: B. Park
-  photo: byounghun.webp
-  email: gkrl206@hanyang.ac.kr
-  info: M.S. Student
-  intro:
-  link: byounghun-park
-  category: ms-student
-  sort-key: park-byounghun
-  start_date: [2024, 3, 1]
-  active: true
-
-- name: Sungoh Jeong
-  name_abbr: S. Jeong
-  photo: sungoh.webp
-  email: sungoh0036@hanyang.ac.kr
-  info: M.S. Student
-  intro:
-  link: sungoh-jeong
-  category: ms-student
-  sort-key: jeong-sungoh
-  start_date: [2024, 3, 1]
-  active: true
-
-- name: Sungjin Park
-  name_abbr: S. Park
-  photo: sungjin.webp
-  email: shihtzu333@gmail.com
-  info: M.S. Student
-  intro:
-  link: sungjin-park
-  category: ms-student
-  sort-key: park-sungjin
-  start_date: [2024, 3, 1]
-  active: true
-
-- name: Taewan Kim
-  name_abbr: T. Kim
-  photo: taewan.webp
-  email: qqq3964@hanyang.ac.kr
-  info: M.S. Student
-  intro:
-  link: taewan-kim
-  category: ms-student
-  sort-key: kim-taewan
-  start_date: [2024, 3, 1]
   active: true
 
 - name: Jaeha Song
@@ -263,18 +230,6 @@
   start_date: [2024, 12, 30]
   active: true
 
-- name: Jiwoong Ryu
-  name_abbr: J. Ryu
-  photo: Jiwoong.jpg
-  email: toki0406@hanyang.ac.kr
-  info: Undergraduate Student
-  intro:
-  link: Jiwoong-ryu
-  category: intern
-  sort-key: ryu-jiwoong
-  start_date: [2025, 6, 30]
-  active: true
-
 - name: Seonghyun Park
   name_abbr: S. Park
   photo: seonghyun.jpg
@@ -298,19 +253,7 @@
   sort-key: kim-dongmin
   start_date: [2025, 9, 1]
   active: true
-  
-- name: Youngwoong Kim
-  name_abbr: Y. Kim
-  photo: youngwoong.jpg
-  email: heroywkim@hanyang.ac.kr
-  info: Undergraduate Student
-  intro:
-  link: youngwoong-kim
-  category: intern
-  sort-key: kim-youngwoong
-  start_date: [2025, 9, 1]
-  active: true  
-  
+
 - name: Dohyun Lim
   name_abbr: D. Lim
   photo: dohyun.jpg
@@ -323,3 +266,14 @@
   start_date: [2025, 9, 15]
   active: true  
   
+- name: Chehun Han
+  name_abbr: C. Han
+  photo: chehun.jpg
+  email: chehunhan16@gmail.com
+  info: Undergraduate Student
+  intro:
+  link: chehun-han
+  category: intern
+  sort-key: han-chehun
+  start_date: [2026, 1, 12]
+  active: true  
