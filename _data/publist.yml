@@ -1,4 +1,144 @@
 - authors:
+    - link: donguk-kim
+      is_first: true
+    - link: soonmin-hwang          
+      is_corresponding: true    
+  title: "Cross-modal Consistent Augmentation bridging 2D–3D Transformations"
+  journal: "International Conference on AI in Information and Communication (ICAIIC)"
+  pubdate:
+    year: 2026
+    month: Feb
+    mday: 10
+  doi: 
+  marked: 1
+  link:
+    url: ""
+
+- authors:
+    - link: yewon-song
+      is_first: true
+    - link: soonmin-hwang          
+      is_corresponding: true    
+  title: "Seeing the Unseen: Geometry-Aware Test-Time Adaptation for LiDAR Segmentation"
+  journal: "International Conference on AI in Information and Communication (ICAIIC)"
+  pubdate:
+    year: 2026
+    month: Feb
+    mday: 10
+  doi: 
+  marked: 1
+  link:
+    url: ""
+
+- authors:
+    - link: sungjin-park
+      is_first: true
+    - link: taewan-kim
+      is_first: true
+    - link: sanghyun-choi
+      is_first: true
+    - link: soonmin-hwang          
+      is_corresponding: true    
+  title: "View-Mask Loss Aligning Forward Projection Encoder’s Capability for Bird’s Eye View Self-Target Distillation"
+  journal: "한국자동차공학회 추계학술대회 및 전시회"
+  pubdate:
+    year: 2025
+    month: Nov
+    mday: 13
+  doi: 
+  marked: 1
+  link:
+    url: ""
+
+- authors:
+    - link: yongjae-cho
+      is_first: true
+    - link: byounghun-park
+      is_first: true
+    - link: soonmin-hwang          
+      is_corresponding: true    
+  title: "MORE: Multi-modal Object Region Distillation with Rotational Contrastive Learning"
+  journal: "한국자동차공학회 추계학술대회 및 전시회"
+  pubdate:
+    year: 2025
+    month: Nov
+    mday: 13
+  doi: 
+  marked: 1
+  link:
+    url: ""
+
+- authors:
+    - link: nayoung-kim
+      is_first: true
+    - link: geonyeong-park
+      is_first: true
+    - link: soonmin-hwang          
+      is_corresponding: true    
+  title: "Robust Trajectory Prediction under Observation Range Variation"
+  journal: "한국자동차공학회 추계학술대회 및 전시회"
+  pubdate:
+    year: 2025
+    month: Nov
+    mday: 13
+  doi: 
+  marked: 1
+  link:
+    url: ""
+
+- authors:
+    - link: sumin-lee
+      is_first: true
+    - link: yewon-song
+      is_first: true
+    - link: soonmin-hwang          
+      is_corresponding: true    
+  title: "Occlusion-Aware Pseudo Label Generation for LiDAR Semantic Segmentation via Z-Buffer-Guided 2D-to-3D Label Transfer"
+  journal: "한국자동차공학회 추계학술대회 및 전시회"
+  pubdate:
+    year: 2025
+    month: Nov
+    mday: 13
+  doi: 
+  marked: 1
+  link:
+    url: ""
+
+- authors:
+    - link: yewon-song
+      is_first: true
+    - link: sumin-lee
+      is_first: true
+    - link: soonmin-hwang          
+      is_corresponding: true    
+  title: "Understanding Cross-Domain Robustness in LiDAR Semantic Segmentationt"
+  journal: "International Conference on ICT Convergence (ICTC)"
+  pubdate:
+    year: 2025
+    month: Oct
+    mday: 15
+  doi: 
+  marked: 1
+  link:
+    url: ""
+
+- authors:
+    - link: kyungmin-kim
+      is_first: true
+    - link: soonmin-hwang          
+      is_corresponding: true    
+  title: "On the Applicability of General LiDAR Registration to V2X Data Alignment"
+  journal: "International Conference on ICT Convergence (ICTC)"
+  pubdate:
+    year: 2025
+    month: Oct
+    mday: 15
+  doi: 
+  marked: 1
+  link:
+    url: ""
+
+- authors:
     - name: Zhixuan Liu
       is_first: true
     - name: Haokun Zhu
