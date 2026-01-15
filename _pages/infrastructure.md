@@ -19,8 +19,8 @@ permalink: /infrastructure.html
 - **[Lecun] RTX 4090** (VRAM 24GB) X 4
 - **[Ace] A6000** (VRAM 48GB) X 4
 - **[Neo] A6000** (VRAM 48GB) X 4
-- **[추가예정] H200** (VRAM 141GB) x 2 - Beyond-G Innovation Center
-- **[추가예정] RTX 4090** (VRAM 48GB) X 4
+- **[추가예정] H200** (VRAM 141GB) x 16 - Beyond-G Innovation Center
+- **[추가예정] RTX PRO 6000** (VRAM 96GB) X 4
 
 <br>
 
