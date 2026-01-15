@@ -15,7 +15,7 @@
         <h4>{{ person.name }}</h4>
         {% endif %}
         {% assign info_text = person.info | replace: "Student", "" | strip %}
-        <i>{{ info_text }}, {{ person.start_date[0] }} – {{ person.end_date[0] }}</i>
+        <i>{{ info_text }}, {{ person.start_date[0] }}.{{ person.start_date[1] | plus: 100 | slice: 1, 2 }} – {{ person.end_date[0] }}.{{ person.end_date[1] | plus: 100 | slice: 1, 2 }}</i>
         {% if person.current %}
         <p class="member-intro" style="margin-top: 5px;">
             <strong>Current:</strong> {{ person.current }}
