@@ -34,9 +34,9 @@
     - link: sungjin-park
       is_first: true
     - link: taewan-kim
-      is_first: true
+      is_first: false
     - link: sanghyun-choi
-      is_first: true
+      is_first: false
     - link: soonmin-hwang          
       is_corresponding: true    
   title: "View-Mask Loss Aligning Forward Projection Encoder’s Capability for Bird’s Eye View Self-Target Distillation"
@@ -54,7 +54,7 @@
     - link: yongjae-cho
       is_first: true
     - link: byounghun-park
-      is_first: true
+      is_first: false
     - link: soonmin-hwang          
       is_corresponding: true    
   title: "MORE: Multi-modal Object Region Distillation with Rotational Contrastive Learning"
@@ -72,7 +72,7 @@
     - link: nayoung-kim
       is_first: true
     - link: geonyeong-park
-      is_first: true
+      is_first: false
     - link: soonmin-hwang          
       is_corresponding: true    
   title: "Robust Trajectory Prediction under Observation Range Variation"
@@ -90,7 +90,7 @@
     - link: sumin-lee
       is_first: true
     - link: yewon-song
-      is_first: true
+      is_first: false
     - link: soonmin-hwang          
       is_corresponding: true    
   title: "Occlusion-Aware Pseudo Label Generation for LiDAR Semantic Segmentation via Z-Buffer-Guided 2D-to-3D Label Transfer"
@@ -108,7 +108,7 @@
     - link: yewon-song
       is_first: true
     - link: sumin-lee
-      is_first: true
+      is_first: false
     - link: soonmin-hwang          
       is_corresponding: true    
   title: "Understanding Cross-Domain Robustness in LiDAR Semantic Segmentationt"
