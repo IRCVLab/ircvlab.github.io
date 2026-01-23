@@ -264,3 +264,15 @@
   sort-key: han-chehun
   start_date: [2026, 1, 12]
   active: true  
+
+- name: Hyunseok Choi
+  name_abbr: H. Choi
+  photo: hyunseok.png
+  email: hyun15946@hanyang.ac.kr
+  info: Undergraduate Student
+  intro:
+  link: hyunseok-choi
+  category: intern
+  sort-key: choi-hyunseok
+  start_date: [2026, 1, 19]
+  active: true  
