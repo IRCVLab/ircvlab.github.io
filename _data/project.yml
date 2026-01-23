@@ -2,6 +2,11 @@
   duration: '2025. 8. – 2026. 8.'
   status: working # 현대자동차
   image: /images/logopic/logo-hyundai.png
+
+- title: 모듈간 지식 증류 기반 End-to-End 자율주행 모델 학습 기법 연구
+  duration: '2026. 1. – 2026.12.'
+  status: working # rideflux
+  image: /images/logopic/logo-ride-flux.webp
   
 - title: Confidential
   duration: '2025. 5. – 2025.6.'
