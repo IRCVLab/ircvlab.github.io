@@ -1,4 +1,22 @@
 - authors:
+    - link: gwangik-shin
+      is_first: true
+    - link: jaeha-song
+      is_first: false
+    - link: soonmin-hwang          
+      is_corresponding: true    
+  title: "Self-Guided Low Light Object Detection Framework"
+  journal: "The International Conference on Learning Representations (ICLR)"
+  pubdate:
+    year: 2026
+    month: jan
+    mday: 26
+  doi: 
+  marked: 1
+  link:
+    url: ""
+
+- authors:
     - link: donguk-kim
       is_first: true
     - link: soonmin-hwang          
