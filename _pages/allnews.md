@@ -68,9 +68,9 @@ permalink: /allnews.html
 # News
 
 {% comment %}
-  Combine news from 2025, 2024, and 2023 into one array.
+  Combine news from 2026, 2025, 2024, and 2023 into one array.
 {% endcomment %}
-{% assign allnews = site.data.news_2025 | concat: site.data.news_2024 | concat: site.data.news_2023 %}
+{% assign allnews = site.data.news_2026 | concat: site.data.news_2025 | concat: site.data.news_2024 | concat: site.data.news_2023 %}
 
 {% comment %}
   Optionally, if your date fields are in a sortable format (like ISO 8601), you can sort the combined array.
@@ -80,13 +80,14 @@ permalink: /allnews.html
 {% endcomment %}
 <div class="news-tabs">
   <button class="news-tab active" data-year="all">All</button>
+  <button class="news-tab" data-year="2026">2026</button>
   <button class="news-tab" data-year="2025">2025</button>
   <button class="news-tab" data-year="2024">2024</button>
   <button class="news-tab" data-year="2023">2023</button>
 </div>
 
 <div class="news-full">
-{% assign allnews = site.data.news_2025 | concat: site.data.news_2024 | concat: site.data.news_2023 %}
+{% assign allnews = site.data.news_2026 | concat: site.data.news_2025 | concat: site.data.news_2024 | concat: site.data.news_2023 %}
 {% for article in allnews %}
 {% assign year = article.date | split: " " | last %}
 <div class="news-item" data-year="{{ year }}">
