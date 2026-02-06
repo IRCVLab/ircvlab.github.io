@@ -5,10 +5,10 @@ sitemap: false
 permalink: /gallery/winter_workshop2026
 ---
 
-# 2026 IRCV 동계 워크샵
+# 2026 IRCV Winter Workshop
 
 <div class="page-description">
-  <strong> 🏡 2026 IRCV 동계 워크샵을 다녀왔습니다! 🚌 </strong>
+  <strong> 🏡 2026 IRCV Winter Workshop 다녀왔습니다! 🚌 </strong>
   <br>
   안전 및 윤리 교육부터 회고하는 시간을 가지며 워크샵을 시작하였고, AI활용대회와 바베큐 파티, 레크레이션까지 진행하며 즐거운 시간을 보냈습니다!
 </div>

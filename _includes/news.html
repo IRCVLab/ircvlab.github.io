@@ -4,14 +4,23 @@
     <h5 class="see-all pull-right"><a href="{{ site.url }}{{ site.baseurl }}/allnews.html" class="news-more-link">more
         news</a></h5>
   </div>
+  {% assign news_limit = 15 %}
+  {% assign news_count = 0 %}
+  {% assign allowed_tags = "Award,Paper Accepted,New member,Internship,Notice" | split: "," %}
+
   {% assign years = "2026,2025,2024,2023" | split: "," %}
   {% for year in years %}
   {% assign news_key = "news_" | append: year %}
   {% assign news_data = site.data[news_key] %}
   {% for article in news_data %}
+
+  {% if news_count >= news_limit %}{% break %}{% endif %}
+
+  {% assign parts = article.headline | split: ":" %}
+  {% assign tagCandidate = parts[0] | strip %}
+
+  {% if allowed_tags contains tagCandidate %}
   <div class="news-item">
-    {% assign parts = article.headline | split: ":" %}
-    {% assign tagCandidate = parts[0] | strip %}
     {% if article.headline contains ":" %}
     {% if tagCandidate contains "http" or tagCandidate contains "https" %}
     <p class="news-headline"><em>{{ article.headline }}</em></p>
@@ -28,6 +37,10 @@
     {% endif %}
     <p class="news-date">{{ article.date }}</p>
   </div>
+  {% assign news_count = news_count | plus: 1 %}
+  {% endif %}
+
   {% endfor %}
+  {% if news_count >= news_limit %}{% break %}{% endif %}
   {% endfor %}
 </div>
