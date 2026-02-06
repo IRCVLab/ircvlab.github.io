@@ -7,7 +7,34 @@ permalink: /gallery
 
 # Gallery
 
-### 2025 Events
+<div class="gallery-tabs">
+  <button class="gallery-tab active" data-year="all">All</button>
+  <button class="gallery-tab" data-year="2026">2026</button>
+  <button class="gallery-tab" data-year="2025">2025</button>
+</div>
+
+<div class="gallery-content">
+
+<div class="gallery-year-group" data-year="2026">
+<h3>2026 Events</h3>
+<br>
+<div markdown="0" class="gallery-event">
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="{{ site.url }}{{ site.baseurl }}/gallery/winter_workshop2026" class="gallery-card">
+        <div class="gallery-thumb" style="background-image:url('{{ site.url }}{{ site.baseurl }}/images/gallery/winter_workshop2026/winter1.JPG');"></div>
+        <div class="gallery-meta">
+            <h4 class="gallery-title">2026 IRCV 동계 워크샵</h4>
+            <span class="gallery-cta">Open album →</span>
+        </div>
+        </a>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="gallery-year-group" data-year="2025">
+<h3>2025 Events</h3>
 <br>
 <!-- #### KCCV 2025 -->
 <div markdown="0" class="gallery-event">
@@ -21,19 +48,34 @@ permalink: /gallery
         </div>
         </a>
     </div>
-    <div class="col-sm-4">
-      <a href="{{ site.url }}{{ site.baseurl }}/gallery/winter_workshop2026" class="gallery-card">
-        <div class="gallery-thumb" style="background-image:url('{{ site.url }}{{ site.baseurl }}/images/gallery/winter_workshop2026/winter1.JPG');"></div>
-        <div class="gallery-meta">
-            <h4 class="gallery-title">2026 IRCV 동계 워크샵</h4>
-            <span class="gallery-cta">Open album →</span>
-        </div>
-        </a>
-    </div>
   </div>
+</div>
+</div>
+
 </div>
 
 <style>
+.gallery-tabs {
+  margin: 15px 0 30px 0;
+}
+
+.gallery-tab {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.gallery-tab.active {
+  border-color: #bfe1ffff;
+  background-color: #e6f4ff;
+}
+
 .gallery-event {
   margin-bottom: 30px;
 }
@@ -96,8 +138,33 @@ permalink: /gallery
 </style>
 
 <script>
-// Simple lightbox functionality
 $(document).ready(function() {
+  // Gallery filtering functionality
+  var $tabs = $('.gallery-tab');
+  var $groups = $('.gallery-year-group');
+
+  function filterByYear(year) {
+    if (year === 'all') {
+      $groups.show();
+    } else {
+      $groups.hide();
+      $groups.filter('[data-year="' + year + '"]').show();
+    }
+  }
+
+  $tabs.click(function() {
+    var year = $(this).data('year');
+    
+    $tabs.removeClass('active');
+    $(this).addClass('active');
+    
+    filterByYear(year);
+  });
+
+  // Initialize with All
+  filterByYear('all');
+
+  // Simple lightbox functionality (existing)
   $('.gallery-img').click(function() {
     var src = $(this).attr('src');
     var alt = $(this).attr('alt');
