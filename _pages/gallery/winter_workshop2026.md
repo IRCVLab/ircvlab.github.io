@@ -51,9 +51,9 @@ permalink: /gallery/winter_workshop2026
     <div class="col-sm-4">
       <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/winter_workshop2026/winter10.jpeg" class="img-responsive gallery-img" alt="2026 IRCV 동계 워크샵 - 10">
     </div>
-    <div class="col-sm-4">
+    <!-- <div class="col-sm-4">
       <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/winter_workshop2026/winter11.jpeg" class="img-responsive gallery-img" alt="2026 IRCV 동계 워크샵 - 11">
-    </div>
+    </div> -->
     <div class="col-sm-4">
       <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/winter_workshop2026/winter12.jpeg" class="img-responsive gallery-img" alt="2026 IRCV 동계 워크샵 - 12">
     </div>
@@ -68,6 +68,12 @@ permalink: /gallery/winter_workshop2026
     </div>
     <div class="col-sm-4">
       <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/winter_workshop2026/winter16.jpeg" class="img-responsive gallery-img" alt="2026 IRCV 동계 워크샵 - 16">
+    </div>
+    <div class="col-sm-4">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/winter_workshop2026/winter17.jpeg" class="img-responsive gallery-img" alt="2026 IRCV 동계 워크샵 - 17">
+    </div>
+    <div class="col-sm-4">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/winter_workshop2026/winter18.jpeg" class="img-responsive gallery-img" alt="2026 IRCV 동계 워크샵 - 18">
     </div>
   </div>
 </div>
