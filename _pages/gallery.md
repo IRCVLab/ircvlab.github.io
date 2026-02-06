@@ -98,7 +98,7 @@ permalink: /gallery
   display: block;
   border-radius: 10px;
   overflow: hidden;
-  background: #0f123a; /* 사이트 다크 톤과 조화 */
+  background: #ffffffff; /* 사이트 다크 톤과 조화 */
   box-shadow: 0 8px 24px rgba(0,0,0,0.16), 0 4px 10px rgba(0,0,0,0.10);
   transition: transform .2s ease, box-shadow .2s ease;
   text-decoration: none;
@@ -118,14 +118,14 @@ permalink: /gallery
 }
 .gallery-title {
   margin: 0 0 6px 0;
-  color: #fff;
+  color: #0f123a;
   font-weight: 600;
 }
 .gallery-cta {
-  color: #96ccff;
+  color: #6cb5f9ff;
 }
 .gallery-card:hover .gallery-cta {
-  color: #cde6ff;
+  color: #6cb5f9ff;
 }
 @media (max-width: 767px) {
   .gallery-thumb { padding-top: 56%; }
