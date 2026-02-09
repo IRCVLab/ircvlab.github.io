@@ -276,3 +276,15 @@
   sort-key: choi-hyunseok
   start_date: [2026, 1, 19]
   active: true  
+
+- name: Seonghyun Jeon
+  name_abbr: S. Jeon
+  photo: s00138eonghyun.jpeg
+  email: shchon11@hanyang.ac.kr
+  info: Undergraduate Student
+  intro:
+  link: seonghyun-jeon
+  category: intern
+  sort-key: jeon-seonghyun
+  start_date: [2026, 2, 2]
+  active: true  
