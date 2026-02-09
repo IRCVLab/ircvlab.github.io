@@ -73,7 +73,7 @@ permalink: /gallery/winter_workshop2026
       <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/winter_workshop2026/winter17.jpeg" class="img-responsive gallery-img" alt="2026 IRCV 동계 워크샵 - 17">
     </div>
     <div class="col-sm-4">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/winter_workshop2026/winter18.jpeg" class="img-responsive gallery-img" alt="2026 IRCV 동계 워크샵 - 18">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/winter_workshop2026/winter18.png" class="img-responsive gallery-img" alt="2026 IRCV 동계 워크샵 - 18">
     </div>
   </div>
 </div>
