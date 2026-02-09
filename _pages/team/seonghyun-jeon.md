@@ -6,7 +6,7 @@ position: Undergraduate Intern
 handle: seonghyun
 email: shchon11@hanyang.ac.kr
 twitter: 
-github: 
+github: shchon11
 scholar: 
 orcid: 
 image: /images/members/seonghyun.jpeg
