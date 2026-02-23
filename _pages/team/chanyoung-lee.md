@@ -14,7 +14,7 @@ cv:
 permalink: /team/chanyoung-lee
 ---
 
-Minjae Kim is a M.S student at the IRCV lab with interest in various computer vision tasks.
+Chanyoung Lee is a M.S student at the IRCV lab with interest in various computer vision tasks.
 
 #### Education
 
