@@ -14,7 +14,7 @@ cv:
 permalink: /team/donguk-kim
 ---
 
-Donguk Kim is a M.S/Ph.D. Integrated student at the IRCV lab with interest in various computer vision tasks.
+Donguk Kim is a M.S./Ph.D. Integrated student at the IRCV lab with interest in various computer vision tasks.
 
 
 #### Education
