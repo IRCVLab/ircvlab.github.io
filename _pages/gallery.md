@@ -27,7 +27,16 @@ permalink: /gallery
             <h4 class="gallery-title">2026 IRCV Winter Workshop</h4>
             <span class="gallery-cta">Open album →</span>
         </div>
-        </a>
+      </a>
+    </div>
+    <div class="col-sm-4">
+      <a href="{{ site.url }}{{ site.baseurl }}/gallery/graduate2026-1" class="gallery-card">
+        <div class="gallery-thumb" style="background-image:url('{{ site.url }}{{ site.baseurl }}/images/gallery/graduate2026-1/5.jpg');"></div>
+        <div class="gallery-meta">
+            <h4 class="gallery-title">2026 Winter Graduation</h4>
+            <span class="gallery-cta">Open album →</span>
+        </div>
+      </a>
     </div>
   </div>
 </div>

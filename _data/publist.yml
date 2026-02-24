@@ -14,7 +14,10 @@
   doi: 
   marked: 1
   link:
-    url: ""
+    url: "https://iclr.cc/virtual/2026/poster/10009960"
+  links:
+    - type: paper
+      url: "https://iclr.cc/virtual/2026/poster/10009960"
 
 - authors:
     - link: donguk-kim
@@ -103,6 +106,9 @@
   marked: 1
   link:
     url: ""
+  awards: 추계학술대회 및 전시회 우수발표논문상
+
+
 
 - authors:
     - link: sumin-lee
@@ -176,7 +182,10 @@
   marked: 1
   link:
     url: "https://arxiv.org/abs/2503.13816"
-    
+  links: 
+    - type: paper
+      url: "https://arxiv.org/abs/2503.13816"  
+
 - authors:
     - link: byounghun-park
       is_first: true
@@ -193,7 +202,11 @@
   doi:
   marked: 1
   link:
-    url: ""
+    url: "https://ieeexplore.ieee.org/document/11246952"
+  links: 
+    - type: paper
+      url: "https://ieeexplore.ieee.org/document/11246952"
+
 
 - authors:
     - name: SeokJun Kwon
@@ -212,7 +225,10 @@
   doi: 
   marked: 1
   link:
-    url: ""
+    url: "https://arxiv.org/abs/2505.06951"
+  links: 
+    - type: paper
+      url: "https://arxiv.org/abs/2505.06951"
 
 - authors:
     - link: jaeha-song
@@ -230,7 +246,10 @@
   doi: 
   marked: 1
   link:
-    url: ""
+    url: "https://ieeexplore.ieee.org/document/10920789"
+  links: 
+    - type: paper
+      url: "https://ieeexplore.ieee.org/document/10920789"
 
 - authors:
     - link: sungjin-park
@@ -248,7 +267,10 @@
   doi: 
   marked: 1
   link:
-    url: ""
+    url: "https://ieeexplore.ieee.org/document/10920673"
+  links: 
+    - type: paper
+      url: "https://ieeexplore.ieee.org/document/10920673"
 
 - authors:
     - link: jaeha-song
@@ -268,6 +290,7 @@
   marked: 1
   link:
     url: ""
+  awards: 추계학술대회 및 전시회 우수발표논문상
 
 - authors:
     - name: Benjamin Stoler
@@ -285,9 +308,12 @@
     year: 2024
     month: Jun
     mday: 3  
-  doi:   
+  doi:
   link:
     url: "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://its.papercept.net/conferences/conferences/IV24/program/IV24_ContentListWeb_2.html&ved=2ahUKEwic9_T2ztGHAxVkjK8BHRw-PQAQFnoECBwQAQ&usg=AOvVaw2lMrKLqZ09SDD8dLQnLstV"
+  links:
+    - type: paper
+      url: "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://its.papercept.net/conferences/conferences/IV24/program/IV24_ContentListWeb_2.html&ved=2ahUKEwic9_T2ztGHAxVkjK8BHRw-PQAQFnoECBwQAQ&usg=AOvVaw2lMrKLqZ09SDD8dLQnLstV"
 
 - authors:
     - name: Jeongmin Shin
@@ -309,6 +335,9 @@
   marked: 1
   link:
     url: "https://ieeexplore.ieee.org/abstract/document/10494213"
+  links:
+    - type: paper
+      url: "https://ieeexplore.ieee.org/abstract/document/10494213"
 
 - authors:
     - name: Benjamin Stoler
@@ -324,9 +353,12 @@
     year: 2023
     month: Oct
     mday: 1  
-  doi: doi.org/10.1109/IROS55552.2023.10341874  
+  doi: doi.org/10.1109/IROS55552.2023.10341874
   link:
     url: "https://ieeexplore.ieee.org/document/10341874"
+  links:
+    - type: paper
+      url: "https://ieeexplore.ieee.org/document/10341874"
 
 - authors:
     - name: Kwonyoung Ryu
@@ -344,6 +376,9 @@
   doi: doi.org/10.1109/CVPR52729.2023.00902
   link:
     url: "https://ieeexplore.ieee.org/document/10204248"
+  links:
+    - type: paper
+      url: "https://ieeexplore.ieee.org/document/10204248"
 
 - authors:
     - name: Daechan Han
@@ -362,6 +397,9 @@
   doi: doi.org/10.1109/LRA.2022.3196781
   link:
     url: "https://ieeexplore.ieee.org/document/9851497"
+  links:
+    - type: paper
+      url: "https://ieeexplore.ieee.org/document/9851497"
 
 - authors:
     - name: Sanghyun Woo
@@ -384,7 +422,10 @@
   link:
     url: "https://link.springer.com/article/10.1007/s00138-019-01017-9"
     # display: Cell, 181(4):914-921.e10
-  news2: Samsung Humantech Paper Award
+  links:
+    - type: paper
+      url: "https://link.springer.com/article/10.1007/s00138-019-01017-9"
+  awards: Samsung Humantech Paper Award
 
 - authors:
     - name: Yukyung Choi
@@ -405,6 +446,9 @@
   doi: doi.org/10.1109/TITS.2018.2791533
   link:
     url: "https://ieeexplore.ieee.org/document/8293689"
+  links:
+    - type: paper
+      url: "https://ieeexplore.ieee.org/document/8293689"
 
 - authors:
     - name: Namil Kim
@@ -423,12 +467,15 @@
   doi: doi.org/10.1609/aaai.v32i1.12297
   link:
     url: "https://ojs.aaai.org/index.php/AAAI/article/view/12297"
+  links:
+    - type: paper
+      url: "https://ojs.aaai.org/index.php/AAAI/article/view/12297"
 
 - authors:
     - name: Sanghyun Woo
-      is_first: true      
+      is_first: true
     - link: soonmin-hwang
-    - name: In So Kweon    
+    - name: In So Kweon
       is_corresponding: true
   title: "StairNet: Top-Down Semantic Aggregation for Accurate One Shot Detection"
   journal: "IEEE Winter Conference on Applications of Computer Vision (WACV)"
@@ -439,6 +486,9 @@
   doi: doi.org/10.1109/WACV.2018.00125
   link:
     url: https://ieeexplore.ieee.org/document/8354229
+  links:
+    - type: paper
+      url: https://ieeexplore.ieee.org/document/8354229
 
 - authors:
     - name: Yukyung Choi
@@ -447,7 +497,7 @@
       is_first: true
     - link: soonmin-hwang
       is_first: true
-    - name: In So Kweon    
+    - name: In So Kweon
       is_corresponding: true
   title: "Thermal Image Enhancement using Convolutional Neural Network"
   journal: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
@@ -458,6 +508,9 @@
   doi: doi.org/10.1109/IROS.2016.7759059
   link:
     url: https://ieeexplore.ieee.org/document/7759059
+  links:
+    - type: paper
+      url: https://ieeexplore.ieee.org/document/7759059
 
 - authors:
     - link: soonmin-hwang
@@ -477,13 +530,16 @@
   doi: doi.org/10.1109/URAI.2016.7625744
   link:
     url: https://ieeexplore.ieee.org/document/7625744
+  links:
+    - type: paper
+      url: https://ieeexplore.ieee.org/document/7625744
 
 - authors:
     - name: Jae Shin Yoon
       is_first: true
     - name: Kibaek Park
     - name: Namil Kim
-    - name: Soonmin Hwang
+    - name: soonmin-hwang
     - name: Yukyung Choi
     - name: Francois Rameau    
     - name: In So Kweon
@@ -498,6 +554,9 @@
   link:
     url: https://ieeexplore.ieee.org/document/7535507
     # display: Molecular Cell, 70(1):72–82
+  links:
+    - type: paper
+      url: https://ieeexplore.ieee.org/document/7535507
   # highlight: 1
   # marked: 1
   # news2:
@@ -520,9 +579,12 @@
   doi: doi.org/10.1109/URAI.2015.7358880
   link:
     url: https://ieeexplore.ieee.org/document/7358880
+  links:
+    - type: paper
+      url: https://ieeexplore.ieee.org/document/7358880
 
 - authors:
-    - link: Soonmin Hwang
+    - link: soonmin-hwang
       is_first: true
     - name: Yukyung Choi      
     - name: Namil Kim
@@ -539,13 +601,16 @@
   doi: doi.org/10.1109/URAI.2015.7358897
   link:
     url: https://ieeexplore.ieee.org/document/7358897
+  links:
+    - type: paper
+      url: https://ieeexplore.ieee.org/document/7358897
 
 - authors:
     - name: Namil Kim
       is_first: true
-    - name: Yukyung Choi      
+    - name: Yukyung Choi
     - link: soonmin-hwang
-    - name: In So Kweon    
+    - name: In So Kweon
       is_corresponding: true
   title: "ARTRIEVAL: Painting Retrieval Without Expert Knowledge"
   journal: "IEEE International Conference on Image Processing (ICIP)"
@@ -556,12 +621,15 @@
   doi: doi.org/10.1109/ICIP.2015.7351018
   link:
     url: https://ieeexplore.ieee.org/document/7351018
+  links:
+    - type: paper
+      url: https://ieeexplore.ieee.org/document/7351018
 
 - authors:
     - link: soonmin-hwang
       is_first: true
-    - name: Jaesik Park      
-    - name: Namil Kim      
+    - name: Jaesik Park
+    - name: Namil Kim
     - name: Yukyung Choi
     - name: In So Kweon
       is_corresponding: true
@@ -574,6 +642,11 @@
   doi: doi.org/10.1109/CVPR.2015.7298706
   link:
     url: https://ieeexplore.ieee.org/document/7298706
+  links:
+    - type: paper
+      url: https://ieeexplore.ieee.org/document/7298706
+    - type: youtube
+      url: https://www.youtube.com/watch?v=eTiVg5C9PqM
 
 - authors:
     - link: soonmin-hwang
@@ -587,9 +660,12 @@
     year: 2014
     month: Nov
     mday: 1
-  doi: doi.org/10.1007/978-3-319-16631-5_34  
+  doi: doi.org/10.1007/978-3-319-16631-5_34
   link:
     url: https://link.springer.com/chapter/10.1007/978-3-319-16631-5_34
+  links:
+    - type: paper
+      url: https://link.springer.com/chapter/10.1007/978-3-319-16631-5_34
 
 - authors:
     - link: soonmin-hwang
@@ -608,4 +684,7 @@
   doi: doi.org/10.1109/ICCAS.2013.6704138
   link:
     url: https://ieeexplore.ieee.org/document/6704138
+  links:
+    - type: paper
+      url: https://ieeexplore.ieee.org/document/6704138
     
