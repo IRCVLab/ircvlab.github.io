@@ -15,7 +15,7 @@ cv:
 permalink: /team/sanghyun-choi
 ---
 
-Sanghyun Choi is a master's student at the IRCV Lab, focusing on robust 3D perception and various computer vision tasks.
+Sanghyun Choi is a M.S. student at the IRCV Lab, focusing on robust 3D perception and various computer vision tasks.
 
 #### Education
 

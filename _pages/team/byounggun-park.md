@@ -14,7 +14,7 @@ cv:
 permalink: /team/byounggun-park
 ---
 
-Byounggun Park is a master’s student at the IRCV lab with interest in Vision-Language -Model, Multi-modal tasks in autonomous driving domain.
+Byounggun Park is a M.S. student at the IRCV lab with interest in Vision-Language -Model, Multi-modal tasks in autonomous driving domain.
 
 
 #### Education

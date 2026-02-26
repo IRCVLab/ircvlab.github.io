@@ -14,7 +14,7 @@ cv:
 permalink: /team/nayoung-kim
 ---
 
-Nayoung Kim is a master’s student at the IRCV lab with interest in E2E Autonomous Driving and Vision-Language-Action Model.
+Nayoung Kim is a M.S. student at the IRCV lab with interest in E2E Autonomous Driving and Vision-Language-Action Model.
 
 
 #### Education
