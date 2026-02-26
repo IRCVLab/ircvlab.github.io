@@ -31,8 +31,8 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
     <li>Korea Advanced Institute of Science and Technology (KAIST)</li>
   </ul>
  </div>
- <div>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-kaist.png" class="img-responsive" style="float: center" />
+ <div style="display:flex; align-items:center; justify-content:center;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-kaist.png" class="img-responsive" />
  </div> 
 </div>
 
@@ -44,8 +44,8 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
     <li>Korea Advanced Institute of Science and Technology (KAIST)</li>
   </ul>
  </div>
- <div>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-kaist.png" class="img-responsive" style="float: center" />
+ <div style="display:flex; align-items:center; justify-content:center;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-kaist.png" class="img-responsive" />
  </div> 
 </div>
 
@@ -57,8 +57,8 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
     <li>Hanyang University</li>    
   </ul>
  </div>
- <div>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-hanyang.png" class="img-responsive" style="float: center" />
+ <div style="display:flex; align-items:center; justify-content:center;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-hanyang.png" class="img-responsive" />
  </div> 
 </div>
 
@@ -72,13 +72,17 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
   <ul class="chronological">
     <li>2023. 9. – Current</li>
     <li>Department of Automotive Engineering</li>
+    <li>Department of Computer Science (Joint Appointment)</li>
+    <li>Department of Future Mobility</li>
+    <li>Department of Intelligence and Convergence</li>
     <li>Hanyang University (Seoul, South Korea)</li>
   </ul>
  </div>
- <div>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-hanyang.png" class="img-responsive" style="float: center" />
+ <div style="display:flex; align-items:center; justify-content:center;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-hanyang.png" class="img-responsive" />
  </div> 
 </div>
+<div class="bigspacer"></div>
 
 <div class="twocols">
  <div>
@@ -88,8 +92,8 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
     <li>42dot (Seoul-Remote, South Korea)</li>    
   </ul>
  </div>
- <div>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-42dot.png" class="img-responsive" style="float: center" />
+ <div style="display:flex; align-items:center; justify-content:center;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-42dot.png" class="img-responsive" />
  </div> 
 </div>
 
@@ -102,8 +106,8 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
     <li>Carnegie Mellon University (Pittsburgh, PA, USA)</li>    
   </ul>
  </div>
- <div>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-cmu.png" class="img-responsive" style="float: center" />
+ <div style="display:flex; align-items:center; justify-content:center;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-cmu.png" class="img-responsive" />
  </div> 
 </div>
 
@@ -116,10 +120,11 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
     <li>Tesla (Palo Alto, CA, USA)</li>    
   </ul>
  </div>
- <div>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-tesla.png" class="img-responsive" style="float: center" />
+ <div style="display:flex; align-items:center; justify-content:center;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-tesla.png" class="img-responsive" />
  </div> 
 </div>
+<div class="bigspacer"></div>
 
 <div class="twocols">
  <div>
@@ -130,7 +135,7 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
     <li>Qualcomm Research (Vienna, Austria)</li>    
   </ul>
  </div>
- <div>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-qualcomm.png" class="img-responsive" style="float: center" />
+ <div style="display:flex; align-items:center; justify-content:center;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-qualcomm.png" class="img-responsive" />
  </div> 
 </div>

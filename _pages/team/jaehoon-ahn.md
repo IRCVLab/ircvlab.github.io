@@ -14,7 +14,7 @@ cv:
 permalink: /team/jaehoon-ahn
 ---
 
-Jaehoon Ahn is a master's student at the IRCV Lab, with research interests in sensor fusion and learning-based driver behavior analysis using diverse in-vehicle data.
+Jaehoon Ahn is a M.S. student at the IRCV Lab, with research interests in sensor fusion and learning-based driver behavior analysis using diverse in-vehicle data.
 
 #### Education
 

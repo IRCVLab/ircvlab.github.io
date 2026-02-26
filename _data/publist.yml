@@ -1,4 +1,44 @@
 - authors:
+    - name: Kyeong-Ju Cha
+      is_first: true
+    - name: Hyunwoo Park
+    - link: soonmin-hwang  
+    - name: Sunwoo Kim
+      is_corresponding: False    
+  title: "Radio Point Cloud-Based Positioning and Mapping"
+  journal: "International Conference on Information Networking (ICOIN)"
+  pubdate:
+    year: 2026
+    month: jan
+    mday: 16
+  doi: 
+  marked: 1
+  link:
+    url: https://icoin.org/program_final
+
+- authors:
+    - link: jaemin-song
+      is_first: true
+    - name: Beomjoon Pyun
+    - name: Sangmin Bae
+    - link: soonmin-hwang  
+    - name: Hyungjeen Choi
+      is_corresponding: False
+  title: "Development of a Centralized Vehicle Integration Control Unit for Enhanced Fail-Operational"
+  journal: "International Journal of Automotive Technology (IJAT)"
+  pubdate:
+    year: 2026
+    month: jan
+    mday: 26
+  doi: 
+  marked: 1
+  link:
+    url: https://www.researchgate.net/publication/399454998_Development_of_a_Centralized_Vehicle_Integration_Control_Unit_for_Enhanced_Fail-Operational
+  links:
+    - type: paper
+      url: https://www.researchgate.net/publication/399454998_Development_of_a_Centralized_Vehicle_Integration_Control_Unit_for_Enhanced_Fail-Operational
+
+- authors:
     - link: gwangik-shin
       is_first: true
     - link: jaeha-song
@@ -33,7 +73,7 @@
   doi: 
   marked: 1
   link:
-    url: ""
+    url: "https://sigongji.icaiic.org/data/ICAIIC%202026%20program_v7.pdf"
 
 - authors:
     - link: yewon-song
@@ -49,7 +89,32 @@
   doi: 
   marked: 1
   link:
-    url: ""
+    url: "https://sigongji.icaiic.org/data/ICAIIC%202026%20program_v7.pdf"
+
+- authors:
+    - name: Kyeong-Ju Cha
+      is_first: true
+    - name: Hyunwoo Park
+      is_first: true
+    - name: Wankyu Choe
+      is_first: true
+    - link: soonmin-hwang
+      is_corresponding: true  
+    - name: Sunwoo Kim
+      is_first: true
+  title: "End-to-end Radio SLAM for Autonomous Systems"
+  journal: "IEEE International Workshop on Signal Processing Systems (SiPS)"
+  pubdate:
+    year: 2025
+    month: Nov
+    mday: 1
+  doi: 
+  marked: 1
+  link:
+    url: "https://ieeexplore.ieee.org/document/11261314"
+  links:
+    - type: paper
+      url: "https://ieeexplore.ieee.org/document/11261314"
 
 - authors:
     - link: sungjin-park
@@ -69,7 +134,10 @@
   doi: 
   marked: 1
   link:
-    url: ""
+    url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12539817"
+  links: 
+    - type: paper
+      url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12539817"
 
 - authors:
     - link: yongjae-cho
@@ -87,7 +155,10 @@
   doi: 
   marked: 1
   link:
-    url: ""
+    url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12539812"
+  links: 
+    - type: paper
+      url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12539812"
 
 - authors:
     - link: nayoung-kim
@@ -105,7 +176,10 @@
   doi: 
   marked: 1
   link:
-    url: ""
+    url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12539806"
+  links: 
+    - type: paper
+      url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12539806" 
   awards: 추계학술대회 및 전시회 우수발표논문상
 
 
@@ -126,7 +200,10 @@
   doi: 
   marked: 1
   link:
-    url: ""
+    url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12539822
+  links: 
+    - type: paper
+      url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12539822
 
 - authors:
     - link: yewon-song
@@ -144,7 +221,10 @@
   doi: 
   marked: 1
   link:
-    url: ""
+    url: "https://www.semanticscholar.org/paper/Understanding-Cross-Domain-Robustness-in-LiDAR-Song-Lee/cca214e73e3ea9dcf2fe5deebc2264d2e8364800"
+  links: 
+    - type: paper
+      url: "https://www.semanticscholar.org/paper/Understanding-Cross-Domain-Robustness-in-LiDAR-Song-Lee/cca214e73e3ea9dcf2fe5deebc2264d2e8364800"
 
 - authors:
     - link: kyungmin-kim
@@ -160,7 +240,10 @@
   doi: 
   marked: 1
   link:
-    url: ""
+    url: https://2025.ictc.org/program_proceeding
+  links: 
+    - type: paper
+      url: https://2025.ictc.org/program_proceeding
 
 - authors:
     - name: Zhixuan Liu
@@ -289,7 +372,10 @@
   doi: 
   marked: 1
   link:
-    url: ""
+    url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12047698"
+  links: 
+    - type: paper
+      url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12047698"
   awards: 추계학술대회 및 전시회 우수발표논문상
 
 - authors:

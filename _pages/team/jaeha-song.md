@@ -14,7 +14,7 @@ cv:
 permalink: /team/jaeha-song
 ---
 
-Jaeha Song is a master's student at the IRCV lab with interest
+Jaeha Song is a M.S. student at the IRCV lab with interest
 in various computer vision tasks. 
 
 #### Education

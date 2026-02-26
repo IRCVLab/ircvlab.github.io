@@ -14,7 +14,7 @@ cv:
 permalink: /team/yongjae-cho
 ---
 
-Yongjae Cho is a master's student at the IRCV lab with interest in sensor fusion, carla, etc..
+Yongjae Cho is a M.S. student at the IRCV lab with interest in sensor fusion, carla, etc..
 
 
 #### Education
