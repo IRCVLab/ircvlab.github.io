@@ -67,6 +67,12 @@ firstp {}
   /* Responsive side margins for body content only */
 }
 
+@media (max-width: 767px) {
+  .body-container .container-fluid {
+    width: 100%;
+  }
+}
+
 /* Home, News */
 #newsid p {
   text-align: left;
@@ -275,8 +281,8 @@ div#gridid h3 {
 
 /* Homepage side padding */
 .home-wrapper {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 @media (min-width: 768px) {

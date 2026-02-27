@@ -33,9 +33,10 @@ in various computer vision tasks.
 
 #### Experiences
 <ul class="chronological">
-  <li><span>2023. 1. – 2023.12.</span> Research intern (Advised by Prof. Jihie Kim)</li>
-  <li>
-
+  <li><span>2026. 1. – 2026. 2.</span> Rideflux Intern </li>
+  <li><span>2023. 1. – 2023.12.</span> Research Intern (Advised by Prof. Jihie Kim)</li>
+</ul>
+<ul>
 <details>
 
   <summary> 
@@ -50,12 +51,11 @@ in various computer vision tasks.
     <li> Byounggun Park, Jaeha Song, Nakyoung Lee and Jin-Woo Jung, “AI docent technology research with generative facial recognition, natural language and speech analytics”, Journal of Korean Institute of Intelligent Systems, Nov. 2023. </li>
 
     <li> Sungmin Kang, Jaeha Song, and Jihie Kim, “Deep Learning-Based Pancreas Detection and Size Monitoring with Data Augmentation for Medical Imaging Analysis”, KSC 2023, Dec. 2023. </li>
-    <li> Byounggun Park, Jaeha Song, Yunsick Sung, “CNN-based road scene understanding for autonomous vehicles", KSAE 2023 Annual Autumn Conference, Oct. 2023.
-  </li>
+    <li> Byounggun Park, Jaeha Song, Yunsick Sung, “CNN-based road scene understanding for autonomous vehicles", KSAE 2023 Annual Autumn Conference, Oct. 2023. </li>
   </ul>
 </details>
-</li>
 </ul>
+
 
 
 {% include publication_in_profile.html %}

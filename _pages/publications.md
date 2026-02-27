@@ -95,7 +95,7 @@ permalink: /publications/
       if (!res.ok) { await delay(300); continue; }
       const data = await res.json();
       const count = data.citationCount;
-      if (typeof count === 'number' && count > 0) {
+      if (typeof count === 'number' && count >= 20) {
         el.querySelector('.cite-count').textContent = 'Cited by ' + count;
         el.style.display = 'inline';
       }

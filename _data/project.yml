@@ -4,6 +4,11 @@
   status: working # rideflux
   image: /images/logopic/logo-ride-flux.webp
   
+- title: E2E 자율주행 레퍼런스 데이터 구축 및 기반 기술개발
+  duration: '2025. 9. – 2028.12.'
+  status: working # rideflux
+  image: /images/logopic/logo-motie.jpg
+
 - title: Confidential
   duration: '2025. 8. – 2026. 8.'
   status: working # 현대자동차

@@ -24,4 +24,10 @@ Jeongtae Kim is a M.S student at the IRCV lab with interest in various computer 
   <li><span>2020. 3. – 2026. 2.</span> B.S. in Automotive Engineering, Hanyang University</li>
 </ul>
 
+#### Experiences
+<ul class="chronological">
+  <li><span>2026. 1. – 2026. 2.</span> ETRI(Electronics and Telecommunications Research Institute) Intern </li>
+</ul>
+
+
 {% include publication_in_profile.html %}

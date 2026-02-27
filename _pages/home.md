@@ -39,16 +39,16 @@ At the IRCV Lab, we are dedicated to pioneering research in perception, sensor f
             </div>
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2024-06-22_CVPR2024.jpg" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/winter_workshop2026/winter1.JPG" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2024-07-11_Lab_seminar.jpg" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/kccv2025/kccv5.png" alt="Slide 2" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2024-07-26_MT_1.jpg" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/winter_workshop2026/winter6.JPG" alt="Slide 3" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2024-07-26_MT_2.jpg" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/graduate2026-1/5.jpg" alt="Slide 4" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2024-08-14_KCCV2024.jpg" alt="Slide 5" />

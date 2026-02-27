@@ -310,7 +310,7 @@
   category: intern
   sort-key: kim-dongmin
   start_date: [2025, 9, 1]
-  active: true
+  active: false
 
 - name: Dohyun Lim
   name_abbr: D. Lim
