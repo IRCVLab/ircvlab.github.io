@@ -7,8 +7,10 @@
 
     <!-- Splash Screen Overlay -->
     <div id="splash" aria-hidden="true" role="presentation">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-new-start.png" alt="IRCV Lab" class="splash-logo" />
-      <p id="typing-text" class="splash-typing" aria-live="polite"></p>
+      <video id="splash-video" class="splash-video" autoplay muted playsinline>
+        <source src="{{ site.url }}{{ site.baseurl }}/images/teaser.mov" type="video/quicktime">
+        <source src="{{ site.url }}{{ site.baseurl }}/images/teaser.mov" type="video/mp4">
+      </video>
     </div>
 
     {% include header.html %}
@@ -39,10 +41,7 @@ gtag('config', 'G-14CENTRPZT');
 (function() {
   var body = document.body;
   var splash = document.getElementById('splash');
-  var typingTarget = document.getElementById('typing-text');
-  var content = 'Intelligent Robotics and Computer Vision Lab';
-  var effectDuration = 1400; // ms, must match CSS animation duration
-  var afterDelay = 200; // small pause after the effect finishes
+  var video = document.getElementById('splash-video');
   var alreadyShown = false;
   try {
     alreadyShown = sessionStorage.getItem('splashShown') === '1';
@@ -50,6 +49,7 @@ gtag('config', 'G-14CENTRPZT');
 
   function revealSite() {
     body.classList.remove('preload');
+    if (video) { video.pause(); }
     if (splash) {
       splash.style.opacity = '0';
       splash.style.pointerEvents = 'none';
@@ -60,22 +60,20 @@ gtag('config', 'G-14CENTRPZT');
     try { sessionStorage.setItem('splashShown', '1'); } catch (e) {}
   }
 
-  function startEffect() {
-    if (!typingTarget) { revealSite(); return; }
-    // Set full text and trigger gradient reveal via CSS class
-    typingTarget.textContent = content;
-    typingTarget.classList.add('gradient-reveal');
-    setTimeout(revealSite, effectDuration + afterDelay);
-  }
-
   if (alreadyShown) {
     revealSite();
   } else {
     if (splash) splash.style.display = 'flex';
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', startEffect);
+    if (video) {
+      video.playbackRate = 3.0;
+      video.addEventListener('ended', function() {
+        setTimeout(revealSite, 200);
+      });
+      // Fallback: if video fails to load or play, reveal after 5s
+      video.addEventListener('error', revealSite);
+      setTimeout(revealSite, 15000);
     } else {
-      startEffect();
+      revealSite();
     }
   }
 })();
