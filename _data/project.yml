@@ -1,3 +1,7 @@
+- title: 현대자동차 계약학과 육성과제
+  duration: '2026. 3. – 2028. 2.'
+  status: working # 현대자동차
+  image: /images/logopic/logo-hyundai.png
 
 - title: Confidential
   duration: '2026. 1. – 2026.12.'
@@ -25,6 +29,10 @@
   status: done # SL
   image: /images/logopic/logo-sl.png
 
+- title: 현대자동차 계약학과 육성과제
+  duration: '2025. 3. – 2027. 2.'
+  status: working # 현대자동차
+  image: /images/logopic/logo-hyundai.png
 
 - title: T–Car 기반 자율주행 인지예측/지능제어 차량부품/시스템 통합평가 기술개발
   duration: '2025. 1. – 2026.12.'
@@ -49,6 +57,15 @@
   status: done # 정보통신산업진흥원
   image: /images/logopic/logo-nipa.png
 
+- title: 현대자동차 계약학과 육성과제
+  duration: '2024. 3. – 2026. 2.'
+  status: done # 현대자동차
+  image: /images/logopic/logo-hyundai-ngv.jpeg
+
+- title: 현대자동차 계약학과 육성과제
+  duration: '2024. 3. – 2026. 2.'
+  status: done # 현대자동차
+  image: /images/logopic/logo-hyundai-ngv.jpeg
 
 - title: 자율주행 산업 인프라 연계기술 시험표준 개발
   duration: '2024. 1. – 2027.12.'
