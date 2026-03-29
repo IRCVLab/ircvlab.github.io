@@ -62,10 +62,10 @@
   status: done # 현대자동차
   image: /images/logopic/logo-hyundai-ngv.jpeg
 
-- title: 현대자동차 계약학과 육성과제
-  duration: '2024. 3. – 2026. 2.'
-  status: done # 현대자동차
-  image: /images/logopic/logo-hyundai-ngv.jpeg
+# - title: 현대자동차 계약학과 육성과제
+#   duration: '2024. 3. – 2026. 2.'
+#   status: done # 현대자동차
+#   image: /images/logopic/logo-hyundai-ngv.jpeg
 
 - title: 자율주행 산업 인프라 연계기술 시험표준 개발
   duration: '2024. 1. – 2027.12.'
