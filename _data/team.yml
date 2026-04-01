@@ -323,18 +323,6 @@
   sort-key: lim-dohyun
   start_date: [2025, 9, 15]
   active: true  
-  
-- name: Chehun Han
-  name_abbr: C. Han
-  photo: chehun.jpg
-  email: chehunhan16@gmail.com
-  info: Undergraduate Student
-  intro:
-  link: chehun-han
-  category: intern
-  sort-key: han-chehun
-  start_date: [2026, 1, 12]
-  active: true  
 
 - name: Hyunseok Choi
   name_abbr: H. Choi
