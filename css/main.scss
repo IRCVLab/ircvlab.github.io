@@ -165,7 +165,8 @@ span.publi_author {
   /* External authors */
 }
 
-a.publi_title {
+a.publi_title,
+span.publi_title {
   font-family: $headings-font-family;
   font-weight: bold;
   color: #0544ab;
@@ -624,7 +625,8 @@ body {
   margin-bottom: 4px;
   padding-bottom: 6px;
   border-bottom: 2px solid #e0e0e0;
-  font-size: 1.35rem;
+  font-size: 1.8rem;
+  font-weight: 700;
   color: #333;
 }
 

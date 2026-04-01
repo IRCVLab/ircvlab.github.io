@@ -1,10 +1,28 @@
 - authors:
+    - link: sungjin-park
+      is_first: true
+    - link: jaeha-song
+      is_first: false
+    - link: soonmin-hwang
+      is_corresponding: true
+  title: "RSD-BEV: Residual Self-Distillation Framework for Efficient BEV Representation Learning"
+  journal: "International Conference on Pattern Recognition (ICPR)"
+  pubdate:
+    year: 2026
+    month: apr
+    mday: 1
+  doi:
+  marked: 1
+  link:
+    url:
+
+- authors:
     - name: Kyeong-Ju Cha
       is_first: true
     - name: Hyunwoo Park
-    - link: soonmin-hwang  
+    - link: soonmin-hwang
+      is_corresponding: true
     - name: Sunwoo Kim
-      is_corresponding: False    
   title: "Radio Point Cloud-Based Positioning and Mapping"
   journal: "International Conference on Information Networking (ICOIN)"
   pubdate:
@@ -13,8 +31,11 @@
     mday: 16
   doi: 
   marked: 1
-  link:
+  link: 
     url: https://icoin.org/program_final
+  links:
+    - type: paper
+      url: https://d2j16w31g89z0j.cloudfront.net/site/icoin2026/abs/W6-02.pdf
 
 - authors:
     - link: jaemin-song
