@@ -8,10 +8,38 @@ permalink: /
 
 
 
+<span style="color: #007bff; font-weight: bold;">Awards</span>
 
-<a href="https://waymo.com/open/challenges/" target="_blank">
-    <img src="images/way.png" style="max-width: 100%; height: auto; border-radius: 0" >
-</a>
+<div markdown="0" id="banner-carousel" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover">
+    <ol class="carousel-indicators">
+        <li data-target="#banner-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#banner-carousel" data-slide-to="1"></li>
+    </ol>
+
+    <div class="carousel-inner" markdown="0">
+        <div class="item active">
+            <a href="https://drivex-workshop.github.io/cvpr2026/#challenge" target="_blank" rel="noopener noreferrer">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/cvpr2026.jpg" alt="CVPR 2026 Challenge">
+            </a>
+        </div>
+        <div class="item">
+            <a href="https://waymo.com/open/challenges/" target="_blank" rel="noopener noreferrer">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/way.png" alt="Waymo Open Dataset Challenge">
+            </a>
+        </div>
+    </div>
+
+    <a class="left carousel-control" href="#banner-carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#banner-carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<hr style="border: none; border-top: 1px solid #ccc;" />
 
 <span style="color: #007bff; font-weight: bold;">IRCV</span>
 

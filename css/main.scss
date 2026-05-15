@@ -576,6 +576,55 @@ body {
 }
 
 /* Subtle shadow and rounding for the homepage carousel */
+#banner-carousel {
+  background: #fff;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+#banner-carousel .item {
+  height: 260px;
+}
+
+#banner-carousel .item a {
+  align-items: center;
+  display: flex;
+  height: 260px;
+  justify-content: center;
+  width: 100%;
+}
+
+#banner-carousel .item img {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  display: block;
+  height: 100%;
+  margin: 0 auto !important;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
+#banner-carousel .carousel-indicators li {
+  border-color: #fff;
+}
+
+#banner-carousel .carousel-indicators .active {
+  background-color: #fff;
+}
+
+@media (max-width: 767px) {
+  #banner-carousel .item,
+  #banner-carousel .item a {
+    height: 180px;
+  }
+
+  #banner-carousel .item img {
+    max-height: 100%;
+  }
+}
+
 #carousel {
   border-radius: 10px;
   overflow: hidden;
