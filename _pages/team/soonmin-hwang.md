@@ -20,6 +20,8 @@ He received M.S and Ph.D. degrees in Electrical Engineering from KAIST, Korea in
 In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> from IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). He received Samsung HumanTech Paper Awards(<b style="color:brown;">Gold prize in 2017, honorable mention in 2018</b>) and <b style="color:brown;">the 1st place</b> at Nvidia Korea Deep Learning Contest in 2016. 
 
 
+<div class="bigspacer"></div>
+
 ### Education
 ---
 
@@ -62,6 +64,7 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
  </div> 
 </div>
 
+<div class="bigspacer"></div>
 
 ### Experience
 ---
@@ -141,6 +144,7 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-hyundai.png" class="img-responsive" />
  </div> 
 </div>
+<div class="bigspacer"></div>
 
 <div class="twocols">
  <div>
@@ -154,6 +158,7 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-42dot.png" class="img-responsive" />
  </div> 
 </div>
+<div class="bigspacer"></div>
 
 <div class="twocols">
  <div>
@@ -168,6 +173,7 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-cmu.png" class="img-responsive" />
  </div> 
 </div>
+<div class="bigspacer"></div>
 
 <div class="twocols">
  <div>
