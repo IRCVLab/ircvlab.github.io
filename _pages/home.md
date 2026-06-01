@@ -10,7 +10,7 @@ permalink: /
 
 <span style="color: #007bff; font-weight: bold;">Awards</span>
 
-<div markdown="0" id="banner-carousel" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover">
+<div markdown="0" id="banner-carousel" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover" style="max-width: 720px; width: 100%; margin: 20px auto;">
     <ol class="carousel-indicators">
         <li data-target="#banner-carousel" data-slide-to="0" class="active"></li>
         <li data-target="#banner-carousel" data-slide-to="1"></li>
@@ -19,12 +19,12 @@ permalink: /
     <div class="carousel-inner" markdown="0">
         <div class="item active">
             <a href="https://drivex-workshop.github.io/cvpr2026/#challenge" target="_blank" rel="noopener noreferrer">
-                <img src="{{ site.url }}{{ site.baseurl }}/images/cvpr2026.jpg" alt="CVPR 2026 Challenge">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/cvpr2026.jpg" alt="CVPR 2026 Challenge" style="max-width: 100%; max-height: 100%; width: 100%; height: 100%; object-fit: contain; object-position: center;">
             </a>
         </div>
         <div class="item">
             <a href="https://waymo.com/open/challenges/" target="_blank" rel="noopener noreferrer">
-                <img src="{{ site.url }}{{ site.baseurl }}/images/way.png" alt="Waymo Open Dataset Challenge">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/way.png" alt="Waymo Open Dataset Challenge" style="max-width: 100%; max-height: 100%; width: 100%; height: 100%; object-fit: contain; object-position: center;">
             </a>
         </div>
     </div>

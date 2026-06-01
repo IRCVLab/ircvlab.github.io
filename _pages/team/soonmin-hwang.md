@@ -88,6 +88,64 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
  <div>
   <h5>External Technical Advisory</h5>
   <ul class="chronological">
+    <li>2026. 1. – Current</li>
+    <li>Autonomous Driving</li> 
+    <li>Hyundai Mobis</li>   
+  </ul>
+ </div>
+ <div style="display:flex; align-items:center; justify-content:center;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-mobis.png" class="img-responsive" />
+ </div> 
+</div>
+<div class="bigspacer"></div>
+
+<div class="twocols">
+ <div>
+  <h5>Board Member</h5>
+  <ul class="chronological">
+    <li>2026. 1. – Current</li>
+    <li>Autonomous Driving Division</li>
+    <li>The Korean Society of Automotive Engineers</li>    
+  </ul>
+ </div>
+ <div style="display:flex; align-items:center; justify-content:center;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-korean-society-of-automotive-engineers.jpg" class="img-responsive" />
+ </div> 
+</div>
+<div class="bigspacer"></div>
+
+<div class="twocols">
+ <div>
+  <h5>External Technical Advisory</h5>
+  <ul class="chronological">
+    <li>2026. 1. – Current</li>
+    <li>Korea Exchange (KRX)</li> 
+  </ul>
+ </div>
+ <div style="display:flex; align-items:center; justify-content:center;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-krx.png" class="img-responsive" />
+ </div> 
+</div>
+<div class="bigspacer"></div>
+
+<div class="twocols">
+ <div>
+  <h5>External Technical Advisory</h5>
+  <ul class="chronological">
+    <li>2024. 1. – 2024. 12.</li>
+    <li> End-to-End Autonomous Driving</li> 
+    <li>Hyundai Motor Company</li>   
+  </ul>
+ </div>
+ <div style="display:flex; align-items:center; justify-content:center;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-hyundai.png" class="img-responsive" />
+ </div> 
+</div>
+
+<div class="twocols">
+ <div>
+  <h5>External Technical Advisory</h5>
+  <ul class="chronological">
     <li>2022. 2. – 2023. 9.</li>
     <li>42dot (Seoul-Remote, South Korea)</li>    
   </ul>
