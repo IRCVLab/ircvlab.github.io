@@ -309,16 +309,19 @@ div#gridid h3 {
   padding-left: 30px;
 }
 
+.member-education,
 .member-experience {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
+.member-education > .bigspacer,
 .member-experience > .bigspacer {
   display: none;
 }
 
+.member-education .twocols,
 .member-experience .twocols {
   align-items: center;
   gap: 24px;
@@ -326,10 +329,12 @@ div#gridid h3 {
   min-height: 108px;
 }
 
+.member-education .twocols > div:last-child,
 .member-experience .twocols > div:last-child {
   min-height: 72px;
 }
 
+.member-education .twocols img,
 .member-experience .twocols img {
   height: auto;
   margin: 0 !important;

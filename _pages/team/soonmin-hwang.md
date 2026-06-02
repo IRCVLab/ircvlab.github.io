@@ -25,6 +25,8 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
 ### Education
 ---
 
+<div class="member-education">
+
 <div class="twocols">
  <div>
   <h5>Ph.D.(2019)</h5>
@@ -62,6 +64,8 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
  <div style="display:flex; align-items:center; justify-content:center;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo-hanyang.png" class="img-responsive" />
  </div> 
+</div>
+
 </div>
 
 <div class="bigspacer"></div>
