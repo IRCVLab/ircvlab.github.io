@@ -38,6 +38,7 @@
   duration: '2025. 3. – 2027. 2.'
   status: working # 현대자동차
   image: /images/logopic/logo-hyundai.png
+  
 
 - title: T–Car 기반 자율주행 인지예측/지능제어 차량부품/시스템 통합평가 기술개발
   duration: '2025. 1. – 2026.12.'

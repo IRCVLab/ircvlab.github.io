@@ -12,3 +12,15 @@
 - date: Jan 26, 2026
   headline: "Paper Accepted: The paper by Gwangik and Jaeha was accepted to ICLR 2026! 🎉"
   description: "[Self-Guided Low Light Object Detection Framework] is contributed by Gwangik Shin, Jaeha Song, Soonmin Hwang"
+  links: 
+    - title: "[뉴시스] 한양대, '저조도 객체 탐지' 기술로 AI 학회 'ICLR 2026' 채택"
+      url: "https://www.newsis.com/view/NISX20260414_0003590230"
+    - title: "[뉴스H] 한양대 황순민 교수팀, AI 최고 권위 ‘ICLR 2026’서 저조도 객체 탐지 논문 채택"
+      url: "https://www.newshyu.com/news/articleView.html?idxno=1023881"
+    - title: "[한국대학신문] 한양대 황순민 교수팀, AI 최고 권위 ‘ICLR 2026’서 저조도 객체 탐지 논문 채택"
+      url: "https://news.unn.net/news/articleView.html?idxno=591666"
+    - title: "[한겨례] 한양대 황순민 교수팀, AI 최고 권위 ‘ICLR 2026’서 저조도 객체 탐지 논문 채택"
+      url: "https://www.hani.co.kr/arti/economy/biznews/1254082.html"
+
+  
+
