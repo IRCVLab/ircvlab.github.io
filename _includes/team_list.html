@@ -1,42 +1,25 @@
-{% assign number_printed = 0 %}
 {% assign active_members = site.data.team | where_exp:"memb", "memb.active" %}
 {% assign member_list = active_members | where_exp:"memb", "selected_categories contains memb.category" %}
 {% assign members_by_name = member_list | sort: "start_date" %}
 
+<div class="member-grid" markdown="0">
 {% for member in members_by_name %}
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
+<div class="member-card{% if member.link %} member-card--link{% endif %}" {% if member.link %}data-href="{{ member.link }}"{% endif %}>
+<img class="member-photo" src="{{ site.url }}{{ site.baseurl }}/images/members/{{ member.photo }}" alt="{{ member.name }}" loading="lazy" />
+<div class="member-body">
+{% if member.link %}
+<h4 class="member-name"><a href="{{ member.link }}" class="member-link">{{ member.name }}</a></h4>
+{% else %}
+<h4 class="member-name">{{ member.name }}</h4>
 {% endif %}
-
-<div class="col-sm-6 clearfix member-list-item" {% if member.link %}data-href="{{ member.link }}"{% endif %}>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/members/{{ member.photo }}" class="img-responsive member-img" />
-  {% if member.link %}
-  <h4><a href="{{ member.link }}" class="member-link">{{ member.name }}</a></h4>
-  {% else %}
-  <h4>{{ member.name }}</h4>
-  {% endif %}
-  <i>{{ member.info }}</i>
-  {% if member.intro %}
-  <p class="member-intro">{{ member.intro }}</p>
-  {% endif %}
-  {% if member.email %}
-  <i>{{ member.email }}</i>  
-  {% endif %}
-
-  <p></p>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
+<p class="member-role">{{ member.info }}</p>
+{% if member.intro %}
+<p class="member-intro">{{ member.intro }}</p>
 {% endif %}
-
+{% if member.email %}
+<p class="member-email"><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+{% endif %}
+</div>
+</div>
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
 </div>
-{% endif %}

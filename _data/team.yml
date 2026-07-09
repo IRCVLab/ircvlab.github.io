@@ -298,7 +298,7 @@
   category: intern
   sort-key: park-seonghyun
   start_date: [2025, 9, 1]
-  active: true
+  active: false
 
 - name: Dongmin Kim
   name_abbr: D. Kim
@@ -322,7 +322,7 @@
   category: intern
   sort-key: lim-dohyun
   start_date: [2025, 9, 15]
-  active: true  
+  active: false  
 
 - name: Hyunseok Choi
   name_abbr: H. Choi

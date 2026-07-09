@@ -457,17 +457,115 @@ div#alumni_list h5 a {
   }
 }
 
-.member-list-item[data-href]:hover {
-  background: #f1f4fc;
+/* ===== Team member cards ===== */
+.member-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  align-items: start;
+  gap: 24px;
+  margin: 24px 0 40px;
+}
+
+.member-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 180px;
+  border: 1px solid #eceef3;
+  border-radius: 14px;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(15, 18, 58, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.member-card--link {
   cursor: pointer;
 }
 
-.member-img {
-  width: 100px;
-  height: 140px;
+.member-card--link:hover {
+  transform: translateY(-3px);
+  border-color: #cfe0ff;
+  box-shadow: 0 10px 26px rgba(15, 18, 58, 0.12);
+}
+
+/* Photo is scaled (up or down) so its height exactly matches the card
+   height; width follows the original aspect ratio (no cropping).
+   Its right edge fades into the card background. */
+.member-photo {
+  flex: 0 0 auto;
+  width: 140px;
+  height: 100%;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
   object-fit: cover;
-  float: left;
-  margin-right: 10px;
+  object-position: center top;
+  -webkit-mask-image: linear-gradient(to right, #000 0%, #000 60%, transparent 100%);
+          mask-image: linear-gradient(to right, #000 0%, #000 60%, transparent 100%);
+}
+
+/* Text sits to the right of the photo, without overlapping it. */
+.member-body {
+  flex: 1;
+  min-width: 0;
+  padding: 18px 18px 18px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.member-name {
+  margin: 0 0 4px;
+  font-size: 1.9rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.member-name a.member-link,
+a.member-link {
+  color: #0f123a;
+  text-decoration: none;
+}
+
+.member-card--link:hover .member-name a.member-link {
+  color: #2b5edb;
+}
+
+.member-role {
+  margin: 0 0 6px;
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #6b7280;
+}
+
+.member-intro {
+  margin: 0 0 6px;
+  font-size: 1.35rem;
+  line-height: 1.55;
+  color: #374151;
+}
+
+.member-email {
+  margin: 0;
+  font-size: 1.3rem;
+  word-break: break-all;
+}
+
+.member-email a {
+  color: #6cb5f9;
+  text-decoration: none;
+}
+
+.member-email a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .member-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
 }
 
 /* Make top-level navbar links bold */

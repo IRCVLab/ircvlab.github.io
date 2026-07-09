@@ -99,7 +99,7 @@ as a
 
 
 <script>
-$('body').on('click', '.member-list-item[data-href]', function(){
+$('body').on('click', '.member-card[data-href]', function(){
     if (window.location.hash) {
         window.location.hash = $(this).data('href');
     } else {
