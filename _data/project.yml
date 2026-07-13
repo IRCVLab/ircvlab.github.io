@@ -1,91 +1,95 @@
 # - title: AI 기반 주파수 간선분석 및 전파예측 기술개발
 #   duration: '2026. 4. – 2029. 12.'
 #   status: working # 과학기술정보통신부
-#   image: images/logopic/logo-ministry-S-ICT.jpg
-  
+#   company: 과학기술정보통신부
+
 - title: 현대자동차 계약학과 육성과제
   duration: '2026. 3. – 2028. 2.'
-  status: working # 현대자동차
-  image: /images/logopic/logo-hyundai.png
+  status: working
+  company: 현대자동차
 
 - title: Confidential
   duration: '2026. 1. – 2026.12.'
-  status: working # rideflux
-  image: /images/logopic/logo-ride-flux.webp
-  
+  status: working
+  company: Rideflux
+
 - title: E2E 자율주행 레퍼런스 데이터 구축 및 기반 기술개발
   duration: '2025. 9. – 2028.12.'
-  status: working # rideflux
-  image: /images/logopic/logo-motie.jpg
+  status: working
+  company: 산업통상자원부
+  ack: RS-2025-25448249
 
 - title: Confidential
   duration: '2025. 8. – 2026. 8.'
-  status: working # 현대자동차
-  image: /images/logopic/logo-hyundai.png
+  status: working
+  company: 현대자동차
 
 
 - title: Confidential
   duration: '2025. 5. – 2025.6.'
-  status: done # rideflux
-  image: /images/logopic/logo-ride-flux.webp
+  status: done
+  company: Rideflux
 
 - title: Confidential
   duration: '2025. 3. – 2025.12.'
-  status: done # SL
-  image: /images/logopic/logo-sl.png
+  status: done
+  company: SL
 
 - title: 현대자동차 계약학과 육성과제
   duration: '2025. 3. – 2027. 2.'
-  status: working # 현대자동차
-  image: /images/logopic/logo-hyundai.png
-  
+  status: working
+  company: 현대자동차
+
 
 - title: T–Car 기반 자율주행 인지예측/지능제어 차량부품/시스템 통합평가 기술개발
   duration: '2025. 1. – 2026.12.'
-  status: working # 산업통상자원부
-  image: /images/logopic/logo-motie.jpg
+  status: working
+  company: 산업통상자원부
+  ack: '20018101'
 
 
 - title: 전술 주행 환경 데이터를 활용한 다중 센서 융합형 환경인식 학습을 위한 인공지능 알고리즘 개발 용역
   duration: '2024.11. – 2025.12.'
   status: done
-  image: /images/logopic/logo-add-antlab.png
+  company: 국방과학연구소
 
 
 - title: 한양-MIT Beyond-G 혁신센터
   duration: '2024. 9. – 2034. 4.'
-  status: working #
-  image: /images/logopic/logo-nrf.png
+  status: working
+  company: 한국연구재단
+  ack: RS-2024-00409492
 
 
 - title: 국산 AI 반도체 활용 전방 충돌 방지 시스템 응용 실증
   duration: '2024. 4. – 2025.12.'
-  status: done # 정보통신산업진흥원
-  image: /images/logopic/logo-nipa.png
+  status: done
+  company: 정보통신산업진흥원
 
 - title: 현대자동차 계약학과 육성과제
   duration: '2024. 3. – 2026. 2.'
-  status: done # 현대자동차
-  image: /images/logopic/logo-hyundai-ngv.jpeg
+  status: done
+  company: 현대자동차
 
 - title: 현대자동차 계약학과 육성과제
   duration: '2024. 3. – 2026. 2.'
-  status: done # 현대자동차
-  image: /images/logopic/logo-hyundai-ngv.jpeg
+  status: done
+  company: 현대자동차
 
 - title: 자율주행 산업 인프라 연계기술 시험표준 개발
   duration: '2024. 1. – 2027.12.'
-  status: working # 산업통상자원부
-  image: /images/logopic/logo-motie.jpg
+  status: working
+  company: 산업통상자원부
+  ack: '20014460'
 
 
 - title: Confidential
   duration: '2024. 1. – 2025. 4.'
   status: done
-  image: /images/logopic/logo-42dot.png
+  company: 42dot
 
 
 - title: Confidential
   duration: '2024. 1 – 2024. 2.'
   status: done
-  image: /images/logopic/logo-ride-flux.webp
+  company: Rideflux
