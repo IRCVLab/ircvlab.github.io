@@ -81,6 +81,7 @@ In 2023, he was selected as an <b style="color:brown;">Outstanding Reviewer</b> 
   <ul class="chronological">
     <li>2023. 9. – Current</li>
     <li>Department of Automotive Engineering</li>
+    <li>Department of Artificial Intelligence</li>
     <li>Department of Computer Science (Joint Appointment)</li>
     <li>Department of Future Mobility</li>
     <li>Department of Intelligence and Convergence</li>

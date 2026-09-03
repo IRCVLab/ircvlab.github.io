@@ -136,4 +136,4 @@ Our lab focuses on dataset distillation, parameterization, and deep learning-dri
 
 We are currently seeking motivated graduate students to join our collaborative research efforts in this exciting field!
 
-Our lab is affiliated with the [Department of Automotive Engineering](https://ae.hanyang.ac.kr) at [Hanyang University](https://www.hanyang.ac.kr).
+Our lab is affiliated with the [Department of Automotive Engineering](https://ae.hanyang.ac.kr), [Department of Artificial Intelligence](https://nextai.hanyang.ac.kr/), [Department of Future Mobility](https://aec.hanyang.ac.kr/) and [Department of Intelligence and Convergence](https://hyic.hanyang.ac.kr/) at [Hanyang University](https://www.hanyang.ac.kr).

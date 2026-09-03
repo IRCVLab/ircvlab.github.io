@@ -261,6 +261,30 @@ div.footer-links img:hover {
   transform: scale(1.05);
 }
 
+/* footer banners: 3 per row (3 + 2), each at the original 280x100.
+   Cells only shrink when the column is narrower than 3 banners. */
+div.footer-links {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 280px));
+  gap: 15px;
+  justify-content: start;
+  align-items: center;
+}
+
+div.footer-links img.footer-banner {
+  float: none;
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  object-fit: contain;
+}
+
+@media (max-width: 991px) {
+  div.footer-links {
+    grid-template-columns: repeat(2, minmax(0, 280px));
+  }
+}
+
 blockquote {
   font-size: 16px;
   background-color: #f8f8f8;
