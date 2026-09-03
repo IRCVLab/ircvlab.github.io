@@ -1,0 +1,12 @@
+{%- for inv in include.inventors -%}
+{%- assign member = site.data.team | where_exp:"memb", "memb.link == inv" -%}
+{%- if member.size == 0 -%}
+{%- assign member = site.data.alumni_members | where_exp:"memb", "memb.link == inv" -%}
+{%- endif -%}
+{%- unless forloop.first -%}, {% endunless -%}
+{%- if member.size > 0 -%}
+<a class="patent-author" href="{{ site.url }}{{ site.baseurl }}/team/{{ inv }}">{{ member.first.name | replace: ' 👑', '' }}</a>
+{%- else -%}
+<span class="patent-author">{{ inv }}</span>
+{%- endif -%}
+{%- endfor -%}

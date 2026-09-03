@@ -84,6 +84,9 @@ At the IRCV Lab, we are dedicated to pioneering research in perception, sensor f
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2025-08-16_KCCV2025.jpg" alt="Slide 7" />
         </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/home-slider/2026-08-03_KCCV2026.jpg" alt="Slide 7" />
+        </div>
     </div>
   <script>
     document.addEventListener('DOMContentLoaded', function () {

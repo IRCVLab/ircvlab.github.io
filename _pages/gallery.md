@@ -20,6 +20,15 @@ permalink: /gallery
 <br>
 <div markdown="0" class="gallery-event">
   <div class="row">
+  <div class="col-sm-4">
+      <a href="{{ site.url }}{{ site.baseurl }}/gallery/kccv2026" class="gallery-card">
+        <div class="gallery-thumb" style="background-image:url('{{ site.url }}{{ site.baseurl }}/images/gallery/kccv2026/kccv1.JPG');"></div>
+        <div class="gallery-meta">
+            <h4 class="gallery-title">KCCV 2026</h4>
+            <span class="gallery-cta">Open album →</span>
+        </div>
+      </a>
+    </div>
     <div class="col-sm-4">
       <a href="{{ site.url }}{{ site.baseurl }}/gallery/winter_workshop2026" class="gallery-card">
         <div class="gallery-thumb" style="background-image:url('{{ site.url }}{{ site.baseurl }}/images/gallery/winter_workshop2026/winter1.JPG');"></div>

@@ -109,22 +109,22 @@
   start_date: [2026, 3, 2]
   active: true
 
-
-
-# ms
-
-
 - name: Jaeha Song
   name_abbr: J. Song
   photo: jhsong-thumb.jpg
   email: archiiive99@hanyang.ac.kr
-  info: M.S. Student
+  info: phd-student
   intro:
   link: jaeha-song
-  category: ms-student
+  category: phd-student
   sort-key: song-jaeha
-  start_date: [2024, 9, 1]
+  start_date: [2026, 9, 1]
   active: true
+
+# ms
+
+
+
 
 - name: Sumin Lee
   name_abbr: S. Lee

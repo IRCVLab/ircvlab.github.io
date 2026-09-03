@@ -1,0 +1,120 @@
+# Patents.
+#   title       : English title (shown as the main heading)
+#   title_ko    : Korean title (shown small under the English title; optional)
+#   status      : Registered | Filed
+#   inventors   : member "link" slugs, in listed order (resolved to /team/<slug>)
+#   registrations: one or more filings — country / number / status / date
+
+- title: Object Detection Method and Apparatus in Multispectral Domain Using Multi-label Learning
+  status: Registered
+  inventors:
+    - soonmin-hwang
+  registrations:
+    - country: KR
+      number: 10-2590622
+      status: Registered
+      date: 2023-10-23
+
+- title: Single-shot Adaptive Fusion Method and Apparatus for Robust Multispectral Object Detection
+  status: Registered
+  inventors:
+    - soonmin-hwang
+  registrations:
+    - country: KR
+      number: 10-2431419
+      status: Registered
+      date: 2022-08-22
+
+- title: Apparatus and Method for Depth Estimation Based on Thermal Image, and Neural Network Learning Method
+  status: Registered
+  inventors:
+    - soonmin-hwang
+  registrations:
+    - country: US
+      number: '11062470'
+      status: Registered
+      date: 2021-07-21
+    - country: KR
+      number: 10-1947782
+      status: Registered
+      date: 2019-02-19
+
+- title: Method and Apparatus for Detecting Smoke from Image
+  status: Registered
+  inventors:
+    - soonmin-hwang
+  registrations:
+    - country: US
+      number: '09443149'
+      status: Registered
+      date: 2016-09-16
+    - country: CN
+      number: '104346618'
+      status: Registered
+      date: 2019-10-19
+    - country: KR
+      number: 10-1932543
+      status: Registered
+      date: 2018-12-18
+
+- title: Apparatus and Method for Thermal Image Enhancement
+  status: Registered
+  inventors:
+    - soonmin-hwang
+  registrations:
+    - country: KR
+      number: 10-1821285
+      status: Registered
+      date: 2018-01-18
+
+- title: Method and Apparatus for Test-Time Adaptation of a LiDAR-Based Semantic Segmentation Model
+  title_ko: 라이다 기반 의미론적 분할 모델의 테스트 시간 적응 방법 및 장치
+  status: Filed
+  inventors:
+    - yewon-song
+    - yongjae-cho
+    - soonmin-hwang
+  registrations:
+    - country: KR
+      number: 10-2026-0107500
+      status: Filed
+      date: 2026-06
+
+- title: Method and Apparatus for Scene Reconstruction Based on 3D Gaussian Splatting Using Temporal Appearance Modeling
+  title_ko: 자율주행 장면 재구성을 위한 3차원 가우시안 스플래팅 기반 시간 외관 모델링 방법 및 시스템
+  status: Filed
+  inventors:
+    - sumin-lee
+    - dohyun-lim
+    - soonmin-hwang
+  registrations:
+    - country: KR
+      number: 10-2026-0118270
+      status: Filed
+      date: 2026-06
+
+- title: Method and Apparatus for Training a Time Series Classification Model Using Temporal Continuity-Based Instance-Prototype Contrastive Learning
+  title_ko: 시간적 연속성 기반 인스턴스-프로토타입 대조 학습을 이용한 시계열 분류 모델 학습 방법 및 장치
+  status: Filed
+  inventors:
+    - jaehoon-ahn
+    - giyong-moon
+    - soonmin-hwang
+  registrations:
+    - country: KR
+      number: 10-2026-0104475
+      status: Filed
+      date: 2026-06
+
+- title: Training Method of Object Detection Apparatus and an Object Detection Apparatus for Improving Detection Performance in Low Light Conditions
+  title_ko: 저조도에서의 검출 성능을 향상시킬 수 있는 객체 탐지 장치의 훈련 방법 및 객체 탐지 장치
+  status: Filed
+  inventors:
+    - gwangik-shin
+    - jaeha-song
+    - soonmin-hwang
+  registrations:
+    - country: KR
+      number: 10-2025-0213611
+      status: Filed
+      date: 2025-12
