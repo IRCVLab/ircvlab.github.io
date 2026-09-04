@@ -23,17 +23,17 @@
   start_date: [2025, 3, 1]
   active: true
 
-- name: Byounghun Park
-  name_abbr: B. Park
-  photo: byounghun.webp
-  email: gkrl206@hanyang.ac.kr
-  info: Researcher
+- name: Kana Kim
+  name_abbr: K. Kim
+  photo: kana.jpeg
+  email: kanakim@hanyang.ac.kr
+  info: Post Doctor
   intro:
-  link: byounghun-park
-  category: researcher
+  link: kana-kim
+  category: postdoc
   sort-key: park-byounghun
-  start_date: [2024, 3, 1]
-  active: false
+  start_date: [2026, 9, 1]
+  active: true
 
 - name: Geonyeong Park
   name_abbr: G. Park
