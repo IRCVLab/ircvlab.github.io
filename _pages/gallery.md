@@ -21,6 +21,15 @@ permalink: /gallery
 <div markdown="0" class="gallery-event">
   <div class="row">
   <div class="col-sm-4">
+    <a href="{{ site.url }}{{ site.baseurl }}/gallery/graduate2026-2" class="gallery-card">
+      <div class="gallery-thumb" style="background-image:url('{{ site.url }}{{ site.baseurl }}/images/gallery/graduate2026-2/1.png');"></div>
+      <div class="gallery-meta">
+          <h4 class="gallery-title">2026 Summer Graduation</h4>
+          <span class="gallery-cta">Open album →</span>
+      </div>
+    </a>
+  </div>
+  <div class="col-sm-4">
       <a href="{{ site.url }}{{ site.baseurl }}/gallery/kccv2026" class="gallery-card">
         <div class="gallery-thumb" style="background-image:url('{{ site.url }}{{ site.baseurl }}/images/gallery/kccv2026/kccv1.JPG');"></div>
         <div class="gallery-meta">

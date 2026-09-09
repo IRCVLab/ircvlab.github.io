@@ -2,7 +2,7 @@
 title: "Graduation | Gallery | IRCV Lab"
 layout: gridlay
 sitemap: false
-permalink: /gallery/graduate2026-1
+permalink: /gallery/graduate2026-2
 ---
 
 # Graduation
@@ -20,20 +20,12 @@ permalink: /gallery/graduate2026-1
 <div markdown="0" class="gallery-event">
   <div class="row">
     <div class="col-sm-10 col-sm-offset-1">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/graduate2026-1/2.jpg" class="img-responsive gallery-img" alt="G26-1">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/graduate2026-2/1.png" class="img-responsive gallery-img" alt="G26-1">
     </div>
     <div class="col-sm-10 col-sm-offset-1">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/graduate2026-1/3.jpg" class="img-responsive gallery-img" alt="G26-1">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/graduate2026-2/2.png" class="img-responsive gallery-img" alt="G26-1">
     </div>
-    <div class="col-sm-10 col-sm-offset-1">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/graduate2026-1/4.jpg" class="img-responsive gallery-img" alt="G26-1">
-    </div>
-    <div class="col-sm-10 col-sm-offset-1">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/graduate2026-1/5.jpg" class="img-responsive gallery-img" alt="G26-1">
-    </div>
-    <div class="col-sm-10 col-sm-offset-1">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/graduate2026-1/6.jpg" class="img-responsive gallery-img" alt="G26-1">
-    </div>
+
     
   </div>
 </div>
