@@ -2,7 +2,7 @@
 layout: member
 title: Kana Kim
 name_kor: 김가나
-position: Postdoc
+position: Postdoctoral Researcher
 handle: kana
 email: kanakim@hanyang.ac.kr
 twitter: 
