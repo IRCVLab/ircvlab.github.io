@@ -10,7 +10,7 @@ github:
 scholar: 
 orcid: 
 image: /images/members/jhsong-thumb.jpg
-cv: 
+cv: https://archiiive99.github.io/
 permalink: /team/jaeha-song
 ---
 
