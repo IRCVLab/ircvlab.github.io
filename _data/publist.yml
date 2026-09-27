@@ -1,4 +1,64 @@
 - authors:
+    - link: geonyeong-park
+      is_first: true
+    - link: byounghun-park
+      is_first: true
+    - link: nayoung-kim
+      is_first: false
+    - link: kyungmin-kim
+      is_first: false
+    - link: soonmin-hwang
+      is_corresponding: true
+  title: "Right Results, Wrong Reasons: Auditing Behavioral Reliance in Motion Forecasting"
+  journal: "Neural Information Processing Systems (NeurIPS) Evaluations and Datasets Track"
+  pubdate:
+    year: 2026
+    month: sep
+    mday: 25
+  doi:
+  marked: 1
+
+- authors:
+    - link: kyungmin-kim
+      is_first: true
+    - link: sumin-lee
+      is_first: true
+    - link: sungoh-jeong
+      is_first: true
+    - link: dohyun-lim
+      is_first: false
+    - link: seonghyun-park
+      is_first: false
+    - link: soonmin-hwang
+      is_corresponding: true
+  title: "ReSMap: Recasting Satellite Priors for Robust and Accurate Online HD Map Construction"
+  journal: "Neural Information Processing Systems (NeurIPS)"
+  pubdate:
+    year: 2026
+    month: sep
+    mday: 25
+  doi:
+  marked: 1
+
+- authors:
+    - link: jeongtae-kim
+      is_first: true
+    - link: giyong-moon
+      is_first: true
+    - link: chanyoung-lee
+      is_first: false
+    - link: soonmin-hwang
+      is_corresponding: true
+  title: "RoboGeo: Benchmarking Camera-Geometry Robustness in Multi-Camera BEV Perception"
+  journal: "The IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+  pubdate:
+    year: 2026
+    month: aug
+    mday: 10
+  doi:
+  marked: 1
+    
+- authors:
     - link: sungjin-park
       is_first: true
     - link: jaeha-song
@@ -14,7 +74,10 @@
   doi:
   marked: 1
   link:
-    url:
+    url: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_21
+  links:
+    - type: paper
+      url: https://dl.acm.org/doi/10.1007/978-3-032-31438-3_21
 
 - authors:
     - name: Kyeong-Ju Cha
