@@ -1,6 +1,14 @@
+- date: Sep 25, 2026
+  headline: "Paper Accepted: Two papers are accepted in NeurIPS 2026! 🎉"
+  description: "[ReSMap: Recasting Satellite Priors for Robust and Accurate Online HD Map Construction] is contributed by Kyungmin Kim, Sumin Lee, Sungoh Jeong, Dohyun Lim, Soonmin Hwang<br> [Right Results, Wrong Reasons: Auditing Behavioral Reliance in Motion Forecasting] is contributed by Geonyeong Park, Byounghun Park, Nayoung Kim, Kyungmin Kim, Soonmin Hwang"
+ 
 - date: Sep 1, 2026
   headline: "New member: Kana have joined our lab.  🎉"
-  
+
+- date: Aug 10, 2026
+  headline: "Paper Accepted: One paper is accepted in WACV 2027! 🎉"
+  description: "[RoboGeo: Benchmarking Camera-Geometry Robustness in Multi-Camera BEV Perception] is contributed by Jeongtae Kim, Giyong Moon, Chanyoung Lee, Soonmin Hwang"
+
 - date: Aug 1, 2026
   headline: "Internship: Congratulations to Kyungmin for the Internship at Kakao Mobility!  🎉"
 
