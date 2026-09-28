@@ -8,7 +8,7 @@
     - link: soonmin-hwang
       is_corresponding: true
   title: "RoboGeo: Benchmarking Camera-Geometry Robustness in Multi-Camera BEV Perception"
-  journal: "The IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+  journal: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
   pubdate:
     year: 2027
   doi:
