@@ -2,7 +2,7 @@
     - link: geonyeong-park
       is_first: true
     - link: byounghun-park
-      is_first: true
+      is_first: false
     - link: nayoung-kim
       is_first: false
     - link: kyungmin-kim
@@ -24,10 +24,10 @@
     - link: sumin-lee
       is_first: true
     - link: sungoh-jeong
-      is_first: true
-    - link: dohyun-lim
       is_first: false
-    - link: seonghyun-park
+    - name: Dohyun Lim
+      is_first: false
+    - name: Seonghyun Park
       is_first: false
     - link: soonmin-hwang
       is_corresponding: true
@@ -53,8 +53,7 @@
   journal: "The IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
   pubdate:
     year: 2026
-    month: aug
-    mday: 10
+  display_year: 2027
   doi:
   marked: 1
     

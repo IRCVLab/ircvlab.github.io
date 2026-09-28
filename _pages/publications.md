@@ -39,7 +39,7 @@ permalink: /publications/
 <br/>
 {% include publication_author_list.html -%}
 <span class="publi_journal">{{ publi.journal }}</span>
-({{ publi.pubdate.year }}){% if publi.vip %}, {{ publi.vip }}{% endif %}<br/>
+({{ publi.display_year | default: publi.pubdate.year }}){% if publi.vip %}, {{ publi.vip }}{% endif %}<br/>
 
 {%- for lnk in publi.links -%}
 {%- if lnk.type == "paper" -%}{%- assign icon = "fas fa-file-alt" -%}
