@@ -1,4 +1,20 @@
 - authors:
+    - link: jeongtae-kim
+      is_first: true
+    - link: giyong-moon
+      is_first: true
+    - link: chanyoung-lee
+      is_first: false
+    - link: soonmin-hwang
+      is_corresponding: true
+  title: "RoboGeo: Benchmarking Camera-Geometry Robustness in Multi-Camera BEV Perception"
+  journal: "The IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+  pubdate:
+    year: 2027
+  doi:
+  marked: 1
+
+- authors:
     - link: geonyeong-park
       is_first: true
     - link: byounghun-park
@@ -37,23 +53,6 @@
     year: 2026
     month: sep
     mday: 25
-  doi:
-  marked: 1
-
-- authors:
-    - link: jeongtae-kim
-      is_first: true
-    - link: giyong-moon
-      is_first: true
-    - link: chanyoung-lee
-      is_first: false
-    - link: soonmin-hwang
-      is_corresponding: true
-  title: "RoboGeo: Benchmarking Camera-Geometry Robustness in Multi-Camera BEV Perception"
-  journal: "The IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
-  pubdate:
-    year: 2026
-  display_year: 2027
   doi:
   marked: 1
     
