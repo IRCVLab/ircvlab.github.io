@@ -55,6 +55,9 @@
     mday: 25
   doi:
   marked: 1
+  links:
+    - type: project
+      url: https://dehsurc.github.io/resmap-page
     
 - authors:
     - link: sungjin-park
