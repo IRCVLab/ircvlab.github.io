@@ -33,6 +33,9 @@
     mday: 25
   doi:
   marked: 1
+  links:
+    - type: project
+      url: https://beyond-accuracy.github.io/
 
 - authors:
     - link: kyungmin-kim
