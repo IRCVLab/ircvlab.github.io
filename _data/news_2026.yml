@@ -1,3 +1,9 @@
+- date: Oct 19, 2026
+  headline: "Award: Jaeha, Nayoung, and Gwangik won 3rd place in E2E Driving at the 2026 DX Challenge! 🎉"
+  links: 
+      - title: "2026년 자율주행AI챌린지 최종 순위 안내"
+        url: "https://auto-dna.org/board/read.php?M2_IDX=39847&B_IDX=180579"
+        
 - date: Sep 25, 2026
   headline: "Paper Accepted: Two papers are accepted in NeurIPS 2026! 🎉"
   description: "[ReSMap: Recasting Satellite Priors for Robust and Accurate Online HD Map Construction] is contributed by Kyungmin Kim, Sumin Lee, Sungoh Jeong, Dohyun Lim, Soonmin Hwang<br> [Right Results, Wrong Reasons: Auditing Behavioral Reliance in Motion Forecasting] is contributed by Geonyeong Park, Byounghun Park, Nayoung Kim, Kyungmin Kim, Soonmin Hwang"
