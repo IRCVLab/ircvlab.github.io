@@ -13,6 +13,10 @@
     year: 2027
   doi:
   marked: 1
+  vip: "Round 1 Acceptance"
+  links:
+    - type: project
+      url: https://robogeo2027.github.io/
 
 - authors:
     - link: geonyeong-park
@@ -26,7 +30,7 @@
     - link: soonmin-hwang
       is_corresponding: true
   title: "Right Results, Wrong Reasons: Auditing Behavioral Reliance in Motion Forecasting"
-  journal: "Neural Information Processing Systems (NeurIPS) Evaluations and Datasets Track"
+  journal: "Neural Information Processing Systems (NeurIPS)"
   pubdate:
     year: 2026
     month: sep
