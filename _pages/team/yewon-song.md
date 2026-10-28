@@ -6,7 +6,8 @@ position: M.S. Student
 handle: yewon
 email: swy1155@hanyang.ac.kr
 twitter: 
-github: 
+github: Yewon-Song
+linkedin: https://www.linkedin.com/in/ssongye/
 scholar: 
 orcid: 
 image: /images/members/yewon.jpg
