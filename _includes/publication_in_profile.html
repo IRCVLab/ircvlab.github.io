@@ -44,7 +44,7 @@ from {{ fsh.donor }}
 
 #### Publications at IRCV
 
-<ul class="publications_in_profile">
+<ul class="publications_in_profile{% if include.link_publications == false %} publications_in_profile--plain{% endif %}">
 {% for publi in site.data.publist %}
 
 {% assign authormatches = publi.authors | where_exp:"author", "author.link == authorid" %}

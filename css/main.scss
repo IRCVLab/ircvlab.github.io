@@ -172,6 +172,11 @@ span.publi_title {
   color: #0544ab;
 }
 
+.publications_in_profile--plain .publi_title,
+.publications_in_profile--plain .publi_author {
+  color: inherit;
+}
+
 .panel-footer {
   color: #eee;
 }
