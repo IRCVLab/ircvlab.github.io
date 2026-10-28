@@ -27,6 +27,7 @@ Yewon Song is a M.S. student at the IRCV lab with interest in various computer v
 
 #### Awards
 <ul class="chronological">
+  <li>2nd Place, DriveX Challenge – V2X Cooperative Perception Track (CVPR 2026 Workshop on Foundation Models for Autonomous Driving)</li>
   <li>Grand Prize, 2023 International Collegiate EV Autonomous Driving Contest (Ministry of Transportation Research Director’s Award)  </li>
   <li>3rd Prize, 2023  KSAE Smart E-mobility Competetion</li>
   <li>3rd Prize, 2022 International Collegiate EV Autonomous Driving Contest</li>

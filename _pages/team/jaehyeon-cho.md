@@ -27,6 +27,7 @@ Jaehyeon Cho is a M.S./Ph.D. Integrated student at the IRCV lab with interest in
 #### Awards
 
 <ul class="chronological">
+  <li>2nd Place, DriveX Challenge – V2X Cooperative Perception Track (CVPR 2026 Workshop on Foundation Models for Autonomous Driving)</li>
   <li> Outstanding Paper Presentation Award, 2024 KSAE </li>
   <li> Best Paper Award, 2025 ICROS </li>
 </ul>
