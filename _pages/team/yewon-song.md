@@ -42,4 +42,4 @@ Yewon Song is a M.S. student at the IRCV lab with interest in various computer v
 
 
 
-{% include publication_in_profile.html %}
+{% include publication_in_profile.html link_publications=false %}

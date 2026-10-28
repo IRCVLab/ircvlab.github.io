@@ -49,7 +49,7 @@ from {{ fsh.donor }}
 
 {% assign authormatches = publi.authors | where_exp:"author", "author.link == authorid" %}
 {% if authormatches.size > 0 %}
-<li><a href="{{ publi.link.url }}" class="publi_title">{{ publi.title }}</a><br/>
+<li>{% if include.link_publications == false %}<span class="publi_title">{{ publi.title }}</span>{% else %}<a href="{{ publi.link.url }}" class="publi_title">{{ publi.title }}</a>{% endif %}<br/>
 {% include publication_author_list.html -%}
 <span class="publi_journal">{{ publi.journal }}</span>
 ({{ publi.display_year | default: publi.pubdate.year }}){% if publi.vip %} ({{ publi.vip }}){% endif %}</li>
