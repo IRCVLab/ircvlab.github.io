@@ -12,7 +12,7 @@
   start_date: [2023, 9, 1]
   end_date: [2026, 1, 12]
   active: true
-  current: Korea Automotive Technology Institute
+  current: KATECH
 
 - name: Byounghun Park
   name_abbr: B. Park
@@ -26,7 +26,7 @@
   start_date: [2024, 3, 1]
   end_date: [2026, 1, 12]
   active: true
-  current: Hyundai Mobis
+  current: 현대모비스
 
 - name: Sungoh Jeong
   name_abbr: S. Jeong
@@ -40,7 +40,7 @@
   start_date: [2024, 3, 1]
   end_date: [2026, 1, 12]
   active: true
-  current: Hanyang University, Ph.D. Course
+  current: IRCV 박사과정
 
 - name: Sungjin Park
   name_abbr: S. Park
@@ -54,7 +54,7 @@
   start_date: [2024, 3, 1]
   end_date: [2026, 1, 12]
   active: true
-  current: LG Electronics
+  current: LG전자
 
 - name: Taewan Kim
   name_abbr: T. Kim
@@ -68,7 +68,7 @@
   start_date: [2024, 3, 1]
   end_date: [2026, 1, 12]
   active: true
-  current: Hyundai Motor Company 
+  current: 현대자동차
 
 - name: Jaeha Song
   name_abbr: J. Song
@@ -82,4 +82,4 @@
   start_date: [2024, 9, 1]
   end_date: [2026, 8, 21]
   active: true
-  current: Hanyang University, Ph.D. Course
+  current: IRCV 박사과정
